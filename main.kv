@@ -1,0 +1,276 @@
+##:import MDTextFieldRound kivymd.uix.
+#:import os os
+#:import Window kivy.core.window.Window
+#:import IconLeftWidget kivymd.uix.list.IconLeftWidget
+#:import images_path kivymd.images_path
+#:import MapSource kivy_garden.mapview.MapSource
+
+<Manager>:
+    #manager: manager
+    LoginScreen:
+    RegisterScreen:
+    MapScreen:
+
+
+<LoginScreen>:
+    MDCard:
+        size_hint: None, None
+        size: 300, 400
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        elevation: 5
+        padding: 25
+        spacing: 25
+        orientation: 'vertical'
+        
+        MDBoxLayout:
+            orientation: "vertical"
+            halign: "center"
+            MDLabel:    
+                text: "Login"
+                size: 10, 10
+            MDGridLayout:
+                cols: 2
+                MDIcon:
+                    icon: "account"
+                    pos_hint: self.pos_hint
+                MDTextField:
+                    #mode: "rectangle"
+                    id: login_username
+                    hint_text: "Username"
+                    helper_text: "Invalid Username"
+                    helper_text_mode: "on_error"
+                    on_text_validate: login_password.focus = True
+                    #pos_hint: {"center_y": .5}
+                MDIcon:
+                    icon: "key-variant"
+                MDTextField:
+                    id: login_password
+                    hint_text: "Password"
+                    helper_text: "Invalid Password"
+                    helper_text_mode: "on_error"
+                    password: True
+                    on_text_validate: root.login(login_username.text, login_password.text)
+            MDLabel:
+            MDGridLayout:
+                #orientation: "horizontal"
+                cols: 3
+                MDRaisedButton:
+                    text: "Clear"
+                    md_bg_color: "green"
+                    on_press: root.clear()
+                MDLabel:
+                MDRaisedButton:
+                    text: "Login"
+                    md_bg_color: "green"
+                    on_press: root.login(login_username.text, login_password.text)
+                    #on_release: app.
+
+<RegisterScreen>:
+    MDCard:
+        size_hint: None, None
+        size: 300, 400
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        elevation: 10
+        padding: 25
+        spacing: 25
+        orientation: 'vertical'
+        MDBoxLayout:
+            orientation: "vertical"
+            halign: "center"
+            MDLabel:    
+                text: "Register"
+                size: 10, 10  
+            MDGridLayout:
+                cols: 2
+                MDIcon:
+
+
+<MapScreen>:
+    name: "mapscreen"
+    on_enter: print("Hi!!!")
+    MDBackdrop:
+        id: backdrop
+        left_action_items: [['map-marker', lambda x: self.open()]]
+        title: "[b]Your current location:[/b] SRM Tech Park"
+        radius_left: "25dp"
+        radius_right: "0dp"
+        header_text: "Farmers Near You"
+
+        MDBackdropBackLayer:
+            MyBackdropBackLayer:
+                id: backlayer
+
+        MDBackdropFrontLayer:
+            MyBackdropFrontLayer:
+                backdrop: backdrop
+
+<MyBackdropBackLayer@RelativeLayout>
+    MapView:
+        id: mapview
+        lat: 12.8248319
+        lon: 80.0450381
+        zoom: 13
+        #size_hint: .5, .5
+        #pos_hint: {"x": .25, "y": .25}
+        #on_map_relocated: mapview2.sync_to(self)
+        #on_map_relocated: mapview3.sync_to(self)
+        MapMarker:
+            source: "f1.jpg"
+            size: 50, 50
+            lat: 12.8798
+            lon: 80.0808
+        MapMarker:
+            source: "f2.jpg"
+            size: 50, 50
+            lat: 12.8439
+            lon: 80.0597
+        MapMarker:
+            source: "f3.png"
+            size: 50, 50
+            lat: 12.6819
+            lon: 79.9888
+        MapMarker:
+            lat: 12.8248319
+            lon: 80.0450381
+    # Toolbar:
+    #     top: root.top
+    #     Button:
+    #         text: "Move to Ahmedabad, Gujarat"
+    #         on_release: mapview.center_on(23.0225, 72.5714)
+    #     Button:
+    #         text: "Move to Chennai, Tamil Nadu"
+    #         on_release: mapview.center_on(13.0827, 80.2707)
+    #     Button:
+    #         text: "Move to Bangaluru, Karnataka"
+    #         on_release: mapview.center_on(12.9716, 77.5946)
+    #     Spinner:
+    #         text: "mapnik"
+    #         values: MapSource.providers.keys()
+    #         on_text: mapview.map_source = self.text
+    # Toolbar:
+    #     Label:
+    #         text: "Longitude: {}".format(mapview.lon)
+    #     Label:
+    #         text: "Latitude: {}".format(mapview.lat)
+
+<MyBackdropFrontLayer@ItemBackdropFrontLayer>
+    backdrop: None
+    text: "Fresh Produce Near You"
+    secondary_text: ""
+    icon: "transfer-down"
+    #on_press: root.backdrop.open(-Window.height / 2)
+    pos_hint: {"top": 1}
+    _no_ripple_effect: True
+
+<ItemBackdropFrontLayer@MDBoxLayout>
+    orientation: "vertical"
+    ThreeLineAvatarListItem:
+        text: "Mr. Ramesh Kumar"
+        secondary_text: "Contact: 1234567891"
+        tertiary_text: "15 mins away"
+        ImageLeftWidget: 
+            source: "f1.jpg"
+    ThreeLineAvatarListItem:
+        text: "Ms. Kantiben Galotiya"
+        secondary_text: "Contact: 3216549872"
+        tertiary_text: "20 mins away"
+        ImageLeftWidget: 
+            source: "f3.jpeg"
+    ThreeLineAvatarListItem:
+        text: "Mr. Raman Gupta"
+        secondary_text: "Contact: 3698521472"
+        tertiary_text: "30 mins away"
+        ImageLeftWidget: 
+            source: "f2.jpg"
+    # ThreeLineAvatarListItem:
+    #     text: ""
+    #     secondary_text: ""
+    #     tertiary_text: ""
+    #     ImageLeftWidget: 
+    #         source: ""
+    # ThreeLineAvatarListItem:
+    #     text: ""
+    #     secondary_text: ""
+    #     tertiary_text: ""
+    #     ImageLeftWidget: 
+    #         source: ""
+        
+<Toolbar@BoxLayout>:
+    size_hint_y: None
+    height: '48dp'
+    padding: '4dp'
+    spacing: '4dp'
+    canvas:
+        Color:
+            rgba: .2, .2, .2, .6
+        Rectangle:
+            pos: self.pos
+            size: self.size
+<ShadedLabel@Label>:
+    size: self.texture_size
+    #def login(self, username, password):
+        #self.show_snackbar()
+        #Manager.current_screen = "MapScreen"
+        #FarmerApp().change_to_mapscreen()
+
+
+    canvas.before:
+        Color:
+            rgba: .2, .2, .2, .6
+        Rectangle:
+            pos: self.pos
+            size: self.size
+# MDScreen: 
+    
+#     MDCard:
+#         size_hint: None, None
+#         size: 300, 400
+#         pos_hint: {"center_x": 0.5, "center_y": 0.5}
+#         elevation: 10
+#         padding: 25
+#         spacing: 25
+#         orientation: 'vertical'
+
+#         MDLabel:
+#             id: welcome_label
+#             text: "WELCOME"
+#             font_size: 40
+#             halign: 'center'
+#             size_hint_y: None
+#             height: self.texture_size[1]
+#             padding_y: 15
+
+#         MDTextField:
+#             id: user
+#             hint_text: "username"
+#             icon_right: "account"
+#             size_hint_x: None
+#             width: 200
+#             font_size: 18
+#             pos_hint: {"center_x": 0.5}
+
+#         MDTextField:
+#             id: password
+#             hint_text: "password"
+#             icon_right: "eye-off"
+#             size_hint_x: None
+#             width: 200
+#             font_size: 18
+#             pos_hint: {"center_x": 0.5}
+#             password: True
+
+#         MDRoundFlatButton:
+#             text: "LOG IN"
+#             font_size: 12
+#             pos_hint: {"center_x": 0.5}
+#             on_press: app.logger()
+
+#         MDRoundFlatButton:
+#             text: "CLEAR"
+#             font_size: 12
+#             pos_hint: {"center_x": 0.5} 
+#             on_press: app.clear()           
+
+#         Widget:
+#             size_hint_y: None
+#             height: 10
