@@ -1,108 +1,147 @@
-##:import MDTextFieldRound kivymd.uix.
-#:import os os
-#:import Window kivy.core.window.Window
-#:import IconLeftWidget kivymd.uix.list.IconLeftWidget
+#:import NoTransition kivy.uix.screenmanager.NoTransition
+#:import Clock kivy.clock.Clock
 #:import images_path kivymd.images_path
 #:import MapSource kivy_garden.mapview.MapSource
-
+##:set default_font_style "Tamil"
 <Manager>:
-    #manager: manager
+    id: manager
+    name: "manager"
+    transition: NoTransition()
     LoginScreen:
     RegisterScreen:
-    MapScreen:
+    VerificationScreen:
+    OTPVerificationScreen:
+    MainScreen:
+    AIScreen:
+    FarmerMainScreen:
+
+<Command>
+    size_hint_y: None
+    pos_hint: {"right": .98}
+    height: self.texture_size[1]
+    padding: 12, 10
+    theme_text_color: "Custom"
+    text_color: 1, 1, 1, 1
+    canvas.before:
+        Color:
+            rgb: (159/255, 159/255, 159/255, 1)
+        RoundedRectangle:
+            size: self.width, self.height
+            pos: self.pos
+            radius: [23, 23, 0, 23]
+<Response>
+    size_hint_y: None
+    pos_hint: {"x": .02}
+    height: self.texture_size[1]
+    padding: 12, 10
+    canvas.before:
+        Color:
+            rgb: (76/255, 175/255, 80/255, 1)
+        RoundedRectangle:
+            size: self.width, self.height
+            pos: self.pos
+            radius: [23, 23, 23, 0]
+
+<AKSpinnerBase>:
+    size_hint: None, None
 
 
-<LoginScreen>:
-    MDCard:
+<AKSpinnerFoldingCube>:
+    size: root.spinner_size, root.spinner_size
+
+    canvas:
+        PushMatrix
+        Rotate:
+            axis: 0, 0 , 1
+            angle: root.angle
+            origin: self.center
+        Color:
+            rgba: root.color if root.color else root.theme_cls.primary_color
+            a:root._cube1a
+        Rectangle:
+            size: root._cubeitem1
+            pos: [self.x, self.y]
+        Color:
+            rgba: root.color if root.color else root.theme_cls.primary_color
+            a:root._cube2a
+        Rectangle:
+            size: root._cubeitem2
+            pos: [self.x, self.y+self.height / 2]
+        Color:
+            rgba: root.color if root.color else root.theme_cls.primary_color
+            a:root._cube3a
+        Rectangle:
+            size: root._cubeitem3
+            pos: [self.x + self.width / 2, self.y + self.height - root._cubeitem3[1]]
+        Color:
+            rgba: root.color if root.color else root.theme_cls.primary_color
+            a:root._cube4a
+        Rectangle:
+            size: root._cubeitem4
+            pos: [self.x + self.width - root._cubeitem4[0], self.y]
+        PopMatrix
+
+<AKSpinnerThreeDots>:
+    size: root.spinner_size * 3, root.spinner_size
+    BoxLayout:
+        spacing: self.size[1]
         size_hint: None, None
-        size: 300, 400
-        pos_hint: {"center_x": 0.5, "center_y": 0.5}
-        elevation: 5
-        padding: 25
-        spacing: 25
-        orientation: 'vertical'
-        
-        MDBoxLayout:
-            orientation: "vertical"
-            halign: "center"
-            MDLabel:    
-                text: "Login"
-                size: 10, 10
-            MDGridLayout:
-                cols: 2
-                MDIcon:
-                    icon: "account"
-                    pos_hint: self.pos_hint
-                MDTextField:
-                    #mode: "rectangle"
-                    id: login_username
-                    hint_text: "Username"
-                    helper_text: "Invalid Username"
-                    helper_text_mode: "on_error"
-                    on_text_validate: login_password.focus = True
-                    #pos_hint: {"center_y": .5}
-                MDIcon:
-                    icon: "key-variant"
-                MDTextField:
-                    id: login_password
-                    hint_text: "Password"
-                    helper_text: "Invalid Password"
-                    helper_text_mode: "on_error"
-                    password: True
-                    on_text_validate: root.login(login_username.text, login_password.text)
-            MDLabel:
-            MDGridLayout:
-                #orientation: "horizontal"
-                cols: 3
-                MDRaisedButton:
-                    text: "Clear"
-                    md_bg_color: "green"
-                    on_press: root.clear()
-                MDLabel:
-                MDRaisedButton:
-                    text: "Login"
-                    md_bg_color: "green"
-                    on_press: root.login(login_username.text, login_password.text)
-                    #on_release: app.
+        size: root.size
+        pos: root.pos
 
-<RegisterScreen>:
-    MDCard:
-        size_hint: None, None
-        size: 300, 400
-        pos_hint: {"center_x": 0.5, "center_y": 0.5}
-        elevation: 10
-        padding: 25
-        spacing: 25
-        orientation: 'vertical'
-        MDBoxLayout:
-            orientation: "vertical"
-            halign: "center"
-            MDLabel:    
-                text: "Register"
-                size: 10, 10  
-            MDGridLayout:
-                cols: 2
-                MDIcon:
+        Widget:
+            canvas:
+                Color:
+                    rgba: root.color if root.color else root.theme_cls.primary_color
+                Ellipse:
+                    size: root._circle_size1
+                    pos: [self.x + self.width / 2 - root._circle_size1[0] / 2, self.y+self.height / 2 - root._circle_size1[1] / 2]
+        Widget:
+            canvas:
+                Color:
+                    rgba: root.color if root.color else root.theme_cls.primary_color
+                Ellipse:
+                    size: root._circle_size2
+                    pos: [self.x + self.width / 2 - root._circle_size2[0] / 2, self.y+self.height / 2 - root._circle_size2[1] / 2]
 
+        Widget:
+            canvas:
+                Color:
+                    rgba: root.color if root.color else root.theme_cls.primary_color
+                Ellipse:
+                    size: root._circle_size3
+                    pos: [self.x + self.width / 2 - root._circle_size3[0] / 2, self.y+self.height / 2 - root._circle_size3[1] / 2]
 
-<MapScreen>:
-    name: "mapscreen"
-    on_enter: print("Hi!!!")
-    MDBackdrop:
-        id: backdrop
-        left_action_items: [['map-marker', lambda x: self.open()]]
-        title: "[b]Your current location:[/b] SRM Tech Park"
-        radius_left: "25dp"
-        radius_right: "0dp"
-        header_text: "Farmers Near You"
+<LoadingAnimation>:
+    size_hint: None, None
+    size: 400, 400
+    background_color: 1, 1, 1, 0
+    separator_color: 1, 1, 1, 0
+    title: ""
+    AnchorLayout:
+        align: "center"            
+        AKSpinnerFoldingCube:
+            id: foldingcube
+            spinner_size: dp(40)
+            pos_hint: {"center_x": .5, "center_y": .4}
+            angle: 45
 
-        MDBackdropBackLayer:
-            MyBackdropBackLayer:
-                id: backlayer
+<ProfileScreen>:
+    MDLabel:
+        text: "Hi"
 
-        MDBackdropFrontLayer:
-            MyBackdropFrontLayer:
-                backdrop: backdrop
+<SpeechRequest>:
+    size_hint: None, None
+    size: 400, 400
+    background_color: 1, 1, 1, 0
+    separator_color: 1, 1, 1, 0
+    title: "Listening..."
+    AnchorLayout:
+        align: "center"  
+        AKSpinnerThreeDots:
+            id: dots
+            spinner_size: dp(40)
+            pos_hint: {"center_x": .5, "center_y": .4}
 
 <MyBackdropBackLayer@RelativeLayout>
     MapView:
@@ -115,45 +154,29 @@
         #on_map_relocated: mapview2.sync_to(self)
         #on_map_relocated: mapview3.sync_to(self)
         MapMarker:
-            source: "f1.jpg"
+            source: "farmer.png"
             size: 50, 50
             lat: 12.8798
             lon: 80.0808
         MapMarker:
-            source: "f2.jpg"
+            source: "farmer.png"
             size: 50, 50
             lat: 12.8439
             lon: 80.0597
         MapMarker:
-            source: "f3.png"
+            source: "farmer.png"
             size: 50, 50
             lat: 12.6819
             lon: 79.9888
         MapMarker:
-            lat: 12.8248319
-            lon: 80.0450381
-    # Toolbar:
-    #     top: root.top
-    #     Button:
-    #         text: "Move to Ahmedabad, Gujarat"
-    #         on_release: mapview.center_on(23.0225, 72.5714)
-    #     Button:
-    #         text: "Move to Chennai, Tamil Nadu"
-    #         on_release: mapview.center_on(13.0827, 80.2707)
-    #     Button:
-    #         text: "Move to Bangaluru, Karnataka"
-    #         on_release: mapview.center_on(12.9716, 77.5946)
-    #     Spinner:
-    #         text: "mapnik"
-    #         values: MapSource.providers.keys()
-    #         on_text: mapview.map_source = self.text
-    # Toolbar:
-    #     Label:
-    #         text: "Longitude: {}".format(mapview.lon)
-    #     Label:
-    #         text: "Latitude: {}".format(mapview.lat)
+            source: "location-marker.png"
+            size: 50, 50
+            lat: 12.8246
+            lon: 80.0452
 
 <MyBackdropFrontLayer@ItemBackdropFrontLayer>
+    id: backdrop
+    name: "backdrop"
     backdrop: None
     text: "Fresh Produce Near You"
     secondary_text: ""
@@ -162,115 +185,1183 @@
     pos_hint: {"top": 1}
     _no_ripple_effect: True
 
-<ItemBackdropFrontLayer@MDBoxLayout>
-    orientation: "vertical"
-    ThreeLineAvatarListItem:
-        text: "Mr. Ramesh Kumar"
+<ItemBackdropFrontLayer@MDGridLayout>
+    # orientation: "vertical"
+    cols: 1
+    ThreeLineAvatarIconListItem:
+        text: "Name 1"
         secondary_text: "Contact: 1234567891"
         tertiary_text: "15 mins away"
+        on_press: root.backdrop.parent.manager.current = "profile"
         ImageLeftWidget: 
-            source: "f1.jpg"
-    ThreeLineAvatarListItem:
-        text: "Ms. Kantiben Galotiya"
+            source: "farmer.png"
+        IconRightWidget:
+            icon: "whatsapp"
+            on_press: app.make_call()
+    ThreeLineAvatarIconListItem:
+        text: "Name 2"
         secondary_text: "Contact: 3216549872"
         tertiary_text: "20 mins away"
         ImageLeftWidget: 
-            source: "f3.jpeg"
-    ThreeLineAvatarListItem:
-        text: "Mr. Raman Gupta"
+            source: "farmer.png"
+        IconRightWidget:
+            icon: "whatsapp"
+            on_press: app.make_call() 
+    ThreeLineAvatarIconListItem:
+        text: "Name 3"
         secondary_text: "Contact: 3698521472"
         tertiary_text: "30 mins away"
         ImageLeftWidget: 
-            source: "f2.jpg"
-    # ThreeLineAvatarListItem:
-    #     text: ""
-    #     secondary_text: ""
-    #     tertiary_text: ""
-    #     ImageLeftWidget: 
-    #         source: ""
-    # ThreeLineAvatarListItem:
-    #     text: ""
-    #     secondary_text: ""
-    #     tertiary_text: ""
-    #     ImageLeftWidget: 
-    #         source: ""
-        
-<Toolbar@BoxLayout>:
+            source: "farmer.png"
+        IconRightWidget:
+            icon: "whatsapp"
+            on_press: app.make_call()
+
+<FarmerMainScreen>:
+    name: "farmer"
+    id: farmer
+    on_enter: nav_drawer.set_state("close")
+    MDNavigationLayout:
+        name: "navlay"
+        id: navlay
+        MainScreenManager:
+            name: "screenmain"
+            id: screenmain
+            transition: NoTransition()
+            MDScreen: #home
+                name: "home"
+                id: home
+                #on_enter: root.set_list_tasks("")
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    #spacing: dp(10)
+                    #padding: dp(20)
+                    id: somebox
+                    name: "somebox"
+                    MDTopAppBar:
+                        title: "Home Screen"
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        #md_bg_color: "#e7e4c0"
+                        #specific_text_color: "#4a4939"
+                        left_action_items:
+                            [['menu', lambda x: nav_drawer.set_state("open"),"Menu"]]
+                    MDBoxLayout:
+                        adaptive_height: True
+
+                        MDIconButton:
+                            icon: 'magnify'
+                            on_press: root.set_list_tasks(search_field.text,True)
+
+                        MDTextField:
+                            id: search_field
+                            hint_text: 'Search Crops'
+                            on_text: root.set_list_tasks(self.text, True)
+
+                        MDIconButton:
+                            id: search_filter_button
+                            icon: "filter-menu"
+                            on_press: root.search_filter_dropdown_task.open()
+                    RecycleView:
+                        id: rv
+                        key_viewclass: 'viewclass'
+                        key_size: 'height'
+
+                        RecycleBoxLayout:
+                            padding: dp(10)
+                            default_size: None, dp(85)
+                            default_size_hint: 1, None
+                            size_hint_y: None
+                            height: self.minimum_height
+                            orientation: 'vertical' 
+            MDScreen: #ChatBot
+                #bot_name: bot_name
+                # text_input: text_input
+                on_enter: app.set_response_id(chat_list)
+                chat_list: chat_list
+                name: "ai"
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        title: "Mahesh"
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        #md_bg_color: "#e7e4c0"
+                        #specific_text_color: "#4a4939"
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]
+                    MDFloatLayout:
+                        MDFloatLayout:
+                            md_bg_color: 245/255, 245/255, 245/255, 1
+                            size_hint_y: .11
+                            pos_hint: {"center_y": .95}
+                        #     MDLabel:
+                        #         id: bot_name
+                        #         text: ""
+                        #         pos_hint: {"center_y": .5}
+                        #         halign: "center"
+                        #         font_name: "BPoppins"
+                        #         font_size: "25sp"
+                        #         theme_text_color: "Custom"
+                        #         text_color: 245/255, 245/255, 245/255, 1
+                        MDFloatLayout:
+                            md_bg_color: 245/255, 245/255, 245/255, 1
+                            # md_bg_color: 1, 1, 1, 1 
+
+                            size_hint_y: .11
+                            pos_hint: {"center_y": .95}
+                            MDLabel:
+                                id: bot_name
+                                text: ""
+                                pos_hint: {"center_y": 1}
+                                halign: "center"
+                                font_name: "Tamil"
+                                font_size: "15sp"
+                                theme_text_color: "Custom"
+                                # text_color: 245/255, 245/255, 245/255, 1   
+                                text_color: 1, 1, 1, 1 
+
+                            # MDLabel:
+                            #     text:"AI ChatBot"
+                            #     halign: "center"
+                            #     font_name: "BPoppins"
+                            #     pos_hint:{"center_y": .5}
+                            #     font_size:"20sp"
+                            #     text_color: 53/255, 56/255, 60/255, 1
+
+                            # subText:
+                            #     text:"Hello. I Am Your Personal Assistant GordonBot. Let's start this convo with hey/Hello"
+
+                            #     halign: "left"
+                            #     font_name: "BPoppins"
+                            #     pos_hint:{"center_y": .5}
+                            #     font_size:"15sp"
+                            #     text_color: 53/255, 56/255, 60/255, 1
+
+                        ScrollView:
+                            size_hint_y: .77
+                            pos_hint: {"x": 0, "y": .116}
+                            do_scroll_x: False
+                            do_scroll_y: True
+                            BoxLayout:
+                                id: chat_list
+                                orientation: 'vertical'
+                                size: (root.width, root.height)
+                                height: self.minimum_height
+                                size_hint: None, None
+                                pos_hint: {'top': 10}
+                                cols: 1
+                                spacing: 5
+                        # MDFloatLayout:
+                        #     md_bg_color: 245/255, 245/255, 245/255, 1 #Bottom bar
+                        #     size_hint_y: .11
+                            # MDFloatLayout:
+                            #     size_hint: .8, .75
+                            #     pos_hint: {"center_x": .43, "center_y": .5}
+                            #     canvas:
+                            #         Color:
+                            #             rgb: (238/255, 238/255, 238/255, 1) #Bottom bar inside
+                            #         RoundedRectangle:
+                            #             size: self.size
+                            #             pos: self.pos
+                            #             radius: [23, 23, 23, 23]
+                            #     TextInput:
+                            #         id: text_input
+                            #         hint_text: "Type your message..."
+                            #         size_hint: 1, None
+                            #         pos_hint: {"center_x": .5, "center_y": .5}
+                            #         font_size: "18sp"
+                            #         height: self.minimum_height
+                            #         multiline: False
+                            #         cursor_color: 0/255,123/255,184/255,1 #cursor_color
+                            #         cursor_width: "2sp"
+                            #         foreground_color: 1, 170/255, 23/255, 1
+                            #         background_color: 0,0,0,0
+                            #         padding: 15
+                            #         font_name: "Poppins"
+                            # MDIconButton:
+                            #     icon: "send"
+                            #     pos_hint: {"center_x": .91, "center_y": .5}
+                            #     user_font_size: "18sp"
+                            #     theme_text_color: "Custom"
+                            #     text_color: 1, 1, 1, 1
+                            #     md_bg_color: 0/255,123/255,184/255,1 #arrow bar
+                            #     on_release: app.get_response(text_input,screenmain)
+                    MDBottomAppBar:
+
+                        MDTopAppBar:
+                            title: ""
+                            icon: "microphone"
+                            on_action_button: app.listen(chat_list)
+                            type: "bottom"
+                            #left_action_items: [["menu", lambda x: x]]
+                            right_action_items: [["keyboard",lambda x: app.open_text_field(chat_list)]]
+                            mode: "center" 
+        MDNavigationDrawer:
+            id: nav_drawer
+            radius: (0, 16, 16, 0)
+            MDNavigationDrawerMenu:
+
+                MDNavigationDrawerLabel:
+            #MDLabel:
+                    blur_radius: 20
+                    mipmap: True
+                    canvas:
+                        Color:
+                            rgb: 1, 1, 1
+                        Ellipse:
+                            #pos: 280, 200
+                            pos: self.x,self.y
+                            size: 100 , 100 
+                            source: 'farmer-profile.jpeg'
+                            #texture: app.logo.texture
+                            angle_start: 0
+                            angle_end: 360
+                MDNavigationDrawerHeader:
+                    title: "Debojyoti Mondal"
+                    #title_color: app.theme_cls.primary_color
+                    text: "Farmer"
+                    spacing: "4dp"
+                    padding: "12dp", 0, 0, "56dp"
+                MDSwitch:
+                    icon_active: "weather-night"
+                    icon_inactive: "white-balance-sunny"
+                    on_active: app.change_theme()
+
+                # MDNavigationDrawerLabel:
+                #     text: "Your Orders"
+
+                MDNavigationDrawerItem:
+                    icon: "bell-badge"
+                    right_text: "+99"
+                    text_right_color: "#4a4939"
+                    text: "Notifications"
+                    group: "admin"
+                MDNavigationDrawerItem:
+                    icon: "cart"
+                    text: "My Cart"
+                    on_press: screenmain.current = "cart"
+                    on_release: nav_drawer.set_state("close")
+                MDNavigationDrawerItem:
+                    icon: "tree"
+                    text: "Mahesh"
+                    on_press: screenmain.current = "ai"
+                    on_release: nav_drawer.set_state("close")               
+                MDNavigationDrawerItem:
+                    icon: "store"
+                    text: "Farmer Markets"
+                    on_press: screenmain.current = "map"
+                    on_release: nav_drawer.set_state("close")
+                MDNavigationDrawerItem:
+                    icon: "cog"
+                    text: "Settings"
+                    on_press: screenmain.current = "settings"
+                    on_release: nav_drawer.set_state("close")
+                    group: "admin"     
+                MDNavigationDrawerDivider:
+
+                MDNavigationDrawerItem:
+                    icon: "account"
+                    text: "My Profile"
+                    on_press: screenmain.current = "profile"
+                    on_release: nav_drawer.set_state("close")
+                    group: "admin"
+
+                MDNavigationDrawerItem:
+                    icon: "account-arrow-left"
+                    text: "Sign Out"
+                    on_press: app.change_screen("login")
+                    on_release: app.delete_all_credentials()
+
+
+<MainScreen>:
+    on_enter: nav_drawer.set_state("close")
+    MDNavigationLayout:
+        name: "navlay"
+        id: navlay
+        MainScreenManager:
+            name: "screenmain"
+            id: screenmain
+            transition: NoTransition()
+            MDScreen: #home
+                name: "home"
+                id: home
+                #on_enter: root.set_list_tasks("")
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    #spacing: dp(10)
+                    #padding: dp(20)
+                    id: somebox
+                    name: "somebox"
+                    MDTopAppBar:
+                        title: "Home Screen"
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        #md_bg_color: "#e7e4c0"
+                        #specific_text_color: "#4a4939"
+                        left_action_items:
+                            [['menu', lambda x: nav_drawer.set_state("open"),"Menu"]]
+                    MDBoxLayout:
+                        adaptive_height: True
+
+                        MDIconButton:
+                            icon: 'magnify'
+                            on_press: root.set_list_tasks(search_field.text,True)
+
+                        MDTextField:
+                            id: search_field
+                            hint_text: 'Search Recipes'
+                            on_text: root.set_list_tasks(self.text, True)
+
+                        MDIconButton:
+                            id: search_filter_button
+                            icon: "filter-menu"
+                            on_press: root.search_filter_dropdown_task.open()
+                    RecycleView:
+                        id: rv
+                        key_viewclass: 'viewclass'
+                        key_size: 'height'
+
+                        RecycleBoxLayout:
+                            padding: dp(10)
+                            default_size: None, dp(85)
+                            default_size_hint: 1, None
+                            size_hint_y: None
+                            height: self.minimum_height
+                            orientation: 'vertical'  
+            MDScreen:
+                name: "cart"
+                id: cart
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    #spacing: dp(10)
+                    #padding: dp(20)
+                    MDTopAppBar:
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]
+
+                    MDBoxLayout:
+                        adaptive_height: False
+
+                        MDIconButton:
+                            icon: 'magnify'
+
+                        MDTextField:
+                            id: search_field
+                            hint_text: 'Search vegetables/fruits/grains'
+                            height: "10dp"
+                            #on_text: root.set_list_md_icons(self.text, True)
+                    MDBoxLayout:
+                        #padding: dp(10)
+                        #default_size: None, dp(48)
+                        default_size_hint: 1, None
+                        size_hint_y: None
+                        height: self.minimum_height
+                        orientation: 'vertical'
+                        #orientation: "vertical"
+                        OneLineAvatarListItem:
+                            text: "Tomato"
+                            #on_press: app.show_loading_popup()
+                            #on_release: root.manager.current = "map"
+                            ImageLeftWidget:
+                                source: "tomato.jpg"
+                        OneLineAvatarListItem:
+                            text: "Potato"
+                            ImageLeftWidget:
+                                source: "potato.jpeg"
+                        OneLineAvatarListItem:
+                            text: "Onion"
+                            ImageLeftWidget:
+                                source: "onion.jpeg"
+                        OneLineAvatarListItem:
+                            text: "Cabbage"
+                            ImageLeftWidget:
+                                source: "cabbage.png"
+                        OneLineAvatarListItem:
+                            text: "Lady Finger"
+                            ImageLeftWidget:
+                                source: "lady-finger.jpeg"
+                        OneLineAvatarListItem:
+                            text: "Brinjal"
+                            ImageLeftWidget:
+                                source: "brinjal.jpeg"
+                        OneLineAvatarListItem:
+                            text: "Chilli"
+                            ImageLeftWidget:
+                                source: "chilli.png"
+                        OneLineAvatarListItem:
+                            text: "Cauliflower"
+                            ImageLeftWidget:
+                                source: "cauli.png"   
+                        OneLineAvatarListItem:
+                            text: "Pumpkin"
+                            ImageLeftWidget:
+                                source: "pumpkin.png"   
+                        OneLineAvatarListItem:
+                            text: "Radish"
+                            ImageLeftWidget:
+                                source: "radish.jpg"   
+
+            MDScreen: #Profile
+                name: "profile"
+                id: profile
+                MDFloatLayout:
+                    md_bg_color: 1,1,1,1
+                    MDFloatLayout:
+                        size_hint_x: 1
+                        size_hint_y: .33
+                        pos_hint: {"center_x": .5, "center_y": .85}
+                        canvas:
+                            Color:
+                                rgb: (1,1,1,1)
+                            Rectangle:
+                                size: self.size
+                                pos: self.pos
+                                source: "C:\Job-Security\out_of_the_box.png"
+                    MDFloatLayout:
+                        size_hint_x: .265
+                        size_hint_y: .265
+                        pos_hint: {"center_x":.5,"center_y":.7}
+                        canvas:
+                            Color:
+                                rgb: (1,1,1,1)
+                            Ellipse:
+                                size: self.size
+                                pos: self.pos
+                    MDFloatLayout:
+                        size_hint_x: .25
+                        size_hint_y: .25
+                        pos_hint: {"center_x":.5,"center_y":.7}
+                        canvas:
+                            Color:
+                                rgb: (1,1,1,1)
+                            Ellipse:
+                                size: self.size
+                                pos: self.pos
+                                source: "C:\Job-Security\profile.jpg"
+                    MDLabel:
+                        id: name
+                        text: "Hariharan Mudaliar"
+                        pos_hint: {"center_y":.5}
+                        halign: "center"
+                        theme_text_color: "Custom"
+                        text_color: 0,0,0,1
+                        font_style: "H6"
+                    MDLabel:
+                        id: designation
+                        text: "Homo Sapien"
+                        pos_hint: {"center_y":.44}
+                        halign: "center"
+                        theme_text_color: "Custom"
+                        text_color: 0,0,0,1
+
+            MDScreen:
+                id: map
+                name: "map"
+                on_enter: backdrop.open(-Window.height/2)
+                MDBackdrop:
+                    id: backdrop
+                    name: "backdrop"
+                    right_action_items: [['map-marker', lambda x: self.open()]]
+                    left_action_items: [["keyboard-backspace", lambda x: screenmain.switch_to(home)]]
+                    title: "[color=#FFFFFF]Your current location:[/color] SRM Tech Park "
+                    radius_left: "25dp"
+                    radius_right: "0dp"
+                    header_text: "Farmers Near You"
+
+                    MDBackdropBackLayer:
+                        MyBackdropBackLayer:
+                            id: backlayer
+
+                    MDBackdropFrontLayer:
+                        MyBackdropFrontLayer:
+                            backdrop: backdrop
+
+            MDScreen: #ChatBot
+                #bot_name: bot_name
+                # text_input: text_input
+                on_enter: app.set_response_id(chat_list)
+                chat_list: chat_list
+                name: "ai"
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        title: "Gordon"
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        #md_bg_color: "#e7e4c0"
+                        #specific_text_color: "#4a4939"
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]
+                    MDFloatLayout:
+                        MDFloatLayout:
+                            md_bg_color: 245/255, 245/255, 245/255, 1
+                            size_hint_y: .11
+                            pos_hint: {"center_y": .95}
+                        #     MDLabel:
+                        #         id: bot_name
+                        #         text: ""
+                        #         pos_hint: {"center_y": .5}
+                        #         halign: "center"
+                        #         font_name: "BPoppins"
+                        #         font_size: "25sp"
+                        #         theme_text_color: "Custom"
+                        #         text_color: 245/255, 245/255, 245/255, 1
+                        MDFloatLayout:
+                            md_bg_color: 245/255, 245/255, 245/255, 1
+                            # md_bg_color: 1, 1, 1, 1 
+
+                            size_hint_y: .11
+                            pos_hint: {"center_y": .95}
+                            MDLabel:
+                                id: bot_name
+                                text: ""
+                                pos_hint: {"center_y": 1}
+                                halign: "center"
+                                font_name: "Tamil"
+                                font_size: "15sp"
+                                theme_text_color: "Custom"
+                                # text_color: 245/255, 245/255, 245/255, 1   
+                                text_color: 1, 1, 1, 1 
+
+                            # MDLabel:
+                            #     text:"AI ChatBot"
+                            #     halign: "center"
+                            #     font_name: "BPoppins"
+                            #     pos_hint:{"center_y": .5}
+                            #     font_size:"20sp"
+                            #     text_color: 53/255, 56/255, 60/255, 1
+
+                            # subText:
+                            #     text:"Hello. I Am Your Personal Assistant GordonBot. Let's start this convo with hey/Hello"
+
+                            #     halign: "left"
+                            #     font_name: "BPoppins"
+                            #     pos_hint:{"center_y": .5}
+                            #     font_size:"15sp"
+                            #     text_color: 53/255, 56/255, 60/255, 1
+
+                        ScrollView:
+                            size_hint_y: .77
+                            pos_hint: {"x": 0, "y": .116}
+                            do_scroll_x: False
+                            do_scroll_y: True
+                            BoxLayout:
+                                id: chat_list
+                                orientation: 'vertical'
+                                size: (root.width, root.height)
+                                height: self.minimum_height
+                                size_hint: None, None
+                                pos_hint: {'top': 10}
+                                cols: 1
+                                spacing: 5
+                        # MDFloatLayout:
+                        #     md_bg_color: 245/255, 245/255, 245/255, 1 #Bottom bar
+                        #     size_hint_y: .11
+                            # MDFloatLayout:
+                            #     size_hint: .8, .75
+                            #     pos_hint: {"center_x": .43, "center_y": .5}
+                            #     canvas:
+                            #         Color:
+                            #             rgb: (238/255, 238/255, 238/255, 1) #Bottom bar inside
+                            #         RoundedRectangle:
+                            #             size: self.size
+                            #             pos: self.pos
+                            #             radius: [23, 23, 23, 23]
+                            #     TextInput:
+                            #         id: text_input
+                            #         hint_text: "Type your message..."
+                            #         size_hint: 1, None
+                            #         pos_hint: {"center_x": .5, "center_y": .5}
+                            #         font_size: "18sp"
+                            #         height: self.minimum_height
+                            #         multiline: False
+                            #         cursor_color: 0/255,123/255,184/255,1 #cursor_color
+                            #         cursor_width: "2sp"
+                            #         foreground_color: 1, 170/255, 23/255, 1
+                            #         background_color: 0,0,0,0
+                            #         padding: 15
+                            #         font_name: "Poppins"
+                            # MDIconButton:
+                            #     icon: "send"
+                            #     pos_hint: {"center_x": .91, "center_y": .5}
+                            #     user_font_size: "18sp"
+                            #     theme_text_color: "Custom"
+                            #     text_color: 1, 1, 1, 1
+                            #     md_bg_color: 0/255,123/255,184/255,1 #arrow bar
+                            #     on_release: app.get_response(text_input,screenmain)
+                    MDBottomAppBar:
+
+                        MDTopAppBar:
+                            title: ""
+                            icon: "microphone"
+                            on_action_button: app.listen(chat_list)
+                            type: "bottom"
+                            #left_action_items: [["menu", lambda x: x]]
+                            right_action_items: [["keyboard",lambda x: app.open_text_field(chat_list)]]
+                            mode: "center"
+            SettingsScreen:
+                name: "settings"
+                id: settings
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        title: app.translated_text("Settings")
+                        headline_font_name: app.font_name
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]
+            CartScreen:
+                name: "cart"
+                id: cart
+                MDBoxLayout:
+                    orientation: 'vertical'
+                    MDTopAppBar:
+                        title: app.translated_text("MyCart")
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        #md_bg_color: "#e7e4c0"
+                        #specific_text_color: "#4a4939"
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]
+                        # AnchorLayout:
+                        #     anchor_x: "center"
+                        #     anchor_y: "center"
+                    MDGridLayout:
+                        cols: 1
+                        padding: "10dp"
+                        align: "center"
+                        MDCard:
+                            padding: 4
+                            size_hint: None, None
+                            size: "380dp", "200dp"
+                            #MDLabel:
+                            line_color: 0.2, 0.2, 0.2, 0.8
+                            style: "outlined"
+                            shadow_softness: 2
+                            shadow_offset: 0,1
+                            AnchorLayout:
+                                anchor_x: "center"
+                                anchor_y: "center"
+                                MDLabel:
+                                    markup: True
+                                    text_align: "center"
+                                    font_name: app.font_name
+                                    text: app.translated_text("my cart")#"[b][color=#FFBF00][/color][/b]\n\n[b]Payeable:[/b] ₹500/- per month\n\n[b]Coverage:[/b] 6 months\n[color=#3CB043]\n[b]Receivable:[/b][/color] ₹10,000/- per month"
+                        MDCard:
+                            padding: 4
+                            size_hint: None, None
+                            size: "380dp", "200dp"
+                            #MDLabel:
+                            line_color: 0.2, 0.2, 0.2, 0.8
+                            style: "outlined"
+                            shadow_softness: 2
+                            shadow_offset: 0,1
+                            AnchorLayout:
+                                anchor_x: "center"
+                                anchor_y: "center"
+                                MDLabel:
+                                    markup: True
+                                    text_align: "center"
+                                    text: "[b][color=#006400]Enterprise[/color][/b]\n\n[b]Payeable:[/b] ₹1000/- per month\n\n[b]Coverage:[/b] 6 months\n[color=#3CB043]\n[b]Receivable:[/b][/color] ₹20,000/- per month"
+                        MDCard:
+                            padding: 4
+                            size_hint: None, None
+                            size: "380dp", "200dp"
+                            #MDLabel:
+                            line_color: 0.2, 0.2, 0.2, 0.8
+                            style: "outlined"
+                            shadow_softness: 2
+                            shadow_offset: 0,1
+                            AnchorLayout:
+                                anchor_x: "center"
+                                anchor_y: "center"
+                                MDLabel:
+                                    markup: True
+                                    text_align: "center"
+                                    text: "[b][color=#797EF6]Premium[/color][/b]\n\n[b]Payeable:[/b] ₹1500/- per month\n\n[b]Coverage:[/b] 6 months\n[color=#3CB043]\n[b]Receivable:[/b][/color] ₹30,000/- per month"
+        MDNavigationDrawer:
+            id: nav_drawer
+            radius: (0, 16, 16, 0)
+            MDNavigationDrawerMenu:
+
+                MDNavigationDrawerLabel:
+            #MDLabel:
+                    blur_radius: 20
+                    mipmap: True
+                    canvas:
+                        Color:
+                            rgb: 1, 1, 1
+                        Ellipse:
+                            #pos: 280, 200
+                            pos: self.x,self.y
+                            size: 100 , 100 
+                            source: 'profile.jpg'
+                            #texture: app.logo.texture
+                            angle_start: 0
+                            angle_end: 360
+                MDNavigationDrawerHeader:
+                    title: "Hariharan Mudaliar"
+                    #title_color: app.theme_cls.primary_color
+                    #text: "Fresh Produce for You..."
+                    spacing: "4dp"
+                    padding: "12dp", 0, 0, "56dp"
+                MDSwitch:
+                    icon_active: "weather-night"
+                    icon_inactive: "white-balance-sunny"
+                    on_active: app.change_theme()
+
+                # MDNavigationDrawerLabel:
+                #     text: "Your Orders"
+
+                MDNavigationDrawerItem:
+                    icon: "bell-badge"
+                    right_text: "+99"
+                    text_right_color: "#4a4939"
+                    text: "Notifications"
+                    group: "admin"
+                MDNavigationDrawerItem:
+                    icon: "cart"
+                    text: "My Cart"
+                    on_press: screenmain.current = "cart"
+                    on_release: nav_drawer.set_state("close")
+                MDNavigationDrawerItem:
+                    icon: "chef-hat"
+                    text: "Gordon"
+                    on_press: screenmain.current = "ai"
+                    on_release: nav_drawer.set_state("close")               
+                MDNavigationDrawerItem:
+                    icon: "store"
+                    text: "Farmer Markets"
+                    on_press: screenmain.current = "map"
+                    on_release: nav_drawer.set_state("close")
+                MDNavigationDrawerItem:
+                    icon: "cog"
+                    text: "Settings"
+                    on_press: screenmain.current = "settings"
+                    on_release: nav_drawer.set_state("close")
+                    group: "admin"     
+                MDNavigationDrawerDivider:
+
+                MDNavigationDrawerItem:
+                    icon: "account"
+                    text: "My Profile"
+                    on_press: screenmain.current = "profile"
+                    on_release: nav_drawer.set_state("close")
+                    group: "admin"
+
+                MDNavigationDrawerItem:
+                    icon: "account-arrow-left"
+                    text: "Sign Out"
+                    on_press: app.change_screen("login")
+                    on_release: app.delete_all_credentials()
+
+
+<TextRequest>:
+    orientation: "vertical"
+    spacing: "12dp"
     size_hint_y: None
-    height: '48dp'
-    padding: '4dp'
-    spacing: '4dp'
-    canvas:
-        Color:
-            rgba: .2, .2, .2, .6
-        Rectangle:
-            pos: self.pos
-            size: self.size
-<ShadedLabel@Label>:
-    size: self.texture_size
-    #def login(self, username, password):
-        #self.show_snackbar()
-        #Manager.current_screen = "MapScreen"
-        #FarmerApp().change_to_mapscreen()
+    height: "120dp"
 
+    MDTextField:
+        hint_text: "Ask anything..."
+        #on_text: app.ai_query = self.text
+        multiline: False
+        on_text_validate: 
+            app.ai_query = self.text
+            self.text = ""
+            Clock.schedule_once(lambda x: self.parent.parent.parent.parent.dismiss())
+            Clock.schedule_once(lambda x: app.get_response_without_objects())
+            
+<MDPasswordTextField>:
+    size_hint_y: None
+    height: text_field.height
+    text: text_field.text
+    MDTextField:
+        id: text_field
+        hint_text: root.hint_text
+        text: root.text
+        password: True
+        icon_left: "key-variant"
+        write_tab: root.write_tab
+        on_text_validate: root.on_text_validate
+    MDIconButton:
+        icon: "eye-off"
+        pos_hint: {"center_y": .5}
+        pos: text_field.width - self.width + dp(8), 0
+        theme_text_color: "Hint"
+        on_release:
+            self.icon = "eye" if self.icon == "eye-off" else "eye-off"
+            text_field.password = False if text_field.password is True else True
 
+# <Logo@AsyncImage>:
+#     name: "logo"
+#     id: logo
+#     source: "CareerShield.png"
+#     mipmap: True
+
+<FarmerProfileScreen>:
+    id: profile
+    name: "farmer_profile"
+    MDBoxLayout:
+        orientation: "vertical"
+        size_hint: None, None
+        size: "350dp","600dp"
+        pos_hint: {"center_x":0.5, "center_y":0.5}  
+        style: "elevated"
+        padding: "20dp"
+        shadow_softness: 2
+        shadow_offset: (0,1)
+        line_color: 0.2,0.2,0.2,0.8
+        MDTopAppBar:
+            md_bg_color: "white"
+            elevation: 0
+            left_action_items: [["keyboard-backspace", lambda x: root.manager.change_screen("map")]]
+        MDGridLayout:
+            cols: 3
+            MDLabel:
+                width: "200dp"
+            # MDSmartTile:
+            #     radius: 24
+            #     box_radius: [0, 0, 24, 24]
+            #     lines: 1
+            #     source: "farmer.png"
+            #     pos_hint: {"center_x": .5, "center_y": .5}
+            #     size_hint: None, None
+            #     size: "100dp", "100dp"
+            Image:
+                source: "farmer.png"
+            MDLabel:
+            MDLabel:
+            AKRating:
+                normal_icon: 'star-circle-outline'
+                active_icon: 'star-circle'
+                pos_hint: {'center_x': .5, 'center_y': .3}
+                on_rate: print(self.get_rate())
+                _selected: 5
+            MDLabel:
+        MDBoxLayout:
+            orientation: "vertical"
+            spacing: "5dp"
+            MDLabel:
+                text: "Mr. Raman Gupta"
+                font_style: "H5"
+            ThreeLineAvatarIconListItem:
+                text: "Location"
+                secondary_text: "Near Big Save Super Market"
+                tertiary_text: "Potheri"
+                on_press: app.open_map("Big+Save+Super+Market")
+                IconLeftWidget:
+                    #source: "kivymd/images/logo/kivymd-icon-256.png"
+                    icon: "map-marker"
+                    color: "green"
+            OneLineAvatarIconListItem:
+                text: "+91 9429199029"
+                IconLeftWidget:
+                    icon: "phone"
+                    on_press: app.make_call()
+                IconRightWidget:
+                    icon: "whatsapp"
+                    on_press: app.open_whatsapp()
+
+<LoginScreen>:
+    id: login
+    name: "login"
+    #on_pre_enter: login_mobile.focus = True
+    #on_enter: root.prepare(login_mobile,login_password)
     canvas.before:
-        Color:
-            rgba: .2, .2, .2, .6
         Rectangle:
             pos: self.pos
             size: self.size
-# MDScreen: 
-    
-#     MDCard:
-#         size_hint: None, None
-#         size: 300, 400
-#         pos_hint: {"center_x": 0.5, "center_y": 0.5}
-#         elevation: 10
-#         padding: 25
-#         spacing: 25
-#         orientation: 'vertical'
+            source: 'green_background.jpg'
+    MDCard:
+        orientation: "vertical"
+        size_hint: None, None
+        size: "300dp","400dp"
+        pos_hint: {"center_x":0.5, "center_y":0.5}  
+        style: "elevated"
+        padding: "20dp"
+        shadow_softness: 2
+        shadow_offset: (0,1)
+        line_color: 0.2,0.2,0.2,0.8
+        md_bg_color: "#FAF7F6"
+        #FloatLayout:
+        GridLayout:
+            cols: 3
+            #anchor_x: "center"
+            #anchor_y: "center"   
+            MDLabel:         
+            # MDLabel:
+            #     blur_radius: 20
+            #     mipmap: True
+            #     canvas:
+            #         Color:
+            #             rgb: 1, 1, 1
+            #         Ellipse:
+            #             #pos: 280, 200
+            #             pos: self.x,self.y
+            #             size: 100 , 100 
+            #             source: 'leaf.png'
+            #             #texture: app.logo.texture
+            #             angle_start: 0
+            #             angle_end: 360
+            #             #mipmap: True
+            Image:
+                source: "C:\FarmHand-Edifice\logo\icon_big.png"
+                mipmap: True
+            MDLabel:
+        # Image:
+        #     halign: "center"
+        #     source: "CareerShield.png" 
+        #     #allow_stretch: False
+        #     #keep_ratio: True
+        #     mipmap: True
+        MDTextField:
+            id: login_mobile
+            hint_text: "Mobile or E-mail"
+            icon_left: "account"
+            icon_left_color: app.theme_cls.primary_color
+            write_tab: False
+            multiline: False
+            on_text_validate: login_password.focus = True
+        MDPasswordTextField:
+            id: login_password
+            hint_text: "Password"
+            icon_right: "lock"
+            icon_right_color: app.theme_cls.primary_color
+            password: True
+            write_tab: False
+            multiline: False
+            #text: root.text
+            #on_text_validate: app.change_to_main_screen(login_mobile.text,self.text)
+        # MDGridLayout:
+        #     cols: 3
+        #     spacing: "10dp"
+        #     align: "center"
+        #     MDLabel:
+        #     MDRaisedButton:
+        #         text: "Login"
+        #         markup: True
+        #         text_color: "white"
+        #         size_hint_x: None
+        #         increment_width: "120dp"
+        #         #on_press: app.show_success_popup()
+        #         on_release: app.change_to_main_screen(login_mobile.text,login_password.text)
+        #     MDLabel:
+        #     MDLabel:
+        #     MDLabel:
+        #         markup: True
+        #         font_style: "Caption"
+        #         text: "Don't have an account? [ref=ref1]Sign Up[/ref]"
+        #         on_ref_press: app.open_signup_screen()
+        #     MDLabel:
+        # MDTextField:
+        #     id: login_mobile
+        #     hint_text: "Mobile"
+        #     icon_left: "phone"
+        #     icon_left_color: app.theme_cls.primary_color
+        #     write_tab: False
+        #     multiline: False
+        #     on_text_validate: login_password.focus = True
+        # MDPasswordTextField:
+        #     id: login_password
+        #     hint_text: "Password"
+        #     icon_right: "lock"
+        #     icon_right_color: app.theme_cls.primary_color
+        #     password: True
+        #     write_tab: False
+        #     multiline: False
+            #text: root.text
+            #on_text_validate: app.change_to_main_screen(login_mobile.text,self.text)
+        MDGridLayout:
+            cols: 3
+            spacing: "10dp"
+            align: "center"
+            MDRaisedButton:
+                text: "Sign Up"
+                markup: True
+                text_color: "white"
+                size_hint_x: None
+                increment_width: "120dp"
+                on_release: app.change_screen("register")
+            MDLabel:
+            MDRaisedButton:
+                text: "Login"
+                markup: True
+                text_color: "white"
+                size_hint_x: None
+                increment_width: "120dp"
+                on_press: app.process_data()
+                on_release: app.change_to_main_screen(login_mobile.text,login_password.text)
 
-#         MDLabel:
-#             id: welcome_label
-#             text: "WELCOME"
-#             font_size: 40
-#             halign: 'center'
-#             size_hint_y: None
-#             height: self.texture_size[1]
-#             padding_y: 15
+<RegisterScreen>:
+    id: register
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'green_background.jpg'
+    MDCard:
+        orientation: "vertical"
+        size_hint: None, None
+        size: "300dp","600dp"
+        pos_hint: {"center_x":0.5, "center_y":0.5}  
+        style: "elevated"
+        padding: "20dp"
+        shadow_softness: 2
+        shadow_offset: (0,1)
+        line_color: 0.2,0.2,0.2,0.8  
+        md_bg_color: "#FAF7F6"
+        Image:
+            source: "C:\\FarmHand-Edifice\\logo\\text.png"
+            mipmap: True           
+        MDTextField:
+            id: register_mobile
+            hint_text: "Mobile"
+            icon_left: "phone"
+            icon_left_color: app.theme_cls.primary_color
+            write_tab: False
+            multiline: False
+            #on_text_validate: login_password.focus = True 
+        MDTextField:
+            id: register_email
+            hint_text: "E-mail"
+            icon_left: "email"  
+            icon_left_color: app.theme_cls.primary_color
+            write_tab: False
+            multiline: False     
+        MDGridLayout:
+            cols: 3
+            spacing: "10dp"
+            align: "center"
+            MDRaisedButton:
+                text: "Back to\nSign In"
+                markup: True
+                text_color: "white"
+                size_hint_x: None
+                increment_width: "120dp"
+                on_release: app.change_screen("login")
+            MDLabel:
+            MDRaisedButton:
+                text: "Sign Up"
+                markup: True
+                text_color: "white"
+                size_hint_x: None
+                increment_width: "120dp"
+                #on_press: app.show_success_popup()
+                on_release: app.change_screen("verification")
 
-#         MDTextField:
-#             id: user
-#             hint_text: "username"
-#             icon_right: "account"
-#             size_hint_x: None
-#             width: 200
-#             font_size: 18
-#             pos_hint: {"center_x": 0.5}
+<OTPVerificationScreen>:
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'green_background.jpg'
+    MDCard:
+        orientation: "vertical"
+        size_hint: None, None
+        size: "300dp","400dp"
+        pos_hint: {"center_x":0.5, "center_y":0.5}  
+        style: "elevated"
+        padding: "20dp"
+        shadow_softness: 2
+        shadow_offset: (0,1)
+        line_color: 0.2,0.2,0.2,0.8
+        #md_bg_color: "#B0FC38"
+        #FloatLayout:
+        GridLayout:
+            cols: 8
+            padding: "10dp"
+            spacing: "10dp"
+            MDLabel:
+            MDTextField:
+                id: otp1
+                write_tab: False
+            MDTextField:
+                id: otp2
+                write_tab: False
+            MDTextField:
+                id: otp3
+                write_tab: False
+            MDTextField:
+                id: otp4
+                write_tab: False
+            MDTextField:
+                id: otp5
+                write_tab: False
+            MDTextField:
+                id: otp6
+                write_tab: False
+            MDLabel:
+        MDGridLayout:
+            cols: 3
+            spacing: "10dp"
+            align: "center"
+            MDRaisedButton:
+                text: "Resend OTP"
+                markup: True
+                text_color: "white"
+                size_hint_x: None
+                increment_width: "120dp"
+                on_release: app.send_otp("register")
+            MDLabel:
+            MDRaisedButton:
+                text: "Sign Up"
+                markup: True
+                text_color: "white"
+                size_hint_x: None
+                increment_width: "120dp"
+                #on_press: app.show_success_popup()
+                on_release: app.change_screen("login")
 
-#         MDTextField:
-#             id: password
-#             hint_text: "password"
-#             icon_right: "eye-off"
-#             size_hint_x: None
-#             width: 200
-#             font_size: 18
-#             pos_hint: {"center_x": 0.5}
-#             password: True
-
-#         MDRoundFlatButton:
-#             text: "LOG IN"
-#             font_size: 12
-#             pos_hint: {"center_x": 0.5}
-#             on_press: app.logger()
-
-#         MDRoundFlatButton:
-#             text: "CLEAR"
-#             font_size: 12
-#             pos_hint: {"center_x": 0.5} 
-#             on_press: app.clear()           
-
-#         Widget:
-#             size_hint_y: None
-#             height: 10
+<VerificationScreen>:
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'green_background.jpg'
+    MDCard:
+        orientation: "vertical"
+        size_hint: None, None
+        size: "300dp","300dp"
+        pos_hint: {"center_x":0.5, "center_y":0.5}  
+        style: "elevated"
+        padding: "20dp"
+        shadow_softness: 2
+        shadow_offset: (0,1)
+        line_color: 0.2,0.2,0.2,0.8
+        #md_bg_color: "#B0FC38"
+        #FloatLayout:
+            #MDLabel:
+        # MDLabel:
+        #     text: "Choose Verification Method"
+        #     align: "center"
+            #MDLabel:
+        MDScrollView:
+            MDList:
+                ThreeLineIconListItem:
+                    text: "Verify Using Mobile"
+                    secondary_text: "Send a 6-digit OTP to "
+                    tertiary_text: app.mobile
+                    on_release: app.send_otp("mobile")
+                    IconLeftWidget:
+                        icon: "phone"
+                    
+                ThreeLineIconListItem:
+                    text: "Verify Using E-Mail"
+                    secondary_text: "Send a 6-digit OTP to "
+                    tertiary_text: app.email
+                    on_release: app.send_otp("email")
+                    IconLeftWidget:
+                        icon: "email"
+        
+        # MDRectangleFlatIconButton:
+        #     icon: "phone"
+        #     text: "Verify Using Mobile"
+        #     theme_text_color: "Custom"
+        #     text_color: "gray"
+        #     line_color: "gray"
+        #     theme_icon_color: "Custom"
+        #     icon_color: "green"
+        # MDRectangleFlatIconButton:
