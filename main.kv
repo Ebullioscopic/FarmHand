@@ -174,6 +174,21 @@
             lat: 12.8246
             lon: 80.0452
 
+<PlantBackdropFrontLayer@PlantItemBackdropFrontLayer>
+    id: plantbackdrop
+    name: "plantbackdrop"
+    backdrop: None
+    markup: True
+    text: ""
+
+<PlantBackdropBackLayer@RelativeLayout>:
+    FitImage:
+    #size_hint: .8, .8
+        source: app.get_data("source")
+        mipmap: True
+
+    #pos_hint: {"center_x": .5, "center_y": .6}
+
 <MyBackdropFrontLayer@ItemBackdropFrontLayer>
     id: backdrop
     name: "backdrop"
@@ -185,6 +200,28 @@
     pos_hint: {"top": 1}
     _no_ripple_effect: True
 
+<PlantItemBackdropFrontLayer@MDGridLayout>
+    cols: 1
+    TwoLineIconListItem:
+        text: "Diagnosis"
+        secondary_text: app.get_data("diagnosis")
+        IconLeftWidget:
+            icon: "medical-bag"
+    TwoLineIconListItem:
+        text: "Disease Type"
+        secondary_text: app.get_data("disease type")
+        IconLeftWidget:
+            icon: app.get_data("icon")
+    TwoLineIconListItem:
+        text: "Treatment"
+        secondary_text: app.get_data("treatment")
+        IconLeftWidget:
+            icon: "lotion-plus"
+    TwoLineIconListItem:
+        text: "Confidence"
+        secondary_text: app.get_data("confidence")
+        IconLeftWidget:
+            icon: "chart-bell-curve-cumulative"
 <ItemBackdropFrontLayer@MDGridLayout>
     # orientation: "vertical"
     cols: 1
@@ -274,6 +311,156 @@
                             size_hint_y: None
                             height: self.minimum_height
                             orientation: 'vertical' 
+            MDScreen:
+                name: "lens"
+                id: lens
+                MDBoxLayout:
+                    orientation: "vertical"
+
+                    MDTopAppBar:
+                        title: "Check Plant Health"
+                        left_action_items: [["arrow-left", lambda x: screenmain.switch_to(home)]]
+                        elevation: 3
+
+                    MDFloatLayout:
+
+                        MDRoundFlatIconButton:
+                            text: "Upload Image"
+                            icon: "file-image-plus"
+                            pos_hint: {"center_x": .5, "center_y": .5}
+                            on_release: app.file_manager_open(screenmain)                
+            
+            MDScreen:
+                name: "imageai"
+                id: imageai
+                on_pre_enter: app.start_loader()
+                on_enter: backdrop.open(-Window.height/2)
+                MDBackdrop:
+                    id: backdrop
+                    name: "backdrop"
+                    right_action_items: [['dots-vertical', lambda x: self.open()]]
+                    left_action_items: [["keyboard-backspace", lambda x: screenmain.switch_to(home)]]
+                    title: "Plant Health Status"
+                    radius_left: "25dp"
+                    radius_right: "0dp"
+                    header_text: "Health Status: [color=#FF0000]Infected[/color]"
+
+                    MDBackdropBackLayer:
+                        PlantBackdropBackLayer:
+                            id: plantbacklayer
+
+                    MDBackdropFrontLayer:
+                        PlantBackdropFrontLayer:
+                            id: plantfrontlayer
+
+            MDScreen:
+                name: "profile"
+                id: profile
+                MDFloatLayout:
+                    md_bg_color: 1,1,1,1
+                    MDFloatLayout:
+                        size_hint_x: 1
+                        size_hint_y: .33
+                        pos_hint: {"center_x": .5, "center_y": .85}
+                        canvas:
+                            Color:
+                                rgb: (1,1,1,1)
+                            Rectangle:
+                                size: self.size
+                                pos: self.pos
+                                source: "C:\Job-Security\out_of_the_box.png"
+                    MDFloatLayout:
+                        size_hint_x: .265
+                        size_hint_y: .265
+                        pos_hint: {"center_x":.5,"center_y":.7}
+                        canvas:
+                            Color:
+                                rgb: (1,1,1,1)
+                            Ellipse:
+                                size: self.size
+                                pos: self.pos
+                    MDFloatLayout:
+                        size_hint_x: .25
+                        size_hint_y: .25
+                        pos_hint: {"center_x":.5,"center_y":.7}
+                        canvas:
+                            Color:
+                                rgb: (1,1,1,1)
+                            Ellipse:
+                                size: self.size
+                                pos: self.pos
+                                source: "C:\FarmHand-Edifice\FarmHand-App\farmer-profile.jpeg"
+                    MDLabel:
+                        id: name
+                        text: "Debojyoti Mondal"
+                        pos_hint: {"center_y":.5}
+                        halign: "center"
+                        theme_text_color: "Custom"
+                        text_color: 0,0,0,1
+                        font_style: "H6"
+                    MDLabel:
+                        id: designation
+                        text: "User"
+                        pos_hint: {"center_y":.44}
+                        halign: "center"
+                        theme_text_color: "Custom"
+                        text_color: 0,0,0,1    
+            MDScreen:
+                name: "language"
+                id: language
+                MDBoxLayout:
+                    orientation: "vertical"
+                    MDTopAppBar:
+                        title: "App Language"
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]   
+                    MDBoxLayout:
+                        adaptive_height: True
+
+                        MDIconButton:
+                            icon: 'magnify'
+                            on_press: root.set_list_tasks(search_field.text,True)
+
+                        MDTextField:
+                            id: search_field
+                            hint_text: 'Search Languages'
+                            on_text: root.set_list_tasks(self.text, True)
+
+                        MDIconButton:
+                            id: search_filter_button
+                            icon: "dots-vertical"
+                            on_press: root.search_filter_dropdown_task.open()
+                    MDBoxLayout:
+                        #padding: dp(10)
+                        #default_size: None, dp(48)
+                        default_size_hint: 1, None
+                        size_hint_y: None
+                        height: self.minimum_height
+                        orientation: 'vertical'
+                        #orientation: "vertical"
+                        OneLineIconListItem:
+                            text: "English"
+                            IconLeftWidget:
+                                icon: "ab-testing"
+                        OneLineIconListItem:
+                            text: "Hindi"
+                            IconLeftWidget:
+                                icon: "abugida-devanagari"
+                    RecycleView:
+                        id: rv
+                        key_viewclass: 'viewclass'
+                        key_size: 'height'
+
+                        RecycleBoxLayout:
+                            padding: dp(10)
+                            default_size: None, dp(85)
+                            default_size_hint: 1, None
+                            size_hint_y: None
+                            height: self.minimum_height
+                            orientation: 'vertical'                                  
+
             MDScreen: #ChatBot
                 #bot_name: bot_name
                 # text_input: text_input
@@ -283,7 +470,7 @@
                 MDBoxLayout:
                     orientation: 'vertical'
                     MDTopAppBar:
-                        title: "Mahesh"
+                        title: "Sanjeev"
                         elevation: 4
                         pos_hint: {"top": 1}
                         #md_bg_color: "#e7e4c0"
@@ -438,19 +625,19 @@
                     text: "Notifications"
                     group: "admin"
                 MDNavigationDrawerItem:
-                    icon: "cart"
-                    text: "My Cart"
+                    icon: "dropbox"
+                    text: "My Inventory"
                     on_press: screenmain.current = "cart"
                     on_release: nav_drawer.set_state("close")
                 MDNavigationDrawerItem:
                     icon: "tree"
-                    text: "Mahesh"
+                    text: "Sanjeev"
                     on_press: screenmain.current = "ai"
-                    on_release: nav_drawer.set_state("close")               
+                    on_release: nav_drawer.set_state("close") 
                 MDNavigationDrawerItem:
-                    icon: "store"
-                    text: "Farmer Markets"
-                    on_press: screenmain.current = "map"
+                    icon: "leaf"       
+                    text: "Check Plant Health"
+                    on_press: screenmain.current = "lens"
                     on_release: nav_drawer.set_state("close")
                 MDNavigationDrawerItem:
                     icon: "cog"
@@ -458,6 +645,12 @@
                     on_press: screenmain.current = "settings"
                     on_release: nav_drawer.set_state("close")
                     group: "admin"     
+                MDNavigationDrawerItem:
+                    icon: "translate"
+                    text: "Language"
+                    on_press: screenmain.current = "language"
+                    on_release: nav_drawer.set_state("close")
+                    group: "admin"
                 MDNavigationDrawerDivider:
 
                 MDNavigationDrawerItem:
@@ -649,7 +842,7 @@
                         font_style: "H6"
                     MDLabel:
                         id: designation
-                        text: "Homo Sapien"
+                        text: "User"
                         pos_hint: {"center_y":.44}
                         halign: "center"
                         theme_text_color: "Custom"
@@ -812,6 +1005,45 @@
                         pos_hint: {"top": 1}
                         left_action_items:
                             [['arrow-left', lambda x: screenmain.switch_to(home)]]
+            MDScreen:
+                name: "language"
+                id: language
+                MDBoxLayout:
+                    orientation: "vertical"
+                    MDTopAppBar:
+                        title: "App Language"
+                        elevation: 4
+                        pos_hint: {"top": 1}
+                        left_action_items:
+                            [['arrow-left', lambda x: screenmain.switch_to(home)]]   
+                    MDBoxLayout:
+                        adaptive_height: True
+
+                        MDIconButton:
+                            icon: 'magnify'
+                            on_press: root.set_list_tasks(search_field.text,True)
+
+                        MDTextField:
+                            id: search_field
+                            hint_text: 'Search Languages'
+                            on_text: root.set_list_tasks(self.text, True)
+
+                        MDIconButton:
+                            id: search_filter_button
+                            icon: "dots-vertical"
+                            on_press: root.search_filter_dropdown_task.open()
+                    RecycleView:
+                        id: rv
+                        key_viewclass: 'viewclass'
+                        key_size: 'height'
+
+                        RecycleBoxLayout:
+                            padding: dp(10)
+                            default_size: None, dp(85)
+                            default_size_hint: 1, None
+                            size_hint_y: None
+                            height: self.minimum_height
+                            orientation: 'vertical' 
             CartScreen:
                 name: "cart"
                 id: cart
@@ -941,7 +1173,13 @@
                     text: "Settings"
                     on_press: screenmain.current = "settings"
                     on_release: nav_drawer.set_state("close")
-                    group: "admin"     
+                    group: "admin"    
+                MDNavigationDrawerItem:
+                    icon: "translate"
+                    text: "Language"
+                    on_press: screenmain.current = "language"
+                    on_release: nav_drawer.set_state("close")
+                    group: "admin" 
                 MDNavigationDrawerDivider:
 
                 MDNavigationDrawerItem:
