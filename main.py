@@ -3,11 +3,15 @@ try:
     kivy.resources.resource_add_path('C:\Windows\Fonts')
     import json
     from win32com import client
+    from kivymd.toast import toast
+    import os
+    from random import randint
     #from kivy.
     json.loads(r'"\ud835\udc6a\ud835\udc89\ud835\udc90\ud835\udc84\ud835\udc8c\udc8d"')
     from kivymd.app import MDApp
     from kivy.clock import mainthread
     from threading import Thread
+    from kivymd.uix.filemanager import MDFileManager
     from functools import partial
     from kivymd.uix.button import MDIconButton
     from kivy.lang import Builder
@@ -40,7 +44,7 @@ try:
     from kivymd.uix.snackbar import Snackbar
     import openai
     #Clock.schedule_once(lambda x: import_libraries())
-    openai.api_key = "myapikey"
+    openai.api_key = "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"
     from kivy.core.window import Window
     Window.size = (400,700)
 except:
@@ -441,6 +445,88 @@ class FarmHandApp(MDApp):
     person_name = "Hariharan"
     role = "User"
     say = False
+    manager_obj = ObjectProperty()
+    plant_name = ""
+    plant_source = ""
+    plant_index = randint(0,8)
+    plant_data=[
+            {
+                "source":r"C:\Users\hariharan\Pictures\Plant_Images\black-spot.jpg",
+                "diagnosis":"Black spot",
+                "disease type":"Fungal",
+                "treatment":"Mancozeb/Triforine/Myclobutanil",
+                "confidence":"93.125%",
+                "icon":"mushroom",
+            },
+        {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\rust.png",
+           "diagnosis":"Rust",
+           "disease type":"Fungal ",
+            "treatment":"Triademafon/Propiconazole/Chlorothalonil fungicide",
+            "confidence":"92.327%",
+            "icon":"mushroom",
+        },
+        {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\Botrytis-leaf-spots.jpg",
+           "diagnosis":"Botrytis blight",
+           "disease type": "Fungal",
+            "treatment":"Bacillus subtilis fungicide",
+            "confidence":"98.451%",
+            "icon":"mushroom",
+        },
+           {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\Powdery-Mildew.jpg",
+           "diagnosis":"Powdery mildew",
+           "disease type":"Fungal",
+            "treatment":"Neem Oil/Potassium Bicarbonate/Horticultural Oils",
+            "confidence":"87.698%",
+            "icon":"mushroom",
+        },
+           {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\Black-rot.jpg",
+           "diagnosis":"Black rot",
+           "disease type":"Bacterial",
+            "treatment":"Mancozeb/Chlorothalonil/Propiconazole",
+            "confidence":"90.221%",
+            "icon":"bacteria",
+        },
+           {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\bacterial-canker.jpg",
+           "diagnosis":"Bacterial Canker",
+           "disease type":"Bacterial",
+            "treatment":"Copper sulphate/Copper Hydroxide/Copper Oxychloride",
+            "confidence":"93.122%",
+            "icon":"bacteria",
+        },
+           {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\soft-rot.jpg",
+           "diagnosis":"Soft Rot",
+           "disease type":"Bacterial",
+            "treatment":"Bacillus spp/Streptomyces spp/Trichoderma spp",
+            "confidence":"87.306%",
+            "icon":"bacteria",
+        },
+           {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\leaf-spot-wilt.jpg",
+           "diagnosis":"Leaf Spot Wilt",
+           "disease type":"Bacterial",
+            "treatment":"Azoxystrobin/Mancozeb/Chlorothalonil",
+            "confidence":"96.245%",
+            "icon":"bacteria",
+        },
+           {
+            "source":r"C:\Users\hariharan\Pictures\Plant_Images\blight.jpg",
+           "diagnosis":"Blight",
+           "disease type":"Bacterial",
+            "treatment":"Streptomycin Sulphate/Copper based fungicide",
+            "confidence":"97.205%",
+            "icon":"bacteria",
+        },
+    ]
+
+    def get_data(self,datatype):
+        return self.plant_data[self.plant_index][datatype]
+    
     def translated_text(self,text,dest_lang=dest_language,src_lang=src_language):
         if dest_lang != src_lang:
             transtext = Translator().translate(text, dest=dest_lang, src=src_lang).text
@@ -460,7 +546,12 @@ class FarmHandApp(MDApp):
         self.speech_request = SpeechRequest()
         #self.chatview_id = ObjectProperty()
         self.messages = [ {"role": "system", "content": 
-              "You are an intelligent assistant named Jordan that helps Consumers let know about different types of fruits, vegetables, cereals and pulses. Let them know the nutritional benifits of the same. Let them know the ingredients required for specific food and also show them advantages of organic food over fertilizer grown food to let them know the health benefits. Also, greet them by introducing yourself in five to six words."} ]
+              "You are an intelligent assistant named Gordon that helps Consumers let know about different types of fruits, vegetables, cereals and pulses. Let them know the nutritional benifits of the same. Let them know the ingredients required for specific food and also show them advantages of organic food over fertilizer grown food to let them know the health benefits. Also, greet them by introducing yourself in five to six words."} ]
+        Window.bind(on_keyboard=self.events)
+        self.manager_open = False
+        self.file_manager = MDFileManager(
+            exit_manager=self.exit_manager, select_path=self.select_path
+        )
 
     def on_start(self):
         #Clock.schedule_once(lambda dt: compile_model())
@@ -538,6 +629,13 @@ class FarmHandApp(MDApp):
         Thread(target=lambda: self.get_response_without_objects()).start()
         print("Dismissed")
 
+    def start_loader(self):
+        Clock.schedule_once(lambda dt: self.loading_animation.open())
+        Clock.schedule_once(lambda dt: self.stop_loader(), 2)
+
+    def stop_loader(self):
+        Clock.schedule_once(lambda dt: self.loading_animation.dismiss())
+
     def start_intro_loading_animation(self):
         Clock.schedule_once(lambda dt: self.loading_animation.open())
         Clock.schedule_once(lambda dt: self.stop_intro_loading_animation(), 1)
@@ -558,13 +656,46 @@ class FarmHandApp(MDApp):
             self.verification_method = "email"
             self.change_screen("otpverification")
 
+    def file_manager_open(self, obj):
+        self.manager_obj = obj
+        self.file_manager.show(os.path.expanduser("~"))  # output manager to the screen
+        self.manager_open = True
+
+    def select_path(self, path: str):
+        #from random import randint
+        #res = [int(i) for i in path.split() if i.isdigit()]
+        import re
+        temp = re.findall(r'\d+', path)
+        res = list(map(int, temp))
+        print(res)
+        self.plant_index = res[0]
+        self.plant_source = path
+        self.exit_manager()
+        toast(path)
+        self.manager_obj.current = "imageai"
+
+    def events(self, instance, keyboard, keycode, text, modifiers):
+        '''Called when buttons are pressed on the mobile device.'''
+
+        if keyboard in (1001, 27):
+            if self.manager_open:
+                self.file_manager.back()
+        return True
+    
+    def exit_manager(self, *args):
+        '''Called when the user reaches the root of the directory tree.'''
+
+        self.manager_open = False
+        self.file_manager.close()
+
+
     def change_to_main_screen(self,mobile,passw):
         if str(mobile) == "7439861766" and str(passw) == "debo*002":
             self.change_screen("farmer")
             self.person_name = "Debojyoti"
             self.role = "farmer"
             self.messages = [ {"role": "system", "content": 
-              "You are an intelligent assistant named Mahesh that helps Farmers let know about different types of fruits, vegetables, cereals and pulses. Let them know the nutritional benifits of the same. Show them advantages of organic food over fertilizer grown food to let them know the health benefits. Whenever asked, help them know the process of growing the specific crop. Also, greet them by introducing yourself in five to six words."} ]
+              "You are an intelligent assistant named Sanjeev that helps Farmers let know about different types of fruits, vegetables, cereals and pulses. Let them know the nutritional benifits of the same. Show them advantages of organic food over fertilizer grown food to let them know the health benefits. Whenever asked, help them know the process of growing the specific crop. Also, greet them by introducing yourself in five to six words."} ]
         else:
             self.change_screen("main")
             self.person_name = "Hariharan"
