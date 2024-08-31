@@ -57,7 +57,10 @@ def shop_detail(request):
     return render(request,"website/shop-detail.html")
 
 def checkout(request):
-    return render(request,"website/checkout.html")
+    return render(request,"website/checkout-user.html")
 
 def testimonial(request):
     return render(request,"website/testimonial.html")
+
+def contact(request):
+    return render(request,"website/contact.html")
