@@ -1,3 +1,5 @@
 venv
 staradmin-2-free
-FASNXTGEN
+farmhandweb/db.sqlite3
+farmhandweb/users/__pycache__
+farmhandweb/farmhandweb/__pycache__

@@ -11,8 +11,8 @@ from django.contrib.auth.models import User
 
 @login_required
 def index(request):
-    context = {}
-    return render(request,"users/index.html",context)
+    context = {"user" : request.user}
+    return render(request,"website/index-user.html",context)
 
 def signout(request):
     logout(request)
@@ -37,7 +37,8 @@ def login(request):
         print(request.POST)
         username = request.POST["login_username"]
         password = request.POST["login_password"]
-        user = authenticate(request,username=username,password=password)
+        role = request.POST["roleRadios"]
+        user = authenticate(request,username=username,password=password,role=role)
         if user is not None:
             signin(request,user)
             return redirect("index")
@@ -45,3 +46,18 @@ def login(request):
             err = "Invalid Credentials"
     context = {"error" : err}
     return render(request,"users/login.html",context)
+
+def cart(request):
+    return render(request,"website/cart-user.html")
+
+def shop(request):
+    return render(request,"website/shop.html")
+
+def shop_detail(request):
+    return render(request,"website/shop-detail.html")
+
+def checkout(request):
+    return render(request,"website/checkout.html")
+
+def testimonial(request):
+    return render(request,"website/testimonial.html")
