@@ -1,4 +1,5 @@
 import requests
+import ollama as client
 
 # Language mapping dictionary
 language_map = {
@@ -36,49 +37,82 @@ language_map = {
     "Urdu": "ur",
 }
 
-def get_language_code(language_code):
-    reversed_map = {v: k for k, v in language_map.items()}
-    return reversed_map.get(language_code.lower(), None)
+# Function to get the language code from the provided language name or code
+def get_language_code(language):
+    # Check if the input is already a code
+    if language in language_map.values():
+        return language
+    # Check if the input is a language name
+    return language_map.get(language.strip(), None)
 
-# Input from the user
-source_language_code = input("Enter the source language code (e.g., en): ").strip().lower()
-target_language_code = input("Enter the target language code (e.g., ta): ").strip().lower()
-text_to_translate = input("Enter the text to translate: ")
-
-# Validate language codes
-if not get_language_code(source_language_code) or not get_language_code(target_language_code):
-    print("Invalid language code selection.")
-else:
-    # Define the API endpoint
+# Function to translate text using the AI4Bharat API
+def translate_text(text, source_lang, target_lang):
     url = "https://demo-api.models.ai4bharat.org/inference/translation/v2"
-
-    # Define the payload
     payload = {
         "controlConfig": {
             "dataTracking": True
         },
         "input": [
             {
-                "source": text_to_translate
+                "source": text
             }
         ],
         "config": {
             "serviceId": "",
             "language": {
-                "sourceLanguage": source_language_code,
-                "targetLanguage": target_language_code,
+                "sourceLanguage": source_lang,
+                "targetLanguage": target_lang,
                 "targetScriptCode": None,
                 "sourceScriptCode": None
             }
         }
     }
-
-    # Send the POST request
     response = requests.post(url, json=payload)
-
-    # Check if the request was successful
     if response.status_code == 200:
         result = response.json()
-        print("Translation Output:", result.get("output", [{}])[0].get("target", "No output found"))
+        return result.get("output", [{}])[0].get("target", "No output found")
     else:
-        print(f"Failed to get a response. Status code: {response.status_code}")
+        print(f"Translation failed. Status code: {response.status_code}")
+        return None
+
+# Function to get response from Ollama API
+def get_ollama_response(text):
+    stream = client.chat(
+        model="tinyllama",
+        messages=[{"role": "user", "content": text}],
+        stream=True
+    )
+    response = ''
+    for chunk in stream:
+        response += chunk['message']['content']
+    return response
+
+def main():
+    # Input from the user
+    source_language = input("Enter the source language or code (e.g., Tamil or ta): ")
+    text_to_translate = input("Enter the text to translate: ")
+
+    # Convert language names to codes
+    source_language_code = get_language_code(source_language)
+
+    if not source_language_code:
+        print("Invalid source language code or name selection.")
+        return
+
+    # Translate text to English
+    english_text = translate_text(text_to_translate, source_language_code, "en")
+    if not english_text:
+        return
+
+    # Get response from Ollama
+    ollama_response = get_ollama_response(english_text)
+
+    # Translate response back to the original language
+    final_translation = translate_text(ollama_response, "en", source_language_code)
+    if final_translation:
+        print("Final Translation Output:", final_translation)
+    else:
+        print("Failed to translate the response.")
+
+if __name__ == "__main__":
+    main()
