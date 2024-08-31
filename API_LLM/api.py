@@ -91,7 +91,7 @@ def get_ollama_response(text):
         response += chunk['message']['content']
     return response
 
-def main():
+def llama_api():
     # Input from the user
     source_language = input("Enter the source language or code (e.g., Tamil or ta): ")
     text_to_translate = input("Enter the text to translate: ")
@@ -100,13 +100,12 @@ def main():
     source_language_code = get_language_code(source_language)
 
     if not source_language_code:
-        print("Invalid source language code or name selection.")
-        return
+        return "Invalid source language code or name selection."
 
     # Translate text to English
     english_text = translate_text(text_to_translate, source_language_code, "en")
     if not english_text:
-        return
+        return "Failed to translate text to English."
 
     # Get response from Ollama
     ollama_response = get_ollama_response(english_text)
@@ -114,9 +113,9 @@ def main():
     # Translate response back to the original language
     final_translation = translate_text(ollama_response, "en", source_language_code)
     if final_translation:
-        print("Final Translation Output:", final_translation)
+        return final_translation
     else:
-        print("Failed to translate the response.")
+        return "Failed to translate the response."
 
 if __name__ == "__main__":
-    main()
+    result = llama_api()
