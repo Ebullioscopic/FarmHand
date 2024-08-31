@@ -75,11 +75,15 @@ def translate_text(text, source_lang, target_lang):
         print(f"Translation failed. Status code: {response.status_code}")
         return None
 
-# Function to get response from Ollama API
+# Function to get response from Ollama API with system prompt
 def get_ollama_response(text):
+    system_prompt = "You are a bot and speaks in one lines. Keep your responses short and to the point."
     stream = client.chat(
         model="tinyllama",
-        messages=[{"role": "user", "content": text}],
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": text}
+        ],
         stream=True
     )
     response = ''
