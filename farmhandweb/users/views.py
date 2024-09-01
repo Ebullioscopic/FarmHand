@@ -51,10 +51,10 @@ def cart(request):
     return render(request,"website/cart-user.html")
 
 def shop(request):
-    return render(request,"website/shop.html")
+    return render(request,"website/shop-user.html")
 
 def shop_detail(request):
-    return render(request,"website/shop-detail.html")
+    return render(request,"website/shop-detail-user.html")
 
 def checkout(request):
     return render(request,"website/checkout-user.html")
