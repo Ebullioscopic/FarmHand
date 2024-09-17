@@ -27,7 +27,7 @@ def register(request):
         password = request.POST["signup_password"]
         user = User.objects.create_user(username,email,password)
         signin(request,user)
-        return redirect("index")
+        return redirect("users:index")
     return render(request,"users/register.html",context)
 
 def login(request):
@@ -41,7 +41,7 @@ def login(request):
         user = authenticate(request,username=username,password=password,role=role)
         if user is not None:
             signin(request,user)
-            return redirect("index")
+            return redirect("users:index")
         else:
             err = "Invalid Credentials"
     context = {"error" : err}
@@ -51,13 +51,19 @@ def cart(request):
     return render(request,"website/cart-user.html")
 
 def shop(request):
-    return render(request,"website/shop.html")
+    return render(request,"website/shop-user.html")
 
 def shop_detail(request):
-    return render(request,"website/shop-detail.html")
+    return render(request,"website/shop-detail-user.html")
 
 def checkout(request):
-    return render(request,"website/checkout.html")
+    return render(request,"website/checkout-user.html")
 
 def testimonial(request):
     return render(request,"website/testimonial.html")
+
+def contact(request):
+    return render(request,"website/contact.html")
+
+def dashboard(request):
+    return render(request,"users/index-farmer.html")
