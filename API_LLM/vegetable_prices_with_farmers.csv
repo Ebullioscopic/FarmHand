@@ -1,0 +1,3651 @@
+Date,Vegetable,Price,Location,Farmer
+2023-01-01,Tomato,22.16,Kodambakkam,Farmer E
+2023-01-01,Potato,18.32,Tambaram,Farmer A
+2023-01-01,Onion,31.67,T. Nagar,Farmer B
+2023-01-01,Carrot,26.64,Chromepet,Farmer H
+2023-01-01,Cabbage,21.77,Chromepet,Farmer D
+2023-01-01,Spinach,8.03,Anna Nagar,Farmer B
+2023-01-01,Cauliflower,23.55,Chromepet,Farmer G
+2023-01-01,Broccoli,38.27,T. Nagar,Farmer B
+2023-01-01,Eggplant,23.55,Kodambakkam,Farmer E
+2023-01-01,Capsicum,42.26,Thiruvanmiyur,Farmer E
+2023-01-02,Tomato,16.26,Velachery,Farmer H
+2023-01-02,Potato,17.34,Chromepet,Farmer H
+2023-01-02,Onion,33.77,Potheri,Farmer I
+2023-01-02,Carrot,27.9,Velachery,Farmer J
+2023-01-02,Cabbage,18.26,Guindy,Farmer F
+2023-01-02,Spinach,9.54,Tambaram,Farmer C
+2023-01-02,Cauliflower,17.9,Guindy,Farmer B
+2023-01-02,Broccoli,39.69,Guindy,Farmer H
+2023-01-02,Eggplant,26.49,Guindy,Farmer A
+2023-01-02,Capsicum,35.06,Adyar,Farmer I
+2023-01-03,Tomato,17.09,Kodambakkam,Farmer E
+2023-01-03,Potato,16.37,Velachery,Farmer E
+2023-01-03,Onion,27.81,Tambaram,Farmer E
+2023-01-03,Carrot,25.4,T. Nagar,Farmer I
+2023-01-03,Cabbage,14.09,Tambaram,Farmer H
+2023-01-03,Spinach,10.17,Chromepet,Farmer G
+2023-01-03,Cauliflower,26.95,T. Nagar,Farmer F
+2023-01-03,Broccoli,33.22,Guindy,Farmer J
+2023-01-03,Eggplant,26.46,Anna Nagar,Farmer F
+2023-01-03,Capsicum,37.44,Velachery,Farmer I
+2023-01-04,Tomato,24.02,T. Nagar,Farmer J
+2023-01-04,Potato,19.02,Tambaram,Farmer F
+2023-01-04,Onion,33.68,Thiruvanmiyur,Farmer E
+2023-01-04,Carrot,20.17,Kodambakkam,Farmer H
+2023-01-04,Cabbage,14.86,T. Nagar,Farmer C
+2023-01-04,Spinach,14.5,Adyar,Farmer C
+2023-01-04,Cauliflower,21.73,Thiruvanmiyur,Farmer H
+2023-01-04,Broccoli,33.37,Potheri,Farmer J
+2023-01-04,Eggplant,23.45,Anna Nagar,Farmer J
+2023-01-04,Capsicum,41.03,Velachery,Farmer C
+2023-01-05,Tomato,22.22,Tambaram,Farmer F
+2023-01-05,Potato,10.18,Potheri,Farmer J
+2023-01-05,Onion,28.14,Guindy,Farmer A
+2023-01-05,Carrot,28.75,Potheri,Farmer D
+2023-01-05,Cabbage,13.63,Velachery,Farmer J
+2023-01-05,Spinach,8.59,Kodambakkam,Farmer D
+2023-01-05,Cauliflower,25.66,Adyar,Farmer C
+2023-01-05,Broccoli,30.9,Potheri,Farmer H
+2023-01-05,Eggplant,27.43,Anna Nagar,Farmer J
+2023-01-05,Capsicum,40.22,Adyar,Farmer I
+2023-01-06,Tomato,15.06,Adyar,Farmer G
+2023-01-06,Potato,18.42,Thiruvanmiyur,Farmer G
+2023-01-06,Onion,31.3,Adyar,Farmer B
+2023-01-06,Carrot,20.39,Thiruvanmiyur,Farmer G
+2023-01-06,Cabbage,16.98,T. Nagar,Farmer G
+2023-01-06,Spinach,13.68,Tambaram,Farmer I
+2023-01-06,Cauliflower,20.5,Thiruvanmiyur,Farmer C
+2023-01-06,Broccoli,35.47,Velachery,Farmer H
+2023-01-06,Eggplant,30.64,Thiruvanmiyur,Farmer A
+2023-01-06,Capsicum,35.21,Anna Nagar,Farmer C
+2023-01-07,Tomato,20.22,Anna Nagar,Farmer D
+2023-01-07,Potato,13.56,Guindy,Farmer B
+2023-01-07,Onion,27.04,Adyar,Farmer E
+2023-01-07,Carrot,28.21,Velachery,Farmer G
+2023-01-07,Cabbage,19.91,Adyar,Farmer H
+2023-01-07,Spinach,9.71,Adyar,Farmer J
+2023-01-07,Cauliflower,26.56,Guindy,Farmer H
+2023-01-07,Broccoli,36.41,Thiruvanmiyur,Farmer J
+2023-01-07,Eggplant,30.38,T. Nagar,Farmer B
+2023-01-07,Capsicum,38.02,T. Nagar,Farmer G
+2023-01-08,Tomato,20.98,Guindy,Farmer F
+2023-01-08,Potato,19.12,Chromepet,Farmer I
+2023-01-08,Onion,26.61,Potheri,Farmer I
+2023-01-08,Carrot,23.69,Guindy,Farmer F
+2023-01-08,Cabbage,14.87,Tambaram,Farmer A
+2023-01-08,Spinach,5.84,Guindy,Farmer F
+2023-01-08,Cauliflower,19.32,Adyar,Farmer J
+2023-01-08,Broccoli,34.76,Thiruvanmiyur,Farmer I
+2023-01-08,Eggplant,25.08,Guindy,Farmer D
+2023-01-08,Capsicum,44.31,Chromepet,Farmer J
+2023-01-09,Tomato,19.28,Potheri,Farmer J
+2023-01-09,Potato,15.16,Potheri,Farmer C
+2023-01-09,Onion,27.21,Chromepet,Farmer I
+2023-01-09,Carrot,22.08,Velachery,Farmer G
+2023-01-09,Cabbage,20.14,Potheri,Farmer C
+2023-01-09,Spinach,14.65,Adyar,Farmer F
+2023-01-09,Cauliflower,23.05,T. Nagar,Farmer J
+2023-01-09,Broccoli,38.3,Anna Nagar,Farmer H
+2023-01-09,Eggplant,27.06,Tambaram,Farmer B
+2023-01-09,Capsicum,41.62,Chromepet,Farmer C
+2023-01-10,Tomato,15.45,Tambaram,Farmer I
+2023-01-10,Potato,15.99,Kodambakkam,Farmer F
+2023-01-10,Onion,27.35,Guindy,Farmer B
+2023-01-10,Carrot,25.23,Kodambakkam,Farmer H
+2023-01-10,Cabbage,17.67,Potheri,Farmer J
+2023-01-10,Spinach,8.01,Kodambakkam,Farmer G
+2023-01-10,Cauliflower,22.56,T. Nagar,Farmer E
+2023-01-10,Broccoli,33.43,Kodambakkam,Farmer B
+2023-01-10,Eggplant,26.44,Guindy,Farmer C
+2023-01-10,Capsicum,42.97,Thiruvanmiyur,Farmer I
+2023-01-11,Tomato,18.96,Tambaram,Farmer H
+2023-01-11,Potato,10.54,Kodambakkam,Farmer B
+2023-01-11,Onion,30.97,Adyar,Farmer D
+2023-01-11,Carrot,23.6,Anna Nagar,Farmer I
+2023-01-11,Cabbage,17.28,Chromepet,Farmer C
+2023-01-11,Spinach,9.28,Adyar,Farmer C
+2023-01-11,Cauliflower,24.61,Anna Nagar,Farmer D
+2023-01-11,Broccoli,36.6,Chromepet,Farmer J
+2023-01-11,Eggplant,26.67,Chromepet,Farmer G
+2023-01-11,Capsicum,41.24,Guindy,Farmer C
+2023-01-12,Tomato,18.46,Potheri,Farmer E
+2023-01-12,Potato,15.35,Potheri,Farmer I
+2023-01-12,Onion,26.0,Guindy,Farmer A
+2023-01-12,Carrot,21.07,T. Nagar,Farmer C
+2023-01-12,Cabbage,14.06,Thiruvanmiyur,Farmer C
+2023-01-12,Spinach,6.68,Guindy,Farmer F
+2023-01-12,Cauliflower,22.87,Kodambakkam,Farmer F
+2023-01-12,Broccoli,32.19,Potheri,Farmer F
+2023-01-12,Eggplant,30.0,Velachery,Farmer I
+2023-01-12,Capsicum,35.44,Tambaram,Farmer F
+2023-01-13,Tomato,17.96,Chromepet,Farmer D
+2023-01-13,Potato,19.23,Adyar,Farmer G
+2023-01-13,Onion,28.63,Adyar,Farmer J
+2023-01-13,Carrot,20.58,Adyar,Farmer I
+2023-01-13,Cabbage,18.67,Tambaram,Farmer B
+2023-01-13,Spinach,8.93,Adyar,Farmer A
+2023-01-13,Cauliflower,23.35,Potheri,Farmer J
+2023-01-13,Broccoli,34.85,T. Nagar,Farmer H
+2023-01-13,Eggplant,26.89,Kodambakkam,Farmer B
+2023-01-13,Capsicum,40.19,Potheri,Farmer H
+2023-01-14,Tomato,24.75,Thiruvanmiyur,Farmer B
+2023-01-14,Potato,12.99,T. Nagar,Farmer B
+2023-01-14,Onion,27.85,Kodambakkam,Farmer B
+2023-01-14,Carrot,23.94,Kodambakkam,Farmer E
+2023-01-14,Cabbage,20.79,T. Nagar,Farmer G
+2023-01-14,Spinach,14.49,Adyar,Farmer G
+2023-01-14,Cauliflower,25.38,Potheri,Farmer H
+2023-01-14,Broccoli,32.32,Anna Nagar,Farmer D
+2023-01-14,Eggplant,25.32,Guindy,Farmer E
+2023-01-14,Capsicum,36.72,Anna Nagar,Farmer F
+2023-01-15,Tomato,23.51,Velachery,Farmer D
+2023-01-15,Potato,15.18,T. Nagar,Farmer A
+2023-01-15,Onion,26.51,Potheri,Farmer A
+2023-01-15,Carrot,20.09,Adyar,Farmer F
+2023-01-15,Cabbage,21.92,Adyar,Farmer F
+2023-01-15,Spinach,9.87,Guindy,Farmer E
+2023-01-15,Cauliflower,24.0,Anna Nagar,Farmer A
+2023-01-15,Broccoli,38.88,Guindy,Farmer F
+2023-01-15,Eggplant,32.75,Kodambakkam,Farmer H
+2023-01-15,Capsicum,37.24,T. Nagar,Farmer E
+2023-01-16,Tomato,20.96,T. Nagar,Farmer I
+2023-01-16,Potato,16.09,Guindy,Farmer H
+2023-01-16,Onion,32.14,Guindy,Farmer I
+2023-01-16,Carrot,27.2,Anna Nagar,Farmer D
+2023-01-16,Cabbage,14.73,Chromepet,Farmer E
+2023-01-16,Spinach,9.67,Guindy,Farmer J
+2023-01-16,Cauliflower,24.95,Velachery,Farmer C
+2023-01-16,Broccoli,35.03,Velachery,Farmer F
+2023-01-16,Eggplant,29.96,Guindy,Farmer I
+2023-01-16,Capsicum,39.14,Kodambakkam,Farmer A
+2023-01-17,Tomato,16.82,Guindy,Farmer B
+2023-01-17,Potato,19.37,Tambaram,Farmer H
+2023-01-17,Onion,29.8,Thiruvanmiyur,Farmer I
+2023-01-17,Carrot,25.05,T. Nagar,Farmer I
+2023-01-17,Cabbage,22.36,Potheri,Farmer J
+2023-01-17,Spinach,6.22,Thiruvanmiyur,Farmer J
+2023-01-17,Cauliflower,19.62,Thiruvanmiyur,Farmer C
+2023-01-17,Broccoli,37.71,Anna Nagar,Farmer E
+2023-01-17,Eggplant,25.62,Potheri,Farmer J
+2023-01-17,Capsicum,35.01,Tambaram,Farmer H
+2023-01-18,Tomato,17.97,Anna Nagar,Farmer D
+2023-01-18,Potato,19.99,Velachery,Farmer E
+2023-01-18,Onion,28.5,Anna Nagar,Farmer E
+2023-01-18,Carrot,20.59,T. Nagar,Farmer G
+2023-01-18,Cabbage,15.62,Chromepet,Farmer E
+2023-01-18,Spinach,11.12,Guindy,Farmer I
+2023-01-18,Cauliflower,23.67,Chromepet,Farmer G
+2023-01-18,Broccoli,30.02,Velachery,Farmer J
+2023-01-18,Eggplant,23.61,Anna Nagar,Farmer H
+2023-01-18,Capsicum,37.14,Guindy,Farmer F
+2023-01-19,Tomato,20.21,Potheri,Farmer F
+2023-01-19,Potato,18.62,Thiruvanmiyur,Farmer E
+2023-01-19,Onion,25.61,Chromepet,Farmer E
+2023-01-19,Carrot,28.27,Thiruvanmiyur,Farmer C
+2023-01-19,Cabbage,14.22,Adyar,Farmer G
+2023-01-19,Spinach,11.97,Potheri,Farmer I
+2023-01-19,Cauliflower,21.85,Potheri,Farmer J
+2023-01-19,Broccoli,30.56,Velachery,Farmer F
+2023-01-19,Eggplant,27.67,Kodambakkam,Farmer G
+2023-01-19,Capsicum,37.51,Kodambakkam,Farmer G
+2023-01-20,Tomato,17.66,Potheri,Farmer D
+2023-01-20,Potato,10.94,Chromepet,Farmer H
+2023-01-20,Onion,28.51,Thiruvanmiyur,Farmer H
+2023-01-20,Carrot,27.13,Guindy,Farmer D
+2023-01-20,Cabbage,22.23,Tambaram,Farmer I
+2023-01-20,Spinach,14.02,Adyar,Farmer G
+2023-01-20,Cauliflower,24.43,Chromepet,Farmer A
+2023-01-20,Broccoli,37.96,Thiruvanmiyur,Farmer E
+2023-01-20,Eggplant,24.3,Potheri,Farmer D
+2023-01-20,Capsicum,36.04,Velachery,Farmer A
+2023-01-21,Tomato,19.31,Adyar,Farmer F
+2023-01-21,Potato,19.63,Thiruvanmiyur,Farmer A
+2023-01-21,Onion,26.88,Thiruvanmiyur,Farmer E
+2023-01-21,Carrot,26.62,Guindy,Farmer I
+2023-01-21,Cabbage,21.97,Potheri,Farmer E
+2023-01-21,Spinach,11.62,Tambaram,Farmer G
+2023-01-21,Cauliflower,19.22,Chromepet,Farmer E
+2023-01-21,Broccoli,33.77,Anna Nagar,Farmer G
+2023-01-21,Eggplant,24.1,Adyar,Farmer A
+2023-01-21,Capsicum,37.81,Chromepet,Farmer D
+2023-01-22,Tomato,24.95,Potheri,Farmer H
+2023-01-22,Potato,18.52,Anna Nagar,Farmer C
+2023-01-22,Onion,29.95,Tambaram,Farmer G
+2023-01-22,Carrot,21.31,Anna Nagar,Farmer E
+2023-01-22,Cabbage,20.62,Chromepet,Farmer H
+2023-01-22,Spinach,5.03,Velachery,Farmer C
+2023-01-22,Cauliflower,23.22,T. Nagar,Farmer B
+2023-01-22,Broccoli,30.68,Potheri,Farmer A
+2023-01-22,Eggplant,30.81,Adyar,Farmer E
+2023-01-22,Capsicum,38.58,Potheri,Farmer H
+2023-01-23,Tomato,17.68,Kodambakkam,Farmer C
+2023-01-23,Potato,12.1,Kodambakkam,Farmer E
+2023-01-23,Onion,33.9,Adyar,Farmer B
+2023-01-23,Carrot,20.33,Adyar,Farmer A
+2023-01-23,Cabbage,14.87,Kodambakkam,Farmer G
+2023-01-23,Spinach,12.64,Tambaram,Farmer E
+2023-01-23,Cauliflower,18.42,Potheri,Farmer A
+2023-01-23,Broccoli,33.97,Adyar,Farmer I
+2023-01-23,Eggplant,26.07,Velachery,Farmer I
+2023-01-23,Capsicum,35.45,Thiruvanmiyur,Farmer I
+2023-01-24,Tomato,17.55,Adyar,Farmer D
+2023-01-24,Potato,18.25,Velachery,Farmer A
+2023-01-24,Onion,28.14,T. Nagar,Farmer G
+2023-01-24,Carrot,26.75,Guindy,Farmer B
+2023-01-24,Cabbage,16.68,Potheri,Farmer I
+2023-01-24,Spinach,12.66,Anna Nagar,Farmer E
+2023-01-24,Cauliflower,18.07,Thiruvanmiyur,Farmer J
+2023-01-24,Broccoli,34.93,Adyar,Farmer I
+2023-01-24,Eggplant,31.81,Anna Nagar,Farmer J
+2023-01-24,Capsicum,39.97,Velachery,Farmer D
+2023-01-25,Tomato,22.3,Adyar,Farmer J
+2023-01-25,Potato,10.28,Thiruvanmiyur,Farmer D
+2023-01-25,Onion,29.88,Anna Nagar,Farmer H
+2023-01-25,Carrot,21.97,Potheri,Farmer C
+2023-01-25,Cabbage,16.78,Potheri,Farmer J
+2023-01-25,Spinach,10.31,Potheri,Farmer B
+2023-01-25,Cauliflower,24.21,Tambaram,Farmer I
+2023-01-25,Broccoli,39.18,Tambaram,Farmer F
+2023-01-25,Eggplant,29.38,Tambaram,Farmer F
+2023-01-25,Capsicum,43.02,Kodambakkam,Farmer C
+2023-01-26,Tomato,19.43,T. Nagar,Farmer F
+2023-01-26,Potato,12.0,Anna Nagar,Farmer J
+2023-01-26,Onion,34.93,Kodambakkam,Farmer I
+2023-01-26,Carrot,23.44,Chromepet,Farmer D
+2023-01-26,Cabbage,14.81,Potheri,Farmer F
+2023-01-26,Spinach,7.67,Anna Nagar,Farmer J
+2023-01-26,Cauliflower,26.88,Chromepet,Farmer I
+2023-01-26,Broccoli,32.38,Velachery,Farmer B
+2023-01-26,Eggplant,24.52,Tambaram,Farmer A
+2023-01-26,Capsicum,44.69,Velachery,Farmer E
+2023-01-27,Tomato,18.77,Guindy,Farmer G
+2023-01-27,Potato,11.58,Thiruvanmiyur,Farmer J
+2023-01-27,Onion,28.83,Thiruvanmiyur,Farmer F
+2023-01-27,Carrot,28.24,Adyar,Farmer F
+2023-01-27,Cabbage,21.81,Guindy,Farmer E
+2023-01-27,Spinach,12.28,Tambaram,Farmer J
+2023-01-27,Cauliflower,17.02,Guindy,Farmer E
+2023-01-27,Broccoli,30.85,Thiruvanmiyur,Farmer J
+2023-01-27,Eggplant,30.54,Velachery,Farmer I
+2023-01-27,Capsicum,35.87,T. Nagar,Farmer B
+2023-01-28,Tomato,21.83,Chromepet,Farmer D
+2023-01-28,Potato,19.73,Tambaram,Farmer A
+2023-01-28,Onion,28.09,Adyar,Farmer D
+2023-01-28,Carrot,23.03,Velachery,Farmer A
+2023-01-28,Cabbage,19.63,Adyar,Farmer I
+2023-01-28,Spinach,5.86,Guindy,Farmer F
+2023-01-28,Cauliflower,17.01,Guindy,Farmer B
+2023-01-28,Broccoli,33.05,Chromepet,Farmer J
+2023-01-28,Eggplant,29.54,Tambaram,Farmer A
+2023-01-28,Capsicum,39.97,Potheri,Farmer H
+2023-01-29,Tomato,19.54,Guindy,Farmer E
+2023-01-29,Potato,19.7,Potheri,Farmer J
+2023-01-29,Onion,34.16,Guindy,Farmer D
+2023-01-29,Carrot,22.11,Adyar,Farmer A
+2023-01-29,Cabbage,14.09,Potheri,Farmer I
+2023-01-29,Spinach,11.18,T. Nagar,Farmer F
+2023-01-29,Cauliflower,24.25,Velachery,Farmer B
+2023-01-29,Broccoli,38.09,Kodambakkam,Farmer G
+2023-01-29,Eggplant,30.01,Potheri,Farmer E
+2023-01-29,Capsicum,44.34,Anna Nagar,Farmer B
+2023-01-30,Tomato,16.83,Guindy,Farmer D
+2023-01-30,Potato,16.25,Potheri,Farmer J
+2023-01-30,Onion,31.71,T. Nagar,Farmer A
+2023-01-30,Carrot,24.14,Guindy,Farmer A
+2023-01-30,Cabbage,15.64,Potheri,Farmer C
+2023-01-30,Spinach,6.82,Velachery,Farmer D
+2023-01-30,Cauliflower,17.95,Thiruvanmiyur,Farmer A
+2023-01-30,Broccoli,31.19,Tambaram,Farmer C
+2023-01-30,Eggplant,30.89,Potheri,Farmer E
+2023-01-30,Capsicum,38.7,Guindy,Farmer F
+2023-01-31,Tomato,23.48,Kodambakkam,Farmer D
+2023-01-31,Potato,15.8,T. Nagar,Farmer B
+2023-01-31,Onion,31.54,Kodambakkam,Farmer C
+2023-01-31,Carrot,28.01,Potheri,Farmer B
+2023-01-31,Cabbage,13.56,Adyar,Farmer J
+2023-01-31,Spinach,12.77,Kodambakkam,Farmer F
+2023-01-31,Cauliflower,23.79,Guindy,Farmer H
+2023-01-31,Broccoli,33.78,Kodambakkam,Farmer J
+2023-01-31,Eggplant,27.18,Tambaram,Farmer F
+2023-01-31,Capsicum,41.31,Anna Nagar,Farmer A
+2023-02-01,Tomato,18.02,Velachery,Farmer E
+2023-02-01,Potato,19.43,Guindy,Farmer A
+2023-02-01,Onion,31.36,Potheri,Farmer F
+2023-02-01,Carrot,27.55,Guindy,Farmer G
+2023-02-01,Cabbage,14.83,Tambaram,Farmer F
+2023-02-01,Spinach,12.08,Potheri,Farmer I
+2023-02-01,Cauliflower,24.89,Kodambakkam,Farmer G
+2023-02-01,Broccoli,39.56,Potheri,Farmer D
+2023-02-01,Eggplant,29.92,T. Nagar,Farmer I
+2023-02-01,Capsicum,39.39,Kodambakkam,Farmer B
+2023-02-02,Tomato,21.24,Adyar,Farmer I
+2023-02-02,Potato,11.81,Adyar,Farmer F
+2023-02-02,Onion,33.27,T. Nagar,Farmer B
+2023-02-02,Carrot,25.0,Thiruvanmiyur,Farmer B
+2023-02-02,Cabbage,19.38,Potheri,Farmer H
+2023-02-02,Spinach,7.17,Thiruvanmiyur,Farmer C
+2023-02-02,Cauliflower,17.28,Adyar,Farmer C
+2023-02-02,Broccoli,31.23,Chromepet,Farmer I
+2023-02-02,Eggplant,23.63,Guindy,Farmer D
+2023-02-02,Capsicum,42.39,T. Nagar,Farmer H
+2023-02-03,Tomato,18.91,Kodambakkam,Farmer G
+2023-02-03,Potato,18.7,Chromepet,Farmer H
+2023-02-03,Onion,32.31,Tambaram,Farmer F
+2023-02-03,Carrot,21.21,Adyar,Farmer G
+2023-02-03,Cabbage,16.42,Chromepet,Farmer B
+2023-02-03,Spinach,7.37,Potheri,Farmer G
+2023-02-03,Cauliflower,17.31,Tambaram,Farmer H
+2023-02-03,Broccoli,38.33,Tambaram,Farmer C
+2023-02-03,Eggplant,32.19,Thiruvanmiyur,Farmer D
+2023-02-03,Capsicum,42.74,Chromepet,Farmer E
+2023-02-04,Tomato,16.47,Thiruvanmiyur,Farmer D
+2023-02-04,Potato,12.56,Thiruvanmiyur,Farmer I
+2023-02-04,Onion,33.76,Kodambakkam,Farmer I
+2023-02-04,Carrot,27.01,Thiruvanmiyur,Farmer E
+2023-02-04,Cabbage,18.94,Kodambakkam,Farmer A
+2023-02-04,Spinach,7.15,Guindy,Farmer G
+2023-02-04,Cauliflower,18.44,T. Nagar,Farmer B
+2023-02-04,Broccoli,32.71,Velachery,Farmer E
+2023-02-04,Eggplant,31.15,Guindy,Farmer G
+2023-02-04,Capsicum,39.77,Adyar,Farmer D
+2023-02-05,Tomato,22.43,Potheri,Farmer G
+2023-02-05,Potato,16.11,Potheri,Farmer C
+2023-02-05,Onion,28.08,Thiruvanmiyur,Farmer I
+2023-02-05,Carrot,20.91,Adyar,Farmer C
+2023-02-05,Cabbage,13.24,Adyar,Farmer H
+2023-02-05,Spinach,7.16,Adyar,Farmer G
+2023-02-05,Cauliflower,21.1,Kodambakkam,Farmer J
+2023-02-05,Broccoli,35.65,Potheri,Farmer E
+2023-02-05,Eggplant,29.2,Potheri,Farmer B
+2023-02-05,Capsicum,39.64,Velachery,Farmer J
+2023-02-06,Tomato,20.78,T. Nagar,Farmer A
+2023-02-06,Potato,19.06,Thiruvanmiyur,Farmer I
+2023-02-06,Onion,30.38,T. Nagar,Farmer I
+2023-02-06,Carrot,22.75,Kodambakkam,Farmer J
+2023-02-06,Cabbage,17.23,Guindy,Farmer E
+2023-02-06,Spinach,9.32,Thiruvanmiyur,Farmer H
+2023-02-06,Cauliflower,19.57,Thiruvanmiyur,Farmer H
+2023-02-06,Broccoli,31.86,Potheri,Farmer A
+2023-02-06,Eggplant,25.47,T. Nagar,Farmer H
+2023-02-06,Capsicum,41.9,Tambaram,Farmer C
+2023-02-07,Tomato,22.81,Guindy,Farmer J
+2023-02-07,Potato,18.21,T. Nagar,Farmer G
+2023-02-07,Onion,34.72,T. Nagar,Farmer F
+2023-02-07,Carrot,25.86,Thiruvanmiyur,Farmer H
+2023-02-07,Cabbage,21.94,Guindy,Farmer C
+2023-02-07,Spinach,12.0,Chromepet,Farmer G
+2023-02-07,Cauliflower,21.28,Anna Nagar,Farmer E
+2023-02-07,Broccoli,39.87,Kodambakkam,Farmer J
+2023-02-07,Eggplant,28.87,Chromepet,Farmer J
+2023-02-07,Capsicum,35.28,Potheri,Farmer G
+2023-02-08,Tomato,23.5,Potheri,Farmer D
+2023-02-08,Potato,15.82,Kodambakkam,Farmer B
+2023-02-08,Onion,27.85,Kodambakkam,Farmer I
+2023-02-08,Carrot,28.5,Kodambakkam,Farmer E
+2023-02-08,Cabbage,17.77,Guindy,Farmer J
+2023-02-08,Spinach,11.49,Chromepet,Farmer E
+2023-02-08,Cauliflower,18.94,T. Nagar,Farmer C
+2023-02-08,Broccoli,38.11,Potheri,Farmer A
+2023-02-08,Eggplant,32.21,Kodambakkam,Farmer I
+2023-02-08,Capsicum,36.07,Anna Nagar,Farmer F
+2023-02-09,Tomato,16.18,T. Nagar,Farmer C
+2023-02-09,Potato,14.03,T. Nagar,Farmer H
+2023-02-09,Onion,26.68,Anna Nagar,Farmer A
+2023-02-09,Carrot,29.05,Thiruvanmiyur,Farmer B
+2023-02-09,Cabbage,16.39,Thiruvanmiyur,Farmer A
+2023-02-09,Spinach,14.05,Velachery,Farmer J
+2023-02-09,Cauliflower,17.26,Chromepet,Farmer B
+2023-02-09,Broccoli,36.75,Potheri,Farmer G
+2023-02-09,Eggplant,31.87,Adyar,Farmer C
+2023-02-09,Capsicum,36.7,Tambaram,Farmer D
+2023-02-10,Tomato,23.43,Guindy,Farmer A
+2023-02-10,Potato,10.76,Thiruvanmiyur,Farmer J
+2023-02-10,Onion,29.05,Velachery,Farmer B
+2023-02-10,Carrot,23.33,Chromepet,Farmer G
+2023-02-10,Cabbage,16.61,Tambaram,Farmer J
+2023-02-10,Spinach,13.69,T. Nagar,Farmer B
+2023-02-10,Cauliflower,23.01,Guindy,Farmer J
+2023-02-10,Broccoli,34.16,Adyar,Farmer F
+2023-02-10,Eggplant,29.96,Chromepet,Farmer C
+2023-02-10,Capsicum,37.66,Anna Nagar,Farmer H
+2023-02-11,Tomato,21.37,Adyar,Farmer F
+2023-02-11,Potato,14.67,Adyar,Farmer I
+2023-02-11,Onion,29.03,T. Nagar,Farmer J
+2023-02-11,Carrot,22.92,Tambaram,Farmer A
+2023-02-11,Cabbage,15.63,T. Nagar,Farmer E
+2023-02-11,Spinach,11.68,T. Nagar,Farmer C
+2023-02-11,Cauliflower,24.11,Tambaram,Farmer I
+2023-02-11,Broccoli,35.06,Chromepet,Farmer A
+2023-02-11,Eggplant,28.04,Tambaram,Farmer D
+2023-02-11,Capsicum,40.96,Anna Nagar,Farmer A
+2023-02-12,Tomato,23.08,Guindy,Farmer H
+2023-02-12,Potato,13.55,T. Nagar,Farmer C
+2023-02-12,Onion,27.82,Thiruvanmiyur,Farmer I
+2023-02-12,Carrot,24.72,Anna Nagar,Farmer E
+2023-02-12,Cabbage,15.78,T. Nagar,Farmer C
+2023-02-12,Spinach,10.87,Velachery,Farmer A
+2023-02-12,Cauliflower,20.06,Anna Nagar,Farmer C
+2023-02-12,Broccoli,36.48,T. Nagar,Farmer H
+2023-02-12,Eggplant,25.67,Kodambakkam,Farmer H
+2023-02-12,Capsicum,40.56,Potheri,Farmer I
+2023-02-13,Tomato,19.37,Anna Nagar,Farmer D
+2023-02-13,Potato,12.71,Chromepet,Farmer E
+2023-02-13,Onion,25.71,Tambaram,Farmer J
+2023-02-13,Carrot,29.93,Kodambakkam,Farmer G
+2023-02-13,Cabbage,18.18,Potheri,Farmer F
+2023-02-13,Spinach,14.17,T. Nagar,Farmer H
+2023-02-13,Cauliflower,25.6,Guindy,Farmer A
+2023-02-13,Broccoli,37.67,Chromepet,Farmer C
+2023-02-13,Eggplant,29.98,Kodambakkam,Farmer F
+2023-02-13,Capsicum,42.75,Potheri,Farmer D
+2023-02-14,Tomato,16.07,Adyar,Farmer C
+2023-02-14,Potato,13.08,Tambaram,Farmer H
+2023-02-14,Onion,30.14,Potheri,Farmer D
+2023-02-14,Carrot,22.37,Tambaram,Farmer J
+2023-02-14,Cabbage,17.02,T. Nagar,Farmer A
+2023-02-14,Spinach,5.35,Kodambakkam,Farmer C
+2023-02-14,Cauliflower,25.17,Velachery,Farmer H
+2023-02-14,Broccoli,32.12,Anna Nagar,Farmer E
+2023-02-14,Eggplant,28.75,Adyar,Farmer F
+2023-02-14,Capsicum,35.75,Chromepet,Farmer H
+2023-02-15,Tomato,15.54,Tambaram,Farmer D
+2023-02-15,Potato,10.26,Potheri,Farmer I
+2023-02-15,Onion,29.61,Guindy,Farmer E
+2023-02-15,Carrot,22.28,Thiruvanmiyur,Farmer C
+2023-02-15,Cabbage,18.72,Potheri,Farmer H
+2023-02-15,Spinach,8.44,Velachery,Farmer G
+2023-02-15,Cauliflower,24.07,Kodambakkam,Farmer A
+2023-02-15,Broccoli,36.35,Kodambakkam,Farmer J
+2023-02-15,Eggplant,23.01,T. Nagar,Farmer E
+2023-02-15,Capsicum,37.04,Chromepet,Farmer G
+2023-02-16,Tomato,23.91,Kodambakkam,Farmer A
+2023-02-16,Potato,14.64,Thiruvanmiyur,Farmer D
+2023-02-16,Onion,29.18,T. Nagar,Farmer G
+2023-02-16,Carrot,20.52,Tambaram,Farmer H
+2023-02-16,Cabbage,13.97,Anna Nagar,Farmer H
+2023-02-16,Spinach,10.14,Potheri,Farmer B
+2023-02-16,Cauliflower,22.56,Kodambakkam,Farmer C
+2023-02-16,Broccoli,38.22,Chromepet,Farmer E
+2023-02-16,Eggplant,28.27,Velachery,Farmer I
+2023-02-16,Capsicum,42.36,Potheri,Farmer G
+2023-02-17,Tomato,19.25,Guindy,Farmer A
+2023-02-17,Potato,10.45,Guindy,Farmer J
+2023-02-17,Onion,32.96,Anna Nagar,Farmer C
+2023-02-17,Carrot,28.5,Kodambakkam,Farmer D
+2023-02-17,Cabbage,21.75,Chromepet,Farmer J
+2023-02-17,Spinach,9.5,Anna Nagar,Farmer C
+2023-02-17,Cauliflower,25.82,Anna Nagar,Farmer A
+2023-02-17,Broccoli,33.53,Anna Nagar,Farmer G
+2023-02-17,Eggplant,27.02,Guindy,Farmer C
+2023-02-17,Capsicum,43.95,Anna Nagar,Farmer H
+2023-02-18,Tomato,23.02,Chromepet,Farmer D
+2023-02-18,Potato,14.45,Kodambakkam,Farmer B
+2023-02-18,Onion,33.13,Velachery,Farmer I
+2023-02-18,Carrot,27.02,Chromepet,Farmer F
+2023-02-18,Cabbage,22.56,Anna Nagar,Farmer D
+2023-02-18,Spinach,6.26,Tambaram,Farmer D
+2023-02-18,Cauliflower,24.16,Anna Nagar,Farmer A
+2023-02-18,Broccoli,39.63,Chromepet,Farmer H
+2023-02-18,Eggplant,23.42,Velachery,Farmer C
+2023-02-18,Capsicum,37.85,Adyar,Farmer G
+2023-02-19,Tomato,21.31,Kodambakkam,Farmer J
+2023-02-19,Potato,19.59,Guindy,Farmer C
+2023-02-19,Onion,30.41,T. Nagar,Farmer B
+2023-02-19,Carrot,25.76,Chromepet,Farmer H
+2023-02-19,Cabbage,22.46,Kodambakkam,Farmer F
+2023-02-19,Spinach,6.83,Velachery,Farmer I
+2023-02-19,Cauliflower,17.33,Thiruvanmiyur,Farmer E
+2023-02-19,Broccoli,30.87,Thiruvanmiyur,Farmer D
+2023-02-19,Eggplant,23.56,Adyar,Farmer D
+2023-02-19,Capsicum,36.4,T. Nagar,Farmer D
+2023-02-20,Tomato,17.05,Adyar,Farmer D
+2023-02-20,Potato,18.33,T. Nagar,Farmer E
+2023-02-20,Onion,28.18,Guindy,Farmer H
+2023-02-20,Carrot,21.37,Velachery,Farmer E
+2023-02-20,Cabbage,18.07,Guindy,Farmer H
+2023-02-20,Spinach,6.5,Adyar,Farmer D
+2023-02-20,Cauliflower,24.13,Adyar,Farmer B
+2023-02-20,Broccoli,38.04,Tambaram,Farmer G
+2023-02-20,Eggplant,31.79,Guindy,Farmer C
+2023-02-20,Capsicum,42.78,T. Nagar,Farmer A
+2023-02-21,Tomato,20.67,Tambaram,Farmer H
+2023-02-21,Potato,12.32,Velachery,Farmer J
+2023-02-21,Onion,30.51,Guindy,Farmer G
+2023-02-21,Carrot,29.3,Adyar,Farmer C
+2023-02-21,Cabbage,14.79,Kodambakkam,Farmer G
+2023-02-21,Spinach,8.45,Guindy,Farmer H
+2023-02-21,Cauliflower,26.52,Thiruvanmiyur,Farmer B
+2023-02-21,Broccoli,34.29,Adyar,Farmer H
+2023-02-21,Eggplant,25.64,T. Nagar,Farmer A
+2023-02-21,Capsicum,38.89,Anna Nagar,Farmer E
+2023-02-22,Tomato,19.37,Potheri,Farmer I
+2023-02-22,Potato,13.56,Anna Nagar,Farmer G
+2023-02-22,Onion,33.05,Chromepet,Farmer C
+2023-02-22,Carrot,27.49,Thiruvanmiyur,Farmer C
+2023-02-22,Cabbage,21.74,Guindy,Farmer D
+2023-02-22,Spinach,11.36,Thiruvanmiyur,Farmer D
+2023-02-22,Cauliflower,24.03,Velachery,Farmer H
+2023-02-22,Broccoli,37.85,T. Nagar,Farmer A
+2023-02-22,Eggplant,27.03,Chromepet,Farmer A
+2023-02-22,Capsicum,43.14,Adyar,Farmer A
+2023-02-23,Tomato,20.42,Adyar,Farmer A
+2023-02-23,Potato,17.17,Potheri,Farmer F
+2023-02-23,Onion,32.16,Chromepet,Farmer J
+2023-02-23,Carrot,24.32,Chromepet,Farmer H
+2023-02-23,Cabbage,19.55,Guindy,Farmer G
+2023-02-23,Spinach,10.62,Thiruvanmiyur,Farmer B
+2023-02-23,Cauliflower,26.26,T. Nagar,Farmer B
+2023-02-23,Broccoli,36.41,Potheri,Farmer D
+2023-02-23,Eggplant,31.05,Potheri,Farmer F
+2023-02-23,Capsicum,35.43,Anna Nagar,Farmer E
+2023-02-24,Tomato,21.16,Anna Nagar,Farmer E
+2023-02-24,Potato,15.31,Tambaram,Farmer A
+2023-02-24,Onion,27.15,Anna Nagar,Farmer E
+2023-02-24,Carrot,20.17,Guindy,Farmer E
+2023-02-24,Cabbage,16.57,Velachery,Farmer H
+2023-02-24,Spinach,5.16,Chromepet,Farmer I
+2023-02-24,Cauliflower,23.62,Chromepet,Farmer B
+2023-02-24,Broccoli,31.1,Velachery,Farmer I
+2023-02-24,Eggplant,28.21,Guindy,Farmer G
+2023-02-24,Capsicum,37.97,Guindy,Farmer G
+2023-02-25,Tomato,18.42,Adyar,Farmer B
+2023-02-25,Potato,13.67,Anna Nagar,Farmer H
+2023-02-25,Onion,33.02,Thiruvanmiyur,Farmer F
+2023-02-25,Carrot,21.95,Chromepet,Farmer D
+2023-02-25,Cabbage,20.27,Potheri,Farmer G
+2023-02-25,Spinach,5.94,Thiruvanmiyur,Farmer E
+2023-02-25,Cauliflower,24.46,Anna Nagar,Farmer H
+2023-02-25,Broccoli,33.84,T. Nagar,Farmer C
+2023-02-25,Eggplant,31.52,Thiruvanmiyur,Farmer G
+2023-02-25,Capsicum,37.64,Anna Nagar,Farmer G
+2023-02-26,Tomato,16.69,Guindy,Farmer D
+2023-02-26,Potato,10.31,Velachery,Farmer B
+2023-02-26,Onion,30.76,Thiruvanmiyur,Farmer G
+2023-02-26,Carrot,26.88,Anna Nagar,Farmer I
+2023-02-26,Cabbage,18.12,Thiruvanmiyur,Farmer C
+2023-02-26,Spinach,14.2,Adyar,Farmer A
+2023-02-26,Cauliflower,19.31,T. Nagar,Farmer D
+2023-02-26,Broccoli,32.24,Adyar,Farmer J
+2023-02-26,Eggplant,32.33,Kodambakkam,Farmer C
+2023-02-26,Capsicum,43.77,Guindy,Farmer I
+2023-02-27,Tomato,21.76,Thiruvanmiyur,Farmer J
+2023-02-27,Potato,16.73,T. Nagar,Farmer C
+2023-02-27,Onion,31.51,Anna Nagar,Farmer C
+2023-02-27,Carrot,22.36,Tambaram,Farmer B
+2023-02-27,Cabbage,20.65,Potheri,Farmer I
+2023-02-27,Spinach,14.03,Velachery,Farmer H
+2023-02-27,Cauliflower,25.6,Chromepet,Farmer F
+2023-02-27,Broccoli,31.07,Potheri,Farmer C
+2023-02-27,Eggplant,23.61,Adyar,Farmer A
+2023-02-27,Capsicum,37.72,T. Nagar,Farmer G
+2023-02-28,Tomato,18.83,Anna Nagar,Farmer F
+2023-02-28,Potato,15.2,Adyar,Farmer B
+2023-02-28,Onion,31.95,Thiruvanmiyur,Farmer E
+2023-02-28,Carrot,29.06,Anna Nagar,Farmer D
+2023-02-28,Cabbage,17.67,Tambaram,Farmer I
+2023-02-28,Spinach,5.56,T. Nagar,Farmer B
+2023-02-28,Cauliflower,20.07,Anna Nagar,Farmer C
+2023-02-28,Broccoli,38.73,Thiruvanmiyur,Farmer B
+2023-02-28,Eggplant,30.39,Anna Nagar,Farmer G
+2023-02-28,Capsicum,40.94,Chromepet,Farmer F
+2023-03-01,Tomato,20.95,T. Nagar,Farmer E
+2023-03-01,Potato,10.2,Velachery,Farmer A
+2023-03-01,Onion,28.63,Potheri,Farmer D
+2023-03-01,Carrot,28.55,T. Nagar,Farmer J
+2023-03-01,Cabbage,17.98,Potheri,Farmer C
+2023-03-01,Spinach,7.35,T. Nagar,Farmer F
+2023-03-01,Cauliflower,21.27,Kodambakkam,Farmer A
+2023-03-01,Broccoli,35.79,Anna Nagar,Farmer F
+2023-03-01,Eggplant,23.74,Velachery,Farmer B
+2023-03-01,Capsicum,41.86,Guindy,Farmer B
+2023-03-02,Tomato,20.75,Anna Nagar,Farmer G
+2023-03-02,Potato,13.81,Potheri,Farmer J
+2023-03-02,Onion,28.2,Potheri,Farmer C
+2023-03-02,Carrot,24.71,Kodambakkam,Farmer I
+2023-03-02,Cabbage,19.57,Tambaram,Farmer B
+2023-03-02,Spinach,12.67,Anna Nagar,Farmer E
+2023-03-02,Cauliflower,17.84,Velachery,Farmer J
+2023-03-02,Broccoli,34.27,Guindy,Farmer C
+2023-03-02,Eggplant,32.97,Velachery,Farmer C
+2023-03-02,Capsicum,41.29,Anna Nagar,Farmer B
+2023-03-03,Tomato,19.89,T. Nagar,Farmer C
+2023-03-03,Potato,10.2,Thiruvanmiyur,Farmer F
+2023-03-03,Onion,31.15,Chromepet,Farmer J
+2023-03-03,Carrot,29.25,Velachery,Farmer G
+2023-03-03,Cabbage,15.24,Kodambakkam,Farmer J
+2023-03-03,Spinach,8.26,Chromepet,Farmer B
+2023-03-03,Cauliflower,26.54,Thiruvanmiyur,Farmer E
+2023-03-03,Broccoli,38.05,Thiruvanmiyur,Farmer I
+2023-03-03,Eggplant,27.12,Tambaram,Farmer G
+2023-03-03,Capsicum,41.77,Velachery,Farmer G
+2023-03-04,Tomato,19.32,Guindy,Farmer J
+2023-03-04,Potato,10.23,Anna Nagar,Farmer B
+2023-03-04,Onion,29.19,T. Nagar,Farmer E
+2023-03-04,Carrot,27.89,Tambaram,Farmer B
+2023-03-04,Cabbage,15.01,Velachery,Farmer E
+2023-03-04,Spinach,9.39,Velachery,Farmer B
+2023-03-04,Cauliflower,24.73,Thiruvanmiyur,Farmer E
+2023-03-04,Broccoli,34.06,Tambaram,Farmer C
+2023-03-04,Eggplant,24.01,Thiruvanmiyur,Farmer I
+2023-03-04,Capsicum,40.8,Kodambakkam,Farmer J
+2023-03-05,Tomato,15.31,Adyar,Farmer B
+2023-03-05,Potato,15.52,Adyar,Farmer A
+2023-03-05,Onion,32.08,Kodambakkam,Farmer C
+2023-03-05,Carrot,29.06,Potheri,Farmer E
+2023-03-05,Cabbage,17.56,Velachery,Farmer D
+2023-03-05,Spinach,10.92,Kodambakkam,Farmer E
+2023-03-05,Cauliflower,19.07,Adyar,Farmer C
+2023-03-05,Broccoli,36.13,T. Nagar,Farmer E
+2023-03-05,Eggplant,29.06,T. Nagar,Farmer B
+2023-03-05,Capsicum,40.45,T. Nagar,Farmer A
+2023-03-06,Tomato,24.51,Adyar,Farmer B
+2023-03-06,Potato,16.1,Guindy,Farmer C
+2023-03-06,Onion,33.87,Thiruvanmiyur,Farmer B
+2023-03-06,Carrot,28.37,Thiruvanmiyur,Farmer E
+2023-03-06,Cabbage,17.69,T. Nagar,Farmer B
+2023-03-06,Spinach,5.12,Thiruvanmiyur,Farmer A
+2023-03-06,Cauliflower,23.86,Adyar,Farmer H
+2023-03-06,Broccoli,34.92,Guindy,Farmer D
+2023-03-06,Eggplant,23.45,Anna Nagar,Farmer C
+2023-03-06,Capsicum,43.32,Velachery,Farmer I
+2023-03-07,Tomato,24.08,Adyar,Farmer I
+2023-03-07,Potato,18.19,Guindy,Farmer F
+2023-03-07,Onion,26.38,Velachery,Farmer B
+2023-03-07,Carrot,28.68,Adyar,Farmer B
+2023-03-07,Cabbage,21.41,Potheri,Farmer E
+2023-03-07,Spinach,14.97,Thiruvanmiyur,Farmer H
+2023-03-07,Cauliflower,25.01,Thiruvanmiyur,Farmer J
+2023-03-07,Broccoli,37.93,Potheri,Farmer F
+2023-03-07,Eggplant,27.86,Anna Nagar,Farmer A
+2023-03-07,Capsicum,43.29,Chromepet,Farmer J
+2023-03-08,Tomato,22.53,Anna Nagar,Farmer H
+2023-03-08,Potato,16.34,Thiruvanmiyur,Farmer I
+2023-03-08,Onion,29.07,Chromepet,Farmer G
+2023-03-08,Carrot,22.31,T. Nagar,Farmer A
+2023-03-08,Cabbage,19.27,Kodambakkam,Farmer I
+2023-03-08,Spinach,12.77,Tambaram,Farmer J
+2023-03-08,Cauliflower,22.06,Thiruvanmiyur,Farmer F
+2023-03-08,Broccoli,31.21,Anna Nagar,Farmer B
+2023-03-08,Eggplant,32.66,Tambaram,Farmer D
+2023-03-08,Capsicum,38.02,Chromepet,Farmer E
+2023-03-09,Tomato,18.53,Potheri,Farmer A
+2023-03-09,Potato,18.84,Velachery,Farmer D
+2023-03-09,Onion,27.04,Tambaram,Farmer F
+2023-03-09,Carrot,25.39,Tambaram,Farmer J
+2023-03-09,Cabbage,17.05,Kodambakkam,Farmer C
+2023-03-09,Spinach,14.24,Anna Nagar,Farmer F
+2023-03-09,Cauliflower,20.89,Guindy,Farmer H
+2023-03-09,Broccoli,33.25,Velachery,Farmer H
+2023-03-09,Eggplant,26.64,Potheri,Farmer J
+2023-03-09,Capsicum,36.26,Guindy,Farmer D
+2023-03-10,Tomato,24.56,Adyar,Farmer G
+2023-03-10,Potato,12.16,Adyar,Farmer C
+2023-03-10,Onion,32.36,Guindy,Farmer F
+2023-03-10,Carrot,27.98,Guindy,Farmer H
+2023-03-10,Cabbage,14.38,Potheri,Farmer B
+2023-03-10,Spinach,10.16,T. Nagar,Farmer I
+2023-03-10,Cauliflower,24.42,Velachery,Farmer I
+2023-03-10,Broccoli,38.22,Guindy,Farmer B
+2023-03-10,Eggplant,25.58,Chromepet,Farmer A
+2023-03-10,Capsicum,40.93,Velachery,Farmer A
+2023-03-11,Tomato,24.55,Thiruvanmiyur,Farmer G
+2023-03-11,Potato,11.95,Adyar,Farmer C
+2023-03-11,Onion,25.01,Kodambakkam,Farmer J
+2023-03-11,Carrot,29.42,Guindy,Farmer B
+2023-03-11,Cabbage,20.32,Guindy,Farmer B
+2023-03-11,Spinach,12.44,Adyar,Farmer H
+2023-03-11,Cauliflower,17.3,Kodambakkam,Farmer B
+2023-03-11,Broccoli,36.37,Tambaram,Farmer I
+2023-03-11,Eggplant,30.48,Velachery,Farmer I
+2023-03-11,Capsicum,42.69,Anna Nagar,Farmer A
+2023-03-12,Tomato,23.33,Chromepet,Farmer F
+2023-03-12,Potato,15.34,Velachery,Farmer D
+2023-03-12,Onion,29.26,T. Nagar,Farmer J
+2023-03-12,Carrot,20.32,T. Nagar,Farmer B
+2023-03-12,Cabbage,20.1,Tambaram,Farmer J
+2023-03-12,Spinach,13.96,Guindy,Farmer C
+2023-03-12,Cauliflower,19.77,Velachery,Farmer A
+2023-03-12,Broccoli,36.55,Anna Nagar,Farmer H
+2023-03-12,Eggplant,24.29,Thiruvanmiyur,Farmer E
+2023-03-12,Capsicum,36.14,Anna Nagar,Farmer C
+2023-03-13,Tomato,15.17,Tambaram,Farmer H
+2023-03-13,Potato,15.8,Guindy,Farmer D
+2023-03-13,Onion,29.46,Thiruvanmiyur,Farmer E
+2023-03-13,Carrot,25.75,Velachery,Farmer D
+2023-03-13,Cabbage,22.01,Anna Nagar,Farmer C
+2023-03-13,Spinach,8.62,Adyar,Farmer G
+2023-03-13,Cauliflower,20.64,Adyar,Farmer J
+2023-03-13,Broccoli,36.94,Potheri,Farmer D
+2023-03-13,Eggplant,29.28,Kodambakkam,Farmer D
+2023-03-13,Capsicum,44.8,Velachery,Farmer I
+2023-03-14,Tomato,16.91,Guindy,Farmer H
+2023-03-14,Potato,16.6,Anna Nagar,Farmer C
+2023-03-14,Onion,34.51,Tambaram,Farmer D
+2023-03-14,Carrot,22.57,T. Nagar,Farmer I
+2023-03-14,Cabbage,18.68,Thiruvanmiyur,Farmer H
+2023-03-14,Spinach,10.74,Guindy,Farmer E
+2023-03-14,Cauliflower,22.92,Adyar,Farmer I
+2023-03-14,Broccoli,30.15,Velachery,Farmer C
+2023-03-14,Eggplant,27.59,Kodambakkam,Farmer E
+2023-03-14,Capsicum,38.25,Tambaram,Farmer G
+2023-03-15,Tomato,22.68,Guindy,Farmer H
+2023-03-15,Potato,17.25,Thiruvanmiyur,Farmer J
+2023-03-15,Onion,31.95,Kodambakkam,Farmer G
+2023-03-15,Carrot,20.39,Adyar,Farmer F
+2023-03-15,Cabbage,17.9,Chromepet,Farmer H
+2023-03-15,Spinach,5.33,Chromepet,Farmer I
+2023-03-15,Cauliflower,23.49,Velachery,Farmer D
+2023-03-15,Broccoli,32.6,Kodambakkam,Farmer B
+2023-03-15,Eggplant,25.5,T. Nagar,Farmer D
+2023-03-15,Capsicum,42.36,T. Nagar,Farmer E
+2023-03-16,Tomato,20.88,Thiruvanmiyur,Farmer E
+2023-03-16,Potato,11.24,Chromepet,Farmer G
+2023-03-16,Onion,32.14,Tambaram,Farmer B
+2023-03-16,Carrot,27.17,Potheri,Farmer H
+2023-03-16,Cabbage,19.11,Adyar,Farmer D
+2023-03-16,Spinach,11.71,Anna Nagar,Farmer E
+2023-03-16,Cauliflower,24.42,Potheri,Farmer J
+2023-03-16,Broccoli,37.13,Tambaram,Farmer H
+2023-03-16,Eggplant,31.45,Chromepet,Farmer B
+2023-03-16,Capsicum,41.03,Velachery,Farmer J
+2023-03-17,Tomato,18.09,Velachery,Farmer I
+2023-03-17,Potato,19.8,Kodambakkam,Farmer H
+2023-03-17,Onion,26.06,Guindy,Farmer B
+2023-03-17,Carrot,24.87,Guindy,Farmer I
+2023-03-17,Cabbage,22.17,Thiruvanmiyur,Farmer I
+2023-03-17,Spinach,13.84,Kodambakkam,Farmer E
+2023-03-17,Cauliflower,17.69,Thiruvanmiyur,Farmer J
+2023-03-17,Broccoli,37.29,Velachery,Farmer I
+2023-03-17,Eggplant,25.82,Velachery,Farmer I
+2023-03-17,Capsicum,37.04,Anna Nagar,Farmer J
+2023-03-18,Tomato,21.93,Potheri,Farmer C
+2023-03-18,Potato,19.39,Guindy,Farmer A
+2023-03-18,Onion,27.64,Kodambakkam,Farmer D
+2023-03-18,Carrot,26.24,Anna Nagar,Farmer I
+2023-03-18,Cabbage,21.76,Chromepet,Farmer C
+2023-03-18,Spinach,11.75,Chromepet,Farmer F
+2023-03-18,Cauliflower,22.1,Potheri,Farmer G
+2023-03-18,Broccoli,36.47,Anna Nagar,Farmer C
+2023-03-18,Eggplant,30.03,Anna Nagar,Farmer J
+2023-03-18,Capsicum,41.68,Kodambakkam,Farmer D
+2023-03-19,Tomato,16.64,Guindy,Farmer A
+2023-03-19,Potato,10.87,Adyar,Farmer H
+2023-03-19,Onion,33.03,Guindy,Farmer B
+2023-03-19,Carrot,22.46,Potheri,Farmer J
+2023-03-19,Cabbage,22.57,Anna Nagar,Farmer J
+2023-03-19,Spinach,9.0,Kodambakkam,Farmer D
+2023-03-19,Cauliflower,22.89,Adyar,Farmer H
+2023-03-19,Broccoli,32.89,Tambaram,Farmer C
+2023-03-19,Eggplant,28.03,Thiruvanmiyur,Farmer D
+2023-03-19,Capsicum,40.82,Chromepet,Farmer A
+2023-03-20,Tomato,17.26,Kodambakkam,Farmer G
+2023-03-20,Potato,12.11,Potheri,Farmer A
+2023-03-20,Onion,26.07,Kodambakkam,Farmer A
+2023-03-20,Carrot,22.26,Thiruvanmiyur,Farmer C
+2023-03-20,Cabbage,21.51,T. Nagar,Farmer E
+2023-03-20,Spinach,10.54,T. Nagar,Farmer I
+2023-03-20,Cauliflower,26.24,Velachery,Farmer H
+2023-03-20,Broccoli,33.65,T. Nagar,Farmer H
+2023-03-20,Eggplant,26.03,Kodambakkam,Farmer H
+2023-03-20,Capsicum,35.43,Tambaram,Farmer J
+2023-03-21,Tomato,22.64,Thiruvanmiyur,Farmer A
+2023-03-21,Potato,12.27,Anna Nagar,Farmer E
+2023-03-21,Onion,34.19,Anna Nagar,Farmer E
+2023-03-21,Carrot,24.33,Adyar,Farmer J
+2023-03-21,Cabbage,17.38,Thiruvanmiyur,Farmer E
+2023-03-21,Spinach,9.22,T. Nagar,Farmer F
+2023-03-21,Cauliflower,21.2,Chromepet,Farmer D
+2023-03-21,Broccoli,30.01,Guindy,Farmer J
+2023-03-21,Eggplant,24.68,Tambaram,Farmer F
+2023-03-21,Capsicum,38.67,Velachery,Farmer E
+2023-03-22,Tomato,20.58,Adyar,Farmer G
+2023-03-22,Potato,18.33,Thiruvanmiyur,Farmer J
+2023-03-22,Onion,25.46,Velachery,Farmer J
+2023-03-22,Carrot,29.63,T. Nagar,Farmer D
+2023-03-22,Cabbage,13.22,Potheri,Farmer A
+2023-03-22,Spinach,13.15,Kodambakkam,Farmer I
+2023-03-22,Cauliflower,18.81,Kodambakkam,Farmer A
+2023-03-22,Broccoli,36.66,Anna Nagar,Farmer B
+2023-03-22,Eggplant,28.59,Tambaram,Farmer F
+2023-03-22,Capsicum,37.07,Potheri,Farmer B
+2023-03-23,Tomato,18.26,Potheri,Farmer E
+2023-03-23,Potato,13.9,Anna Nagar,Farmer G
+2023-03-23,Onion,28.38,Chromepet,Farmer C
+2023-03-23,Carrot,29.2,Thiruvanmiyur,Farmer B
+2023-03-23,Cabbage,14.74,T. Nagar,Farmer J
+2023-03-23,Spinach,6.09,Potheri,Farmer E
+2023-03-23,Cauliflower,21.4,Chromepet,Farmer F
+2023-03-23,Broccoli,31.23,Potheri,Farmer G
+2023-03-23,Eggplant,31.05,Anna Nagar,Farmer J
+2023-03-23,Capsicum,37.91,Chromepet,Farmer G
+2023-03-24,Tomato,24.4,Potheri,Farmer J
+2023-03-24,Potato,10.55,Guindy,Farmer I
+2023-03-24,Onion,29.87,Tambaram,Farmer I
+2023-03-24,Carrot,27.32,Kodambakkam,Farmer D
+2023-03-24,Cabbage,13.22,Potheri,Farmer I
+2023-03-24,Spinach,7.28,Anna Nagar,Farmer F
+2023-03-24,Cauliflower,24.29,Thiruvanmiyur,Farmer C
+2023-03-24,Broccoli,30.18,Adyar,Farmer F
+2023-03-24,Eggplant,27.59,Anna Nagar,Farmer I
+2023-03-24,Capsicum,44.28,T. Nagar,Farmer D
+2023-03-25,Tomato,19.35,Adyar,Farmer F
+2023-03-25,Potato,14.88,Kodambakkam,Farmer D
+2023-03-25,Onion,30.54,Anna Nagar,Farmer J
+2023-03-25,Carrot,29.49,Guindy,Farmer C
+2023-03-25,Cabbage,18.78,Tambaram,Farmer G
+2023-03-25,Spinach,13.97,Guindy,Farmer D
+2023-03-25,Cauliflower,26.89,Chromepet,Farmer I
+2023-03-25,Broccoli,39.98,Velachery,Farmer C
+2023-03-25,Eggplant,27.39,Adyar,Farmer J
+2023-03-25,Capsicum,43.47,Tambaram,Farmer C
+2023-03-26,Tomato,18.33,Tambaram,Farmer B
+2023-03-26,Potato,11.55,Velachery,Farmer F
+2023-03-26,Onion,29.11,Anna Nagar,Farmer B
+2023-03-26,Carrot,22.21,Adyar,Farmer D
+2023-03-26,Cabbage,16.73,Anna Nagar,Farmer A
+2023-03-26,Spinach,9.16,Kodambakkam,Farmer D
+2023-03-26,Cauliflower,24.24,Anna Nagar,Farmer E
+2023-03-26,Broccoli,35.28,Velachery,Farmer H
+2023-03-26,Eggplant,24.08,Velachery,Farmer D
+2023-03-26,Capsicum,38.14,Thiruvanmiyur,Farmer I
+2023-03-27,Tomato,16.78,Anna Nagar,Farmer E
+2023-03-27,Potato,14.76,Guindy,Farmer I
+2023-03-27,Onion,28.51,Tambaram,Farmer F
+2023-03-27,Carrot,28.17,Anna Nagar,Farmer D
+2023-03-27,Cabbage,16.66,Thiruvanmiyur,Farmer E
+2023-03-27,Spinach,10.65,Guindy,Farmer C
+2023-03-27,Cauliflower,24.82,Adyar,Farmer C
+2023-03-27,Broccoli,31.51,Kodambakkam,Farmer C
+2023-03-27,Eggplant,28.56,Kodambakkam,Farmer J
+2023-03-27,Capsicum,42.61,Tambaram,Farmer F
+2023-03-28,Tomato,23.43,Thiruvanmiyur,Farmer E
+2023-03-28,Potato,14.25,Velachery,Farmer E
+2023-03-28,Onion,28.2,Anna Nagar,Farmer I
+2023-03-28,Carrot,26.28,Velachery,Farmer B
+2023-03-28,Cabbage,20.48,Potheri,Farmer G
+2023-03-28,Spinach,10.93,Tambaram,Farmer J
+2023-03-28,Cauliflower,19.38,Kodambakkam,Farmer D
+2023-03-28,Broccoli,36.3,Guindy,Farmer J
+2023-03-28,Eggplant,29.37,T. Nagar,Farmer G
+2023-03-28,Capsicum,38.16,Tambaram,Farmer A
+2023-03-29,Tomato,17.63,Chromepet,Farmer C
+2023-03-29,Potato,12.28,Kodambakkam,Farmer G
+2023-03-29,Onion,29.53,Guindy,Farmer J
+2023-03-29,Carrot,29.61,Guindy,Farmer J
+2023-03-29,Cabbage,16.15,Guindy,Farmer F
+2023-03-29,Spinach,9.91,Chromepet,Farmer B
+2023-03-29,Cauliflower,21.06,Kodambakkam,Farmer J
+2023-03-29,Broccoli,39.38,Chromepet,Farmer B
+2023-03-29,Eggplant,30.74,Kodambakkam,Farmer F
+2023-03-29,Capsicum,38.99,Potheri,Farmer J
+2023-03-30,Tomato,24.38,T. Nagar,Farmer E
+2023-03-30,Potato,17.74,Kodambakkam,Farmer B
+2023-03-30,Onion,32.28,Adyar,Farmer H
+2023-03-30,Carrot,28.73,Anna Nagar,Farmer A
+2023-03-30,Cabbage,14.55,Tambaram,Farmer B
+2023-03-30,Spinach,7.4,Adyar,Farmer J
+2023-03-30,Cauliflower,21.23,Chromepet,Farmer D
+2023-03-30,Broccoli,37.79,Chromepet,Farmer F
+2023-03-30,Eggplant,28.33,Chromepet,Farmer A
+2023-03-30,Capsicum,43.95,Thiruvanmiyur,Farmer G
+2023-03-31,Tomato,22.26,Chromepet,Farmer I
+2023-03-31,Potato,10.43,Tambaram,Farmer A
+2023-03-31,Onion,32.74,Chromepet,Farmer H
+2023-03-31,Carrot,22.67,Guindy,Farmer I
+2023-03-31,Cabbage,14.06,Tambaram,Farmer I
+2023-03-31,Spinach,14.72,Thiruvanmiyur,Farmer C
+2023-03-31,Cauliflower,26.46,Guindy,Farmer G
+2023-03-31,Broccoli,38.71,Tambaram,Farmer F
+2023-03-31,Eggplant,23.8,Potheri,Farmer B
+2023-03-31,Capsicum,36.32,Potheri,Farmer G
+2023-04-01,Tomato,16.25,Chromepet,Farmer A
+2023-04-01,Potato,14.8,Kodambakkam,Farmer D
+2023-04-01,Onion,30.55,Potheri,Farmer F
+2023-04-01,Carrot,21.44,Chromepet,Farmer F
+2023-04-01,Cabbage,17.76,Velachery,Farmer F
+2023-04-01,Spinach,5.05,Thiruvanmiyur,Farmer D
+2023-04-01,Cauliflower,21.95,Guindy,Farmer H
+2023-04-01,Broccoli,38.49,Chromepet,Farmer H
+2023-04-01,Eggplant,32.17,Kodambakkam,Farmer G
+2023-04-01,Capsicum,42.82,Tambaram,Farmer F
+2023-04-02,Tomato,15.38,Kodambakkam,Farmer H
+2023-04-02,Potato,14.41,Kodambakkam,Farmer F
+2023-04-02,Onion,34.58,Guindy,Farmer I
+2023-04-02,Carrot,23.89,Velachery,Farmer A
+2023-04-02,Cabbage,13.62,Chromepet,Farmer F
+2023-04-02,Spinach,6.82,Anna Nagar,Farmer J
+2023-04-02,Cauliflower,18.74,Thiruvanmiyur,Farmer B
+2023-04-02,Broccoli,37.0,Chromepet,Farmer H
+2023-04-02,Eggplant,28.1,Thiruvanmiyur,Farmer H
+2023-04-02,Capsicum,35.2,Potheri,Farmer F
+2023-04-03,Tomato,22.27,Kodambakkam,Farmer H
+2023-04-03,Potato,12.4,Adyar,Farmer I
+2023-04-03,Onion,26.2,Kodambakkam,Farmer F
+2023-04-03,Carrot,21.85,Chromepet,Farmer F
+2023-04-03,Cabbage,16.53,T. Nagar,Farmer C
+2023-04-03,Spinach,12.75,Guindy,Farmer I
+2023-04-03,Cauliflower,26.87,Adyar,Farmer F
+2023-04-03,Broccoli,32.78,Adyar,Farmer B
+2023-04-03,Eggplant,30.58,Kodambakkam,Farmer G
+2023-04-03,Capsicum,39.75,Tambaram,Farmer F
+2023-04-04,Tomato,24.99,Adyar,Farmer I
+2023-04-04,Potato,12.24,Chromepet,Farmer I
+2023-04-04,Onion,32.44,Anna Nagar,Farmer H
+2023-04-04,Carrot,25.41,Tambaram,Farmer C
+2023-04-04,Cabbage,22.84,Tambaram,Farmer B
+2023-04-04,Spinach,14.05,Guindy,Farmer F
+2023-04-04,Cauliflower,26.21,Adyar,Farmer A
+2023-04-04,Broccoli,33.33,Tambaram,Farmer D
+2023-04-04,Eggplant,31.37,Chromepet,Farmer A
+2023-04-04,Capsicum,40.71,Chromepet,Farmer B
+2023-04-05,Tomato,15.73,T. Nagar,Farmer D
+2023-04-05,Potato,11.65,Guindy,Farmer C
+2023-04-05,Onion,29.72,T. Nagar,Farmer D
+2023-04-05,Carrot,25.17,Thiruvanmiyur,Farmer G
+2023-04-05,Cabbage,17.99,T. Nagar,Farmer E
+2023-04-05,Spinach,6.1,Tambaram,Farmer G
+2023-04-05,Cauliflower,17.02,Kodambakkam,Farmer I
+2023-04-05,Broccoli,36.2,Chromepet,Farmer G
+2023-04-05,Eggplant,26.88,T. Nagar,Farmer J
+2023-04-05,Capsicum,43.69,Velachery,Farmer C
+2023-04-06,Tomato,22.9,Velachery,Farmer D
+2023-04-06,Potato,17.4,Chromepet,Farmer E
+2023-04-06,Onion,25.43,Tambaram,Farmer I
+2023-04-06,Carrot,22.72,Chromepet,Farmer C
+2023-04-06,Cabbage,17.91,Anna Nagar,Farmer G
+2023-04-06,Spinach,12.45,Velachery,Farmer F
+2023-04-06,Cauliflower,25.53,Tambaram,Farmer D
+2023-04-06,Broccoli,31.0,T. Nagar,Farmer G
+2023-04-06,Eggplant,25.17,Thiruvanmiyur,Farmer G
+2023-04-06,Capsicum,42.22,Potheri,Farmer B
+2023-04-07,Tomato,22.66,Velachery,Farmer A
+2023-04-07,Potato,18.56,Thiruvanmiyur,Farmer C
+2023-04-07,Onion,27.22,Kodambakkam,Farmer J
+2023-04-07,Carrot,23.35,Potheri,Farmer D
+2023-04-07,Cabbage,14.64,Potheri,Farmer B
+2023-04-07,Spinach,13.83,Tambaram,Farmer F
+2023-04-07,Cauliflower,25.79,Tambaram,Farmer G
+2023-04-07,Broccoli,32.16,Potheri,Farmer A
+2023-04-07,Eggplant,25.46,Velachery,Farmer H
+2023-04-07,Capsicum,43.15,Chromepet,Farmer F
+2023-04-08,Tomato,24.19,Adyar,Farmer H
+2023-04-08,Potato,10.64,Kodambakkam,Farmer I
+2023-04-08,Onion,26.81,Thiruvanmiyur,Farmer J
+2023-04-08,Carrot,23.63,Adyar,Farmer E
+2023-04-08,Cabbage,17.5,Chromepet,Farmer J
+2023-04-08,Spinach,11.94,T. Nagar,Farmer E
+2023-04-08,Cauliflower,26.97,Thiruvanmiyur,Farmer F
+2023-04-08,Broccoli,38.85,Potheri,Farmer J
+2023-04-08,Eggplant,29.76,Guindy,Farmer F
+2023-04-08,Capsicum,44.3,Velachery,Farmer A
+2023-04-09,Tomato,24.59,Chromepet,Farmer E
+2023-04-09,Potato,16.77,Thiruvanmiyur,Farmer A
+2023-04-09,Onion,34.94,T. Nagar,Farmer D
+2023-04-09,Carrot,21.22,Tambaram,Farmer A
+2023-04-09,Cabbage,18.23,Anna Nagar,Farmer A
+2023-04-09,Spinach,6.59,Kodambakkam,Farmer C
+2023-04-09,Cauliflower,25.61,Kodambakkam,Farmer J
+2023-04-09,Broccoli,34.72,Chromepet,Farmer I
+2023-04-09,Eggplant,29.84,Velachery,Farmer G
+2023-04-09,Capsicum,35.4,Anna Nagar,Farmer G
+2023-04-10,Tomato,16.2,Potheri,Farmer F
+2023-04-10,Potato,13.81,Velachery,Farmer A
+2023-04-10,Onion,25.65,Anna Nagar,Farmer B
+2023-04-10,Carrot,22.89,Potheri,Farmer E
+2023-04-10,Cabbage,17.14,Kodambakkam,Farmer I
+2023-04-10,Spinach,11.77,T. Nagar,Farmer I
+2023-04-10,Cauliflower,26.49,Kodambakkam,Farmer C
+2023-04-10,Broccoli,35.39,Tambaram,Farmer G
+2023-04-10,Eggplant,32.91,Potheri,Farmer C
+2023-04-10,Capsicum,43.73,Adyar,Farmer G
+2023-04-11,Tomato,22.06,Kodambakkam,Farmer A
+2023-04-11,Potato,14.82,Thiruvanmiyur,Farmer B
+2023-04-11,Onion,25.54,Chromepet,Farmer J
+2023-04-11,Carrot,22.66,Velachery,Farmer F
+2023-04-11,Cabbage,22.6,Potheri,Farmer A
+2023-04-11,Spinach,9.75,Potheri,Farmer A
+2023-04-11,Cauliflower,26.64,Guindy,Farmer E
+2023-04-11,Broccoli,34.21,Thiruvanmiyur,Farmer H
+2023-04-11,Eggplant,24.77,Anna Nagar,Farmer H
+2023-04-11,Capsicum,38.14,Thiruvanmiyur,Farmer B
+2023-04-12,Tomato,22.18,Adyar,Farmer J
+2023-04-12,Potato,11.18,Adyar,Farmer J
+2023-04-12,Onion,29.66,Tambaram,Farmer C
+2023-04-12,Carrot,23.61,T. Nagar,Farmer H
+2023-04-12,Cabbage,13.05,T. Nagar,Farmer F
+2023-04-12,Spinach,13.1,Potheri,Farmer A
+2023-04-12,Cauliflower,18.72,Velachery,Farmer J
+2023-04-12,Broccoli,30.05,Tambaram,Farmer H
+2023-04-12,Eggplant,23.01,Anna Nagar,Farmer I
+2023-04-12,Capsicum,35.9,Thiruvanmiyur,Farmer G
+2023-04-13,Tomato,16.28,Adyar,Farmer J
+2023-04-13,Potato,11.47,Tambaram,Farmer E
+2023-04-13,Onion,25.73,Chromepet,Farmer D
+2023-04-13,Carrot,25.6,Velachery,Farmer B
+2023-04-13,Cabbage,18.15,Chromepet,Farmer E
+2023-04-13,Spinach,7.63,Adyar,Farmer A
+2023-04-13,Cauliflower,23.77,Anna Nagar,Farmer G
+2023-04-13,Broccoli,34.34,Chromepet,Farmer A
+2023-04-13,Eggplant,26.44,Thiruvanmiyur,Farmer A
+2023-04-13,Capsicum,38.6,Velachery,Farmer A
+2023-04-14,Tomato,21.65,Anna Nagar,Farmer A
+2023-04-14,Potato,10.82,Anna Nagar,Farmer G
+2023-04-14,Onion,29.61,Tambaram,Farmer H
+2023-04-14,Carrot,29.78,Guindy,Farmer J
+2023-04-14,Cabbage,19.84,Tambaram,Farmer B
+2023-04-14,Spinach,11.6,Anna Nagar,Farmer E
+2023-04-14,Cauliflower,22.42,Tambaram,Farmer H
+2023-04-14,Broccoli,33.24,Kodambakkam,Farmer J
+2023-04-14,Eggplant,25.78,Potheri,Farmer H
+2023-04-14,Capsicum,37.88,Anna Nagar,Farmer G
+2023-04-15,Tomato,22.29,T. Nagar,Farmer I
+2023-04-15,Potato,10.46,Guindy,Farmer F
+2023-04-15,Onion,26.82,Kodambakkam,Farmer A
+2023-04-15,Carrot,28.07,Guindy,Farmer C
+2023-04-15,Cabbage,21.86,T. Nagar,Farmer A
+2023-04-15,Spinach,12.29,Anna Nagar,Farmer I
+2023-04-15,Cauliflower,18.84,T. Nagar,Farmer B
+2023-04-15,Broccoli,39.66,Guindy,Farmer D
+2023-04-15,Eggplant,25.8,Adyar,Farmer D
+2023-04-15,Capsicum,38.73,Tambaram,Farmer B
+2023-04-16,Tomato,16.83,Chromepet,Farmer E
+2023-04-16,Potato,12.16,Potheri,Farmer B
+2023-04-16,Onion,25.33,Guindy,Farmer I
+2023-04-16,Carrot,23.57,Thiruvanmiyur,Farmer G
+2023-04-16,Cabbage,22.18,Guindy,Farmer I
+2023-04-16,Spinach,13.39,Chromepet,Farmer A
+2023-04-16,Cauliflower,18.77,Guindy,Farmer H
+2023-04-16,Broccoli,39.39,Potheri,Farmer F
+2023-04-16,Eggplant,31.73,Chromepet,Farmer H
+2023-04-16,Capsicum,41.99,Kodambakkam,Farmer D
+2023-04-17,Tomato,19.34,Potheri,Farmer A
+2023-04-17,Potato,18.54,T. Nagar,Farmer D
+2023-04-17,Onion,26.22,Velachery,Farmer H
+2023-04-17,Carrot,27.59,Tambaram,Farmer E
+2023-04-17,Cabbage,18.62,Potheri,Farmer J
+2023-04-17,Spinach,6.15,Anna Nagar,Farmer H
+2023-04-17,Cauliflower,18.8,Kodambakkam,Farmer D
+2023-04-17,Broccoli,38.66,Thiruvanmiyur,Farmer H
+2023-04-17,Eggplant,31.61,Chromepet,Farmer G
+2023-04-17,Capsicum,41.08,Thiruvanmiyur,Farmer C
+2023-04-18,Tomato,19.8,Tambaram,Farmer H
+2023-04-18,Potato,17.05,Anna Nagar,Farmer F
+2023-04-18,Onion,29.95,Potheri,Farmer J
+2023-04-18,Carrot,26.84,Kodambakkam,Farmer A
+2023-04-18,Cabbage,21.01,Guindy,Farmer D
+2023-04-18,Spinach,8.94,Kodambakkam,Farmer B
+2023-04-18,Cauliflower,24.97,Anna Nagar,Farmer J
+2023-04-18,Broccoli,31.07,Tambaram,Farmer J
+2023-04-18,Eggplant,26.42,Guindy,Farmer C
+2023-04-18,Capsicum,39.02,Thiruvanmiyur,Farmer H
+2023-04-19,Tomato,19.87,Potheri,Farmer D
+2023-04-19,Potato,18.37,Anna Nagar,Farmer B
+2023-04-19,Onion,29.59,T. Nagar,Farmer J
+2023-04-19,Carrot,23.82,T. Nagar,Farmer H
+2023-04-19,Cabbage,17.13,Velachery,Farmer E
+2023-04-19,Spinach,5.76,Tambaram,Farmer E
+2023-04-19,Cauliflower,26.6,Thiruvanmiyur,Farmer C
+2023-04-19,Broccoli,33.78,Velachery,Farmer J
+2023-04-19,Eggplant,32.57,Kodambakkam,Farmer A
+2023-04-19,Capsicum,39.64,T. Nagar,Farmer I
+2023-04-20,Tomato,16.7,Thiruvanmiyur,Farmer H
+2023-04-20,Potato,15.04,Potheri,Farmer E
+2023-04-20,Onion,25.86,Chromepet,Farmer B
+2023-04-20,Carrot,22.28,Adyar,Farmer A
+2023-04-20,Cabbage,13.37,T. Nagar,Farmer E
+2023-04-20,Spinach,10.57,T. Nagar,Farmer G
+2023-04-20,Cauliflower,20.79,Tambaram,Farmer H
+2023-04-20,Broccoli,33.06,Guindy,Farmer C
+2023-04-20,Eggplant,23.61,Potheri,Farmer C
+2023-04-20,Capsicum,35.58,Anna Nagar,Farmer C
+2023-04-21,Tomato,18.16,Adyar,Farmer E
+2023-04-21,Potato,16.13,Kodambakkam,Farmer B
+2023-04-21,Onion,31.83,Anna Nagar,Farmer E
+2023-04-21,Carrot,27.05,Thiruvanmiyur,Farmer H
+2023-04-21,Cabbage,18.73,Thiruvanmiyur,Farmer G
+2023-04-21,Spinach,5.19,Adyar,Farmer I
+2023-04-21,Cauliflower,18.43,Velachery,Farmer A
+2023-04-21,Broccoli,30.2,T. Nagar,Farmer C
+2023-04-21,Eggplant,30.11,Thiruvanmiyur,Farmer J
+2023-04-21,Capsicum,41.47,T. Nagar,Farmer D
+2023-04-22,Tomato,22.05,T. Nagar,Farmer H
+2023-04-22,Potato,12.88,Adyar,Farmer H
+2023-04-22,Onion,30.18,Guindy,Farmer D
+2023-04-22,Carrot,23.45,Adyar,Farmer I
+2023-04-22,Cabbage,14.56,Guindy,Farmer I
+2023-04-22,Spinach,5.18,Velachery,Farmer B
+2023-04-22,Cauliflower,25.67,Kodambakkam,Farmer C
+2023-04-22,Broccoli,39.31,Guindy,Farmer F
+2023-04-22,Eggplant,29.4,Thiruvanmiyur,Farmer E
+2023-04-22,Capsicum,41.87,Chromepet,Farmer I
+2023-04-23,Tomato,23.12,Chromepet,Farmer C
+2023-04-23,Potato,12.45,Anna Nagar,Farmer B
+2023-04-23,Onion,30.21,Velachery,Farmer G
+2023-04-23,Carrot,24.1,Guindy,Farmer D
+2023-04-23,Cabbage,21.25,Anna Nagar,Farmer J
+2023-04-23,Spinach,10.41,Kodambakkam,Farmer F
+2023-04-23,Cauliflower,20.1,T. Nagar,Farmer D
+2023-04-23,Broccoli,30.98,Chromepet,Farmer F
+2023-04-23,Eggplant,31.12,Anna Nagar,Farmer B
+2023-04-23,Capsicum,37.96,Tambaram,Farmer C
+2023-04-24,Tomato,24.77,Chromepet,Farmer B
+2023-04-24,Potato,15.92,Guindy,Farmer G
+2023-04-24,Onion,29.3,Kodambakkam,Farmer A
+2023-04-24,Carrot,24.41,Kodambakkam,Farmer E
+2023-04-24,Cabbage,14.82,Kodambakkam,Farmer D
+2023-04-24,Spinach,12.84,Velachery,Farmer A
+2023-04-24,Cauliflower,18.9,Potheri,Farmer H
+2023-04-24,Broccoli,34.75,T. Nagar,Farmer F
+2023-04-24,Eggplant,23.6,Tambaram,Farmer B
+2023-04-24,Capsicum,35.12,Kodambakkam,Farmer F
+2023-04-25,Tomato,21.66,Anna Nagar,Farmer J
+2023-04-25,Potato,17.2,Potheri,Farmer A
+2023-04-25,Onion,28.79,Tambaram,Farmer C
+2023-04-25,Carrot,28.49,Tambaram,Farmer A
+2023-04-25,Cabbage,19.64,Adyar,Farmer E
+2023-04-25,Spinach,14.98,Kodambakkam,Farmer C
+2023-04-25,Cauliflower,17.44,Potheri,Farmer F
+2023-04-25,Broccoli,36.01,Tambaram,Farmer B
+2023-04-25,Eggplant,23.71,Adyar,Farmer I
+2023-04-25,Capsicum,44.28,Guindy,Farmer D
+2023-04-26,Tomato,19.17,Thiruvanmiyur,Farmer C
+2023-04-26,Potato,12.1,Guindy,Farmer I
+2023-04-26,Onion,29.87,T. Nagar,Farmer I
+2023-04-26,Carrot,21.06,Velachery,Farmer A
+2023-04-26,Cabbage,22.97,Potheri,Farmer H
+2023-04-26,Spinach,11.47,Anna Nagar,Farmer B
+2023-04-26,Cauliflower,22.33,Chromepet,Farmer I
+2023-04-26,Broccoli,38.07,Adyar,Farmer J
+2023-04-26,Eggplant,29.35,Chromepet,Farmer G
+2023-04-26,Capsicum,39.25,Kodambakkam,Farmer H
+2023-04-27,Tomato,22.57,Chromepet,Farmer E
+2023-04-27,Potato,12.67,Potheri,Farmer C
+2023-04-27,Onion,29.7,Kodambakkam,Farmer F
+2023-04-27,Carrot,20.54,Velachery,Farmer F
+2023-04-27,Cabbage,22.83,Velachery,Farmer G
+2023-04-27,Spinach,13.35,Tambaram,Farmer G
+2023-04-27,Cauliflower,20.09,T. Nagar,Farmer H
+2023-04-27,Broccoli,36.91,Potheri,Farmer D
+2023-04-27,Eggplant,23.1,Kodambakkam,Farmer A
+2023-04-27,Capsicum,40.02,Guindy,Farmer E
+2023-04-28,Tomato,15.32,Kodambakkam,Farmer A
+2023-04-28,Potato,15.72,T. Nagar,Farmer B
+2023-04-28,Onion,26.14,Kodambakkam,Farmer I
+2023-04-28,Carrot,23.19,Chromepet,Farmer A
+2023-04-28,Cabbage,14.66,Velachery,Farmer H
+2023-04-28,Spinach,6.76,Adyar,Farmer H
+2023-04-28,Cauliflower,20.29,Anna Nagar,Farmer A
+2023-04-28,Broccoli,35.74,Adyar,Farmer D
+2023-04-28,Eggplant,23.15,Anna Nagar,Farmer J
+2023-04-28,Capsicum,37.27,Chromepet,Farmer C
+2023-04-29,Tomato,18.45,Velachery,Farmer I
+2023-04-29,Potato,16.59,T. Nagar,Farmer G
+2023-04-29,Onion,27.49,Tambaram,Farmer E
+2023-04-29,Carrot,28.44,Guindy,Farmer J
+2023-04-29,Cabbage,16.58,Thiruvanmiyur,Farmer B
+2023-04-29,Spinach,6.71,Tambaram,Farmer C
+2023-04-29,Cauliflower,24.59,Guindy,Farmer D
+2023-04-29,Broccoli,37.44,Thiruvanmiyur,Farmer D
+2023-04-29,Eggplant,28.02,Potheri,Farmer F
+2023-04-29,Capsicum,39.92,Adyar,Farmer I
+2023-04-30,Tomato,16.49,Tambaram,Farmer H
+2023-04-30,Potato,15.51,Chromepet,Farmer A
+2023-04-30,Onion,25.87,Kodambakkam,Farmer F
+2023-04-30,Carrot,25.51,Chromepet,Farmer F
+2023-04-30,Cabbage,14.26,Tambaram,Farmer E
+2023-04-30,Spinach,11.82,Adyar,Farmer J
+2023-04-30,Cauliflower,26.24,Chromepet,Farmer I
+2023-04-30,Broccoli,35.04,Thiruvanmiyur,Farmer A
+2023-04-30,Eggplant,25.7,Velachery,Farmer D
+2023-04-30,Capsicum,38.29,Anna Nagar,Farmer G
+2023-05-01,Tomato,15.64,Chromepet,Farmer B
+2023-05-01,Potato,12.83,Thiruvanmiyur,Farmer B
+2023-05-01,Onion,28.02,Anna Nagar,Farmer F
+2023-05-01,Carrot,23.47,Velachery,Farmer F
+2023-05-01,Cabbage,15.89,Thiruvanmiyur,Farmer C
+2023-05-01,Spinach,9.51,T. Nagar,Farmer H
+2023-05-01,Cauliflower,18.68,Tambaram,Farmer B
+2023-05-01,Broccoli,30.29,Chromepet,Farmer D
+2023-05-01,Eggplant,24.68,Chromepet,Farmer D
+2023-05-01,Capsicum,44.37,Velachery,Farmer I
+2023-05-02,Tomato,22.36,Guindy,Farmer D
+2023-05-02,Potato,11.48,Kodambakkam,Farmer D
+2023-05-02,Onion,34.23,Tambaram,Farmer D
+2023-05-02,Carrot,27.14,Chromepet,Farmer H
+2023-05-02,Cabbage,16.13,Adyar,Farmer H
+2023-05-02,Spinach,14.74,Potheri,Farmer E
+2023-05-02,Cauliflower,19.45,Kodambakkam,Farmer B
+2023-05-02,Broccoli,31.55,Kodambakkam,Farmer H
+2023-05-02,Eggplant,31.79,Chromepet,Farmer J
+2023-05-02,Capsicum,42.96,Adyar,Farmer J
+2023-05-03,Tomato,17.53,Anna Nagar,Farmer A
+2023-05-03,Potato,10.11,Anna Nagar,Farmer A
+2023-05-03,Onion,32.99,Anna Nagar,Farmer F
+2023-05-03,Carrot,21.95,Chromepet,Farmer E
+2023-05-03,Cabbage,15.67,Anna Nagar,Farmer G
+2023-05-03,Spinach,12.5,Anna Nagar,Farmer H
+2023-05-03,Cauliflower,18.96,Guindy,Farmer D
+2023-05-03,Broccoli,36.96,Potheri,Farmer G
+2023-05-03,Eggplant,24.31,Tambaram,Farmer G
+2023-05-03,Capsicum,41.14,Anna Nagar,Farmer F
+2023-05-04,Tomato,19.12,Potheri,Farmer D
+2023-05-04,Potato,11.13,Kodambakkam,Farmer A
+2023-05-04,Onion,25.22,Velachery,Farmer I
+2023-05-04,Carrot,23.65,Potheri,Farmer F
+2023-05-04,Cabbage,13.81,Kodambakkam,Farmer A
+2023-05-04,Spinach,11.97,T. Nagar,Farmer B
+2023-05-04,Cauliflower,20.54,Adyar,Farmer C
+2023-05-04,Broccoli,35.13,Potheri,Farmer I
+2023-05-04,Eggplant,24.15,Thiruvanmiyur,Farmer I
+2023-05-04,Capsicum,42.32,T. Nagar,Farmer A
+2023-05-05,Tomato,15.54,Thiruvanmiyur,Farmer J
+2023-05-05,Potato,13.31,T. Nagar,Farmer B
+2023-05-05,Onion,32.72,T. Nagar,Farmer B
+2023-05-05,Carrot,21.09,Kodambakkam,Farmer E
+2023-05-05,Cabbage,19.28,Potheri,Farmer C
+2023-05-05,Spinach,11.04,Anna Nagar,Farmer F
+2023-05-05,Cauliflower,19.4,Guindy,Farmer E
+2023-05-05,Broccoli,35.52,Adyar,Farmer J
+2023-05-05,Eggplant,32.62,Tambaram,Farmer I
+2023-05-05,Capsicum,39.8,T. Nagar,Farmer D
+2023-05-06,Tomato,23.46,T. Nagar,Farmer I
+2023-05-06,Potato,17.7,Adyar,Farmer G
+2023-05-06,Onion,25.05,Kodambakkam,Farmer A
+2023-05-06,Carrot,29.04,Adyar,Farmer G
+2023-05-06,Cabbage,21.28,Adyar,Farmer J
+2023-05-06,Spinach,5.14,Anna Nagar,Farmer G
+2023-05-06,Cauliflower,18.87,Kodambakkam,Farmer E
+2023-05-06,Broccoli,38.02,Chromepet,Farmer B
+2023-05-06,Eggplant,23.16,Potheri,Farmer E
+2023-05-06,Capsicum,40.28,Guindy,Farmer F
+2023-05-07,Tomato,17.59,Velachery,Farmer F
+2023-05-07,Potato,11.34,T. Nagar,Farmer I
+2023-05-07,Onion,29.93,Kodambakkam,Farmer G
+2023-05-07,Carrot,29.57,Velachery,Farmer H
+2023-05-07,Cabbage,20.78,Thiruvanmiyur,Farmer H
+2023-05-07,Spinach,14.94,Velachery,Farmer F
+2023-05-07,Cauliflower,22.79,Chromepet,Farmer A
+2023-05-07,Broccoli,36.43,Velachery,Farmer I
+2023-05-07,Eggplant,32.94,Adyar,Farmer H
+2023-05-07,Capsicum,40.3,Kodambakkam,Farmer C
+2023-05-08,Tomato,20.53,Thiruvanmiyur,Farmer B
+2023-05-08,Potato,19.48,Anna Nagar,Farmer G
+2023-05-08,Onion,34.57,Kodambakkam,Farmer H
+2023-05-08,Carrot,27.46,Adyar,Farmer D
+2023-05-08,Cabbage,20.47,Potheri,Farmer D
+2023-05-08,Spinach,14.85,Velachery,Farmer D
+2023-05-08,Cauliflower,18.25,Thiruvanmiyur,Farmer H
+2023-05-08,Broccoli,39.01,Guindy,Farmer F
+2023-05-08,Eggplant,23.19,Thiruvanmiyur,Farmer G
+2023-05-08,Capsicum,39.12,Tambaram,Farmer C
+2023-05-09,Tomato,23.85,Potheri,Farmer D
+2023-05-09,Potato,15.95,Adyar,Farmer E
+2023-05-09,Onion,30.35,Potheri,Farmer G
+2023-05-09,Carrot,29.32,T. Nagar,Farmer A
+2023-05-09,Cabbage,18.47,Guindy,Farmer J
+2023-05-09,Spinach,13.01,Velachery,Farmer F
+2023-05-09,Cauliflower,18.78,T. Nagar,Farmer B
+2023-05-09,Broccoli,37.5,Anna Nagar,Farmer A
+2023-05-09,Eggplant,26.23,Velachery,Farmer G
+2023-05-09,Capsicum,39.96,Chromepet,Farmer I
+2023-05-10,Tomato,23.12,Tambaram,Farmer C
+2023-05-10,Potato,17.46,Potheri,Farmer A
+2023-05-10,Onion,26.25,Kodambakkam,Farmer H
+2023-05-10,Carrot,24.92,Adyar,Farmer H
+2023-05-10,Cabbage,18.57,Anna Nagar,Farmer H
+2023-05-10,Spinach,10.58,Tambaram,Farmer G
+2023-05-10,Cauliflower,19.4,Guindy,Farmer C
+2023-05-10,Broccoli,34.79,Potheri,Farmer B
+2023-05-10,Eggplant,23.04,T. Nagar,Farmer E
+2023-05-10,Capsicum,36.22,Kodambakkam,Farmer I
+2023-05-11,Tomato,17.18,Potheri,Farmer G
+2023-05-11,Potato,19.49,Guindy,Farmer B
+2023-05-11,Onion,34.41,Guindy,Farmer H
+2023-05-11,Carrot,27.71,Thiruvanmiyur,Farmer C
+2023-05-11,Cabbage,20.95,Velachery,Farmer A
+2023-05-11,Spinach,9.69,T. Nagar,Farmer I
+2023-05-11,Cauliflower,18.67,Tambaram,Farmer D
+2023-05-11,Broccoli,31.2,Guindy,Farmer E
+2023-05-11,Eggplant,28.63,Potheri,Farmer F
+2023-05-11,Capsicum,36.73,Guindy,Farmer H
+2023-05-12,Tomato,22.4,Kodambakkam,Farmer I
+2023-05-12,Potato,13.75,Guindy,Farmer G
+2023-05-12,Onion,34.79,Guindy,Farmer H
+2023-05-12,Carrot,21.5,Adyar,Farmer F
+2023-05-12,Cabbage,18.0,Anna Nagar,Farmer C
+2023-05-12,Spinach,12.62,Velachery,Farmer H
+2023-05-12,Cauliflower,17.83,Kodambakkam,Farmer G
+2023-05-12,Broccoli,39.38,Velachery,Farmer B
+2023-05-12,Eggplant,30.06,Thiruvanmiyur,Farmer I
+2023-05-12,Capsicum,40.53,Velachery,Farmer H
+2023-05-13,Tomato,24.14,Chromepet,Farmer F
+2023-05-13,Potato,13.3,Potheri,Farmer B
+2023-05-13,Onion,28.74,Anna Nagar,Farmer B
+2023-05-13,Carrot,21.95,Potheri,Farmer B
+2023-05-13,Cabbage,21.76,Velachery,Farmer B
+2023-05-13,Spinach,5.39,T. Nagar,Farmer J
+2023-05-13,Cauliflower,22.22,Adyar,Farmer J
+2023-05-13,Broccoli,36.93,Potheri,Farmer A
+2023-05-13,Eggplant,31.02,Velachery,Farmer H
+2023-05-13,Capsicum,41.31,Potheri,Farmer F
+2023-05-14,Tomato,16.91,Chromepet,Farmer G
+2023-05-14,Potato,13.97,Adyar,Farmer G
+2023-05-14,Onion,31.16,Velachery,Farmer C
+2023-05-14,Carrot,21.88,Kodambakkam,Farmer G
+2023-05-14,Cabbage,17.2,Guindy,Farmer F
+2023-05-14,Spinach,12.25,Chromepet,Farmer F
+2023-05-14,Cauliflower,17.96,Anna Nagar,Farmer G
+2023-05-14,Broccoli,33.77,Guindy,Farmer A
+2023-05-14,Eggplant,32.38,Anna Nagar,Farmer E
+2023-05-14,Capsicum,42.13,Velachery,Farmer G
+2023-05-15,Tomato,16.07,Adyar,Farmer A
+2023-05-15,Potato,13.47,Kodambakkam,Farmer E
+2023-05-15,Onion,33.97,T. Nagar,Farmer C
+2023-05-15,Carrot,21.31,Chromepet,Farmer I
+2023-05-15,Cabbage,17.38,T. Nagar,Farmer E
+2023-05-15,Spinach,14.93,Guindy,Farmer H
+2023-05-15,Cauliflower,26.44,Potheri,Farmer E
+2023-05-15,Broccoli,38.9,Anna Nagar,Farmer A
+2023-05-15,Eggplant,23.41,Guindy,Farmer D
+2023-05-15,Capsicum,40.31,Guindy,Farmer E
+2023-05-16,Tomato,23.51,Anna Nagar,Farmer H
+2023-05-16,Potato,19.17,Tambaram,Farmer F
+2023-05-16,Onion,25.53,Anna Nagar,Farmer B
+2023-05-16,Carrot,26.54,Potheri,Farmer H
+2023-05-16,Cabbage,15.44,Kodambakkam,Farmer A
+2023-05-16,Spinach,11.34,Guindy,Farmer A
+2023-05-16,Cauliflower,24.58,Kodambakkam,Farmer D
+2023-05-16,Broccoli,30.46,T. Nagar,Farmer A
+2023-05-16,Eggplant,23.39,Anna Nagar,Farmer G
+2023-05-16,Capsicum,44.4,Potheri,Farmer F
+2023-05-17,Tomato,17.2,Guindy,Farmer D
+2023-05-17,Potato,12.35,Anna Nagar,Farmer B
+2023-05-17,Onion,27.74,Guindy,Farmer F
+2023-05-17,Carrot,21.46,Adyar,Farmer H
+2023-05-17,Cabbage,20.1,Thiruvanmiyur,Farmer A
+2023-05-17,Spinach,14.9,Adyar,Farmer I
+2023-05-17,Cauliflower,18.72,Guindy,Farmer E
+2023-05-17,Broccoli,30.73,Guindy,Farmer F
+2023-05-17,Eggplant,24.93,Anna Nagar,Farmer D
+2023-05-17,Capsicum,35.88,Velachery,Farmer E
+2023-05-18,Tomato,17.24,Thiruvanmiyur,Farmer C
+2023-05-18,Potato,13.18,Guindy,Farmer J
+2023-05-18,Onion,26.27,Thiruvanmiyur,Farmer F
+2023-05-18,Carrot,21.2,Guindy,Farmer F
+2023-05-18,Cabbage,17.44,Kodambakkam,Farmer A
+2023-05-18,Spinach,14.0,Guindy,Farmer G
+2023-05-18,Cauliflower,25.99,T. Nagar,Farmer B
+2023-05-18,Broccoli,39.27,Chromepet,Farmer C
+2023-05-18,Eggplant,24.11,Guindy,Farmer J
+2023-05-18,Capsicum,44.52,Velachery,Farmer G
+2023-05-19,Tomato,24.99,Chromepet,Farmer A
+2023-05-19,Potato,19.96,Potheri,Farmer B
+2023-05-19,Onion,31.27,Guindy,Farmer B
+2023-05-19,Carrot,29.7,Guindy,Farmer I
+2023-05-19,Cabbage,18.91,Tambaram,Farmer B
+2023-05-19,Spinach,5.92,Adyar,Farmer J
+2023-05-19,Cauliflower,20.75,Thiruvanmiyur,Farmer G
+2023-05-19,Broccoli,30.67,Tambaram,Farmer J
+2023-05-19,Eggplant,28.53,T. Nagar,Farmer I
+2023-05-19,Capsicum,43.86,Anna Nagar,Farmer F
+2023-05-20,Tomato,18.98,Chromepet,Farmer D
+2023-05-20,Potato,18.37,Chromepet,Farmer F
+2023-05-20,Onion,26.16,Chromepet,Farmer F
+2023-05-20,Carrot,21.18,Anna Nagar,Farmer J
+2023-05-20,Cabbage,13.48,Guindy,Farmer C
+2023-05-20,Spinach,7.42,Velachery,Farmer C
+2023-05-20,Cauliflower,20.51,T. Nagar,Farmer I
+2023-05-20,Broccoli,32.35,T. Nagar,Farmer A
+2023-05-20,Eggplant,28.08,Guindy,Farmer B
+2023-05-20,Capsicum,42.44,T. Nagar,Farmer B
+2023-05-21,Tomato,19.6,Thiruvanmiyur,Farmer C
+2023-05-21,Potato,19.39,Guindy,Farmer B
+2023-05-21,Onion,26.75,Potheri,Farmer A
+2023-05-21,Carrot,29.14,Chromepet,Farmer A
+2023-05-21,Cabbage,14.86,Adyar,Farmer H
+2023-05-21,Spinach,7.57,Adyar,Farmer J
+2023-05-21,Cauliflower,23.28,Guindy,Farmer G
+2023-05-21,Broccoli,37.64,Guindy,Farmer J
+2023-05-21,Eggplant,32.07,Kodambakkam,Farmer H
+2023-05-21,Capsicum,41.97,Adyar,Farmer C
+2023-05-22,Tomato,23.94,Adyar,Farmer B
+2023-05-22,Potato,16.95,Kodambakkam,Farmer B
+2023-05-22,Onion,29.31,Velachery,Farmer C
+2023-05-22,Carrot,26.09,Anna Nagar,Farmer G
+2023-05-22,Cabbage,13.28,Velachery,Farmer B
+2023-05-22,Spinach,11.66,Guindy,Farmer B
+2023-05-22,Cauliflower,22.39,Tambaram,Farmer G
+2023-05-22,Broccoli,36.15,T. Nagar,Farmer I
+2023-05-22,Eggplant,29.58,Kodambakkam,Farmer J
+2023-05-22,Capsicum,38.8,Potheri,Farmer E
+2023-05-23,Tomato,24.47,Chromepet,Farmer A
+2023-05-23,Potato,17.95,Potheri,Farmer I
+2023-05-23,Onion,29.6,Thiruvanmiyur,Farmer G
+2023-05-23,Carrot,27.54,Tambaram,Farmer H
+2023-05-23,Cabbage,13.97,Velachery,Farmer A
+2023-05-23,Spinach,6.61,Kodambakkam,Farmer A
+2023-05-23,Cauliflower,25.85,Velachery,Farmer F
+2023-05-23,Broccoli,35.72,T. Nagar,Farmer A
+2023-05-23,Eggplant,24.23,Adyar,Farmer C
+2023-05-23,Capsicum,40.17,Guindy,Farmer C
+2023-05-24,Tomato,24.8,Tambaram,Farmer B
+2023-05-24,Potato,11.82,Chromepet,Farmer J
+2023-05-24,Onion,28.95,Velachery,Farmer F
+2023-05-24,Carrot,24.79,Guindy,Farmer D
+2023-05-24,Cabbage,17.78,Adyar,Farmer D
+2023-05-24,Spinach,7.01,Anna Nagar,Farmer C
+2023-05-24,Cauliflower,19.05,Adyar,Farmer H
+2023-05-24,Broccoli,30.07,Anna Nagar,Farmer C
+2023-05-24,Eggplant,23.19,Adyar,Farmer A
+2023-05-24,Capsicum,42.21,Kodambakkam,Farmer F
+2023-05-25,Tomato,21.88,Adyar,Farmer J
+2023-05-25,Potato,14.51,Thiruvanmiyur,Farmer F
+2023-05-25,Onion,29.49,Anna Nagar,Farmer F
+2023-05-25,Carrot,22.3,T. Nagar,Farmer A
+2023-05-25,Cabbage,14.65,Guindy,Farmer B
+2023-05-25,Spinach,10.99,Potheri,Farmer I
+2023-05-25,Cauliflower,24.89,Tambaram,Farmer A
+2023-05-25,Broccoli,32.64,Adyar,Farmer D
+2023-05-25,Eggplant,24.73,Kodambakkam,Farmer D
+2023-05-25,Capsicum,36.89,Thiruvanmiyur,Farmer H
+2023-05-26,Tomato,15.63,Velachery,Farmer G
+2023-05-26,Potato,14.65,Adyar,Farmer D
+2023-05-26,Onion,27.28,Guindy,Farmer I
+2023-05-26,Carrot,27.94,Adyar,Farmer F
+2023-05-26,Cabbage,22.24,T. Nagar,Farmer G
+2023-05-26,Spinach,10.14,T. Nagar,Farmer E
+2023-05-26,Cauliflower,26.07,Thiruvanmiyur,Farmer J
+2023-05-26,Broccoli,32.35,Thiruvanmiyur,Farmer C
+2023-05-26,Eggplant,29.89,Velachery,Farmer E
+2023-05-26,Capsicum,39.55,Guindy,Farmer C
+2023-05-27,Tomato,18.11,Anna Nagar,Farmer J
+2023-05-27,Potato,11.5,Kodambakkam,Farmer D
+2023-05-27,Onion,28.85,Anna Nagar,Farmer B
+2023-05-27,Carrot,23.64,Adyar,Farmer I
+2023-05-27,Cabbage,18.17,T. Nagar,Farmer A
+2023-05-27,Spinach,8.29,Chromepet,Farmer C
+2023-05-27,Cauliflower,25.59,T. Nagar,Farmer H
+2023-05-27,Broccoli,37.8,T. Nagar,Farmer H
+2023-05-27,Eggplant,23.71,Potheri,Farmer C
+2023-05-27,Capsicum,42.95,Tambaram,Farmer G
+2023-05-28,Tomato,21.94,Adyar,Farmer E
+2023-05-28,Potato,12.81,Chromepet,Farmer H
+2023-05-28,Onion,31.78,Potheri,Farmer E
+2023-05-28,Carrot,29.14,Anna Nagar,Farmer E
+2023-05-28,Cabbage,16.11,Chromepet,Farmer J
+2023-05-28,Spinach,13.53,Kodambakkam,Farmer G
+2023-05-28,Cauliflower,19.39,Potheri,Farmer F
+2023-05-28,Broccoli,38.64,Thiruvanmiyur,Farmer H
+2023-05-28,Eggplant,32.71,Potheri,Farmer B
+2023-05-28,Capsicum,36.72,T. Nagar,Farmer E
+2023-05-29,Tomato,20.99,Thiruvanmiyur,Farmer H
+2023-05-29,Potato,13.82,Anna Nagar,Farmer A
+2023-05-29,Onion,26.69,Guindy,Farmer A
+2023-05-29,Carrot,29.73,Anna Nagar,Farmer F
+2023-05-29,Cabbage,13.5,Potheri,Farmer F
+2023-05-29,Spinach,12.87,Chromepet,Farmer E
+2023-05-29,Cauliflower,23.0,Chromepet,Farmer F
+2023-05-29,Broccoli,33.57,Guindy,Farmer A
+2023-05-29,Eggplant,23.21,Adyar,Farmer A
+2023-05-29,Capsicum,40.3,Chromepet,Farmer E
+2023-05-30,Tomato,24.36,Thiruvanmiyur,Farmer C
+2023-05-30,Potato,11.85,Thiruvanmiyur,Farmer B
+2023-05-30,Onion,34.21,Chromepet,Farmer B
+2023-05-30,Carrot,25.49,Kodambakkam,Farmer J
+2023-05-30,Cabbage,18.04,Potheri,Farmer D
+2023-05-30,Spinach,11.98,Chromepet,Farmer J
+2023-05-30,Cauliflower,17.46,Thiruvanmiyur,Farmer C
+2023-05-30,Broccoli,33.73,Chromepet,Farmer C
+2023-05-30,Eggplant,28.23,Tambaram,Farmer J
+2023-05-30,Capsicum,43.33,Tambaram,Farmer F
+2023-05-31,Tomato,24.19,Potheri,Farmer F
+2023-05-31,Potato,10.44,Guindy,Farmer C
+2023-05-31,Onion,28.4,Anna Nagar,Farmer G
+2023-05-31,Carrot,20.63,Tambaram,Farmer F
+2023-05-31,Cabbage,14.33,Chromepet,Farmer I
+2023-05-31,Spinach,7.17,Potheri,Farmer I
+2023-05-31,Cauliflower,21.12,Velachery,Farmer F
+2023-05-31,Broccoli,35.96,Thiruvanmiyur,Farmer G
+2023-05-31,Eggplant,26.21,Chromepet,Farmer F
+2023-05-31,Capsicum,36.97,Anna Nagar,Farmer F
+2023-06-01,Tomato,19.17,Guindy,Farmer D
+2023-06-01,Potato,13.37,Potheri,Farmer F
+2023-06-01,Onion,29.2,T. Nagar,Farmer D
+2023-06-01,Carrot,20.01,T. Nagar,Farmer F
+2023-06-01,Cabbage,22.88,Guindy,Farmer J
+2023-06-01,Spinach,13.97,Velachery,Farmer J
+2023-06-01,Cauliflower,24.39,Kodambakkam,Farmer J
+2023-06-01,Broccoli,32.94,Velachery,Farmer H
+2023-06-01,Eggplant,26.5,T. Nagar,Farmer H
+2023-06-01,Capsicum,38.16,Tambaram,Farmer A
+2023-06-02,Tomato,24.98,Guindy,Farmer J
+2023-06-02,Potato,10.18,Thiruvanmiyur,Farmer B
+2023-06-02,Onion,27.75,Chromepet,Farmer J
+2023-06-02,Carrot,29.34,Thiruvanmiyur,Farmer J
+2023-06-02,Cabbage,15.78,T. Nagar,Farmer H
+2023-06-02,Spinach,5.94,Adyar,Farmer J
+2023-06-02,Cauliflower,18.56,Chromepet,Farmer A
+2023-06-02,Broccoli,35.08,Adyar,Farmer B
+2023-06-02,Eggplant,24.3,Guindy,Farmer G
+2023-06-02,Capsicum,35.17,Kodambakkam,Farmer H
+2023-06-03,Tomato,18.5,Kodambakkam,Farmer E
+2023-06-03,Potato,16.89,Velachery,Farmer E
+2023-06-03,Onion,32.93,T. Nagar,Farmer G
+2023-06-03,Carrot,27.28,Tambaram,Farmer F
+2023-06-03,Cabbage,15.33,Adyar,Farmer D
+2023-06-03,Spinach,8.24,Chromepet,Farmer B
+2023-06-03,Cauliflower,18.88,Tambaram,Farmer J
+2023-06-03,Broccoli,39.88,T. Nagar,Farmer F
+2023-06-03,Eggplant,28.85,Chromepet,Farmer I
+2023-06-03,Capsicum,35.08,Thiruvanmiyur,Farmer H
+2023-06-04,Tomato,19.25,Guindy,Farmer C
+2023-06-04,Potato,17.74,Guindy,Farmer A
+2023-06-04,Onion,28.67,Guindy,Farmer J
+2023-06-04,Carrot,20.87,Tambaram,Farmer G
+2023-06-04,Cabbage,15.29,T. Nagar,Farmer F
+2023-06-04,Spinach,11.72,Tambaram,Farmer D
+2023-06-04,Cauliflower,20.72,Tambaram,Farmer J
+2023-06-04,Broccoli,30.42,Adyar,Farmer F
+2023-06-04,Eggplant,31.73,Thiruvanmiyur,Farmer C
+2023-06-04,Capsicum,36.32,Tambaram,Farmer B
+2023-06-05,Tomato,15.41,Adyar,Farmer J
+2023-06-05,Potato,15.84,Adyar,Farmer H
+2023-06-05,Onion,26.51,Chromepet,Farmer F
+2023-06-05,Carrot,22.79,Potheri,Farmer J
+2023-06-05,Cabbage,22.73,T. Nagar,Farmer B
+2023-06-05,Spinach,14.62,Anna Nagar,Farmer G
+2023-06-05,Cauliflower,26.97,Velachery,Farmer G
+2023-06-05,Broccoli,39.51,Chromepet,Farmer J
+2023-06-05,Eggplant,28.79,Adyar,Farmer J
+2023-06-05,Capsicum,39.02,T. Nagar,Farmer E
+2023-06-06,Tomato,16.16,Potheri,Farmer D
+2023-06-06,Potato,17.73,Potheri,Farmer B
+2023-06-06,Onion,32.86,Tambaram,Farmer D
+2023-06-06,Carrot,29.61,Anna Nagar,Farmer C
+2023-06-06,Cabbage,22.15,Thiruvanmiyur,Farmer B
+2023-06-06,Spinach,8.51,Kodambakkam,Farmer B
+2023-06-06,Cauliflower,24.11,Anna Nagar,Farmer I
+2023-06-06,Broccoli,34.18,T. Nagar,Farmer E
+2023-06-06,Eggplant,29.02,Chromepet,Farmer F
+2023-06-06,Capsicum,38.64,Tambaram,Farmer B
+2023-06-07,Tomato,20.77,Thiruvanmiyur,Farmer C
+2023-06-07,Potato,11.18,Kodambakkam,Farmer E
+2023-06-07,Onion,30.46,Guindy,Farmer C
+2023-06-07,Carrot,25.99,Potheri,Farmer I
+2023-06-07,Cabbage,20.09,T. Nagar,Farmer E
+2023-06-07,Spinach,12.8,T. Nagar,Farmer J
+2023-06-07,Cauliflower,24.37,Adyar,Farmer C
+2023-06-07,Broccoli,31.46,Adyar,Farmer A
+2023-06-07,Eggplant,32.57,Chromepet,Farmer H
+2023-06-07,Capsicum,37.32,T. Nagar,Farmer I
+2023-06-08,Tomato,16.41,Chromepet,Farmer C
+2023-06-08,Potato,13.32,Adyar,Farmer I
+2023-06-08,Onion,27.02,Adyar,Farmer A
+2023-06-08,Carrot,25.01,Velachery,Farmer F
+2023-06-08,Cabbage,13.95,Guindy,Farmer F
+2023-06-08,Spinach,12.25,Tambaram,Farmer J
+2023-06-08,Cauliflower,25.95,Velachery,Farmer G
+2023-06-08,Broccoli,38.91,T. Nagar,Farmer H
+2023-06-08,Eggplant,23.01,Potheri,Farmer G
+2023-06-08,Capsicum,40.79,Thiruvanmiyur,Farmer C
+2023-06-09,Tomato,20.52,Tambaram,Farmer A
+2023-06-09,Potato,18.26,Kodambakkam,Farmer G
+2023-06-09,Onion,27.67,Guindy,Farmer D
+2023-06-09,Carrot,28.63,Guindy,Farmer B
+2023-06-09,Cabbage,13.62,T. Nagar,Farmer E
+2023-06-09,Spinach,9.62,T. Nagar,Farmer G
+2023-06-09,Cauliflower,20.9,Thiruvanmiyur,Farmer F
+2023-06-09,Broccoli,32.5,Thiruvanmiyur,Farmer B
+2023-06-09,Eggplant,31.13,Anna Nagar,Farmer B
+2023-06-09,Capsicum,43.89,Velachery,Farmer F
+2023-06-10,Tomato,17.58,Guindy,Farmer H
+2023-06-10,Potato,14.32,Adyar,Farmer C
+2023-06-10,Onion,29.52,Kodambakkam,Farmer I
+2023-06-10,Carrot,20.6,Guindy,Farmer D
+2023-06-10,Cabbage,15.9,Velachery,Farmer D
+2023-06-10,Spinach,14.16,Adyar,Farmer A
+2023-06-10,Cauliflower,25.96,Chromepet,Farmer E
+2023-06-10,Broccoli,36.33,Anna Nagar,Farmer G
+2023-06-10,Eggplant,23.75,Velachery,Farmer E
+2023-06-10,Capsicum,40.63,Potheri,Farmer H
+2023-06-11,Tomato,16.1,Potheri,Farmer F
+2023-06-11,Potato,15.69,Anna Nagar,Farmer F
+2023-06-11,Onion,31.21,Chromepet,Farmer C
+2023-06-11,Carrot,29.69,Velachery,Farmer E
+2023-06-11,Cabbage,22.95,Anna Nagar,Farmer G
+2023-06-11,Spinach,12.26,Guindy,Farmer C
+2023-06-11,Cauliflower,17.68,Adyar,Farmer D
+2023-06-11,Broccoli,33.33,Velachery,Farmer E
+2023-06-11,Eggplant,25.16,Tambaram,Farmer J
+2023-06-11,Capsicum,44.75,T. Nagar,Farmer I
+2023-06-12,Tomato,15.33,Guindy,Farmer B
+2023-06-12,Potato,19.18,Potheri,Farmer H
+2023-06-12,Onion,32.32,Chromepet,Farmer B
+2023-06-12,Carrot,27.66,Adyar,Farmer F
+2023-06-12,Cabbage,17.93,Guindy,Farmer C
+2023-06-12,Spinach,5.6,Kodambakkam,Farmer H
+2023-06-12,Cauliflower,17.8,Tambaram,Farmer J
+2023-06-12,Broccoli,31.21,Thiruvanmiyur,Farmer A
+2023-06-12,Eggplant,29.78,Potheri,Farmer J
+2023-06-12,Capsicum,38.23,Velachery,Farmer D
+2023-06-13,Tomato,16.55,Kodambakkam,Farmer C
+2023-06-13,Potato,18.13,Chromepet,Farmer A
+2023-06-13,Onion,25.43,Potheri,Farmer C
+2023-06-13,Carrot,21.82,Anna Nagar,Farmer J
+2023-06-13,Cabbage,18.11,Adyar,Farmer C
+2023-06-13,Spinach,5.97,Potheri,Farmer F
+2023-06-13,Cauliflower,20.87,Thiruvanmiyur,Farmer H
+2023-06-13,Broccoli,32.86,Tambaram,Farmer J
+2023-06-13,Eggplant,29.1,Thiruvanmiyur,Farmer D
+2023-06-13,Capsicum,44.17,Potheri,Farmer H
+2023-06-14,Tomato,22.14,Adyar,Farmer F
+2023-06-14,Potato,19.22,Thiruvanmiyur,Farmer J
+2023-06-14,Onion,27.97,Velachery,Farmer A
+2023-06-14,Carrot,22.31,Kodambakkam,Farmer C
+2023-06-14,Cabbage,22.31,Velachery,Farmer A
+2023-06-14,Spinach,13.72,Kodambakkam,Farmer C
+2023-06-14,Cauliflower,24.13,Chromepet,Farmer G
+2023-06-14,Broccoli,33.41,Tambaram,Farmer C
+2023-06-14,Eggplant,30.87,Potheri,Farmer I
+2023-06-14,Capsicum,40.16,Anna Nagar,Farmer H
+2023-06-15,Tomato,24.93,Velachery,Farmer G
+2023-06-15,Potato,10.87,Kodambakkam,Farmer J
+2023-06-15,Onion,32.73,Chromepet,Farmer F
+2023-06-15,Carrot,28.47,T. Nagar,Farmer C
+2023-06-15,Cabbage,18.73,Chromepet,Farmer A
+2023-06-15,Spinach,6.89,Guindy,Farmer D
+2023-06-15,Cauliflower,26.38,Chromepet,Farmer F
+2023-06-15,Broccoli,37.42,T. Nagar,Farmer F
+2023-06-15,Eggplant,25.22,Velachery,Farmer I
+2023-06-15,Capsicum,40.25,Chromepet,Farmer E
+2023-06-16,Tomato,19.0,Thiruvanmiyur,Farmer I
+2023-06-16,Potato,16.37,Thiruvanmiyur,Farmer G
+2023-06-16,Onion,30.46,Tambaram,Farmer I
+2023-06-16,Carrot,20.23,Adyar,Farmer D
+2023-06-16,Cabbage,19.42,Adyar,Farmer B
+2023-06-16,Spinach,5.73,Anna Nagar,Farmer B
+2023-06-16,Cauliflower,20.17,Adyar,Farmer J
+2023-06-16,Broccoli,33.68,Potheri,Farmer D
+2023-06-16,Eggplant,25.92,Chromepet,Farmer F
+2023-06-16,Capsicum,36.27,Guindy,Farmer C
+2023-06-17,Tomato,21.85,Potheri,Farmer H
+2023-06-17,Potato,12.12,Guindy,Farmer D
+2023-06-17,Onion,34.61,Tambaram,Farmer E
+2023-06-17,Carrot,26.86,Adyar,Farmer G
+2023-06-17,Cabbage,22.51,Tambaram,Farmer G
+2023-06-17,Spinach,7.72,Anna Nagar,Farmer F
+2023-06-17,Cauliflower,25.77,Adyar,Farmer H
+2023-06-17,Broccoli,30.24,Guindy,Farmer D
+2023-06-17,Eggplant,32.04,Adyar,Farmer G
+2023-06-17,Capsicum,37.11,Tambaram,Farmer G
+2023-06-18,Tomato,16.43,Anna Nagar,Farmer E
+2023-06-18,Potato,10.89,Adyar,Farmer I
+2023-06-18,Onion,33.64,Kodambakkam,Farmer H
+2023-06-18,Carrot,23.03,T. Nagar,Farmer G
+2023-06-18,Cabbage,19.36,Potheri,Farmer D
+2023-06-18,Spinach,7.9,T. Nagar,Farmer E
+2023-06-18,Cauliflower,18.53,Adyar,Farmer B
+2023-06-18,Broccoli,38.45,Chromepet,Farmer B
+2023-06-18,Eggplant,30.4,Thiruvanmiyur,Farmer C
+2023-06-18,Capsicum,43.11,Adyar,Farmer F
+2023-06-19,Tomato,16.25,T. Nagar,Farmer D
+2023-06-19,Potato,12.32,Thiruvanmiyur,Farmer J
+2023-06-19,Onion,30.92,T. Nagar,Farmer A
+2023-06-19,Carrot,20.14,Tambaram,Farmer B
+2023-06-19,Cabbage,17.34,Guindy,Farmer F
+2023-06-19,Spinach,11.74,Potheri,Farmer E
+2023-06-19,Cauliflower,20.63,Adyar,Farmer F
+2023-06-19,Broccoli,31.8,Velachery,Farmer I
+2023-06-19,Eggplant,28.9,Guindy,Farmer I
+2023-06-19,Capsicum,43.61,Tambaram,Farmer E
+2023-06-20,Tomato,22.9,Anna Nagar,Farmer J
+2023-06-20,Potato,10.23,Anna Nagar,Farmer E
+2023-06-20,Onion,26.78,Kodambakkam,Farmer B
+2023-06-20,Carrot,20.8,Chromepet,Farmer H
+2023-06-20,Cabbage,21.39,Kodambakkam,Farmer A
+2023-06-20,Spinach,10.1,T. Nagar,Farmer H
+2023-06-20,Cauliflower,23.47,T. Nagar,Farmer G
+2023-06-20,Broccoli,30.55,Adyar,Farmer B
+2023-06-20,Eggplant,25.01,Thiruvanmiyur,Farmer B
+2023-06-20,Capsicum,38.54,Potheri,Farmer J
+2023-06-21,Tomato,18.88,T. Nagar,Farmer H
+2023-06-21,Potato,11.46,Adyar,Farmer J
+2023-06-21,Onion,27.93,Guindy,Farmer G
+2023-06-21,Carrot,25.21,Potheri,Farmer I
+2023-06-21,Cabbage,22.91,Chromepet,Farmer A
+2023-06-21,Spinach,7.95,Velachery,Farmer J
+2023-06-21,Cauliflower,18.3,T. Nagar,Farmer J
+2023-06-21,Broccoli,32.59,Potheri,Farmer B
+2023-06-21,Eggplant,28.12,Potheri,Farmer G
+2023-06-21,Capsicum,43.23,Anna Nagar,Farmer G
+2023-06-22,Tomato,16.28,T. Nagar,Farmer J
+2023-06-22,Potato,19.27,Anna Nagar,Farmer E
+2023-06-22,Onion,32.66,Tambaram,Farmer H
+2023-06-22,Carrot,29.64,Adyar,Farmer A
+2023-06-22,Cabbage,21.05,T. Nagar,Farmer F
+2023-06-22,Spinach,10.63,Kodambakkam,Farmer F
+2023-06-22,Cauliflower,25.46,Potheri,Farmer I
+2023-06-22,Broccoli,30.36,Tambaram,Farmer F
+2023-06-22,Eggplant,29.1,Potheri,Farmer C
+2023-06-22,Capsicum,42.22,Thiruvanmiyur,Farmer J
+2023-06-23,Tomato,20.4,Chromepet,Farmer I
+2023-06-23,Potato,16.77,Anna Nagar,Farmer C
+2023-06-23,Onion,25.95,Kodambakkam,Farmer B
+2023-06-23,Carrot,21.2,T. Nagar,Farmer F
+2023-06-23,Cabbage,22.99,Adyar,Farmer F
+2023-06-23,Spinach,13.31,Anna Nagar,Farmer A
+2023-06-23,Cauliflower,20.43,Velachery,Farmer A
+2023-06-23,Broccoli,39.8,Tambaram,Farmer B
+2023-06-23,Eggplant,30.89,Kodambakkam,Farmer G
+2023-06-23,Capsicum,40.66,Anna Nagar,Farmer H
+2023-06-24,Tomato,21.9,T. Nagar,Farmer H
+2023-06-24,Potato,16.36,Guindy,Farmer A
+2023-06-24,Onion,29.69,Potheri,Farmer A
+2023-06-24,Carrot,23.81,T. Nagar,Farmer H
+2023-06-24,Cabbage,20.48,Tambaram,Farmer C
+2023-06-24,Spinach,6.06,Kodambakkam,Farmer J
+2023-06-24,Cauliflower,20.07,Chromepet,Farmer I
+2023-06-24,Broccoli,34.27,Thiruvanmiyur,Farmer A
+2023-06-24,Eggplant,31.04,Guindy,Farmer F
+2023-06-24,Capsicum,44.89,Adyar,Farmer J
+2023-06-25,Tomato,15.48,Adyar,Farmer F
+2023-06-25,Potato,15.48,Tambaram,Farmer A
+2023-06-25,Onion,28.53,Anna Nagar,Farmer A
+2023-06-25,Carrot,28.52,Thiruvanmiyur,Farmer A
+2023-06-25,Cabbage,14.22,Kodambakkam,Farmer H
+2023-06-25,Spinach,14.1,Anna Nagar,Farmer E
+2023-06-25,Cauliflower,24.03,Thiruvanmiyur,Farmer E
+2023-06-25,Broccoli,31.59,Potheri,Farmer F
+2023-06-25,Eggplant,27.28,Velachery,Farmer H
+2023-06-25,Capsicum,36.57,Tambaram,Farmer D
+2023-06-26,Tomato,16.84,Thiruvanmiyur,Farmer D
+2023-06-26,Potato,10.62,T. Nagar,Farmer E
+2023-06-26,Onion,32.91,Guindy,Farmer H
+2023-06-26,Carrot,20.25,Guindy,Farmer E
+2023-06-26,Cabbage,16.95,Velachery,Farmer G
+2023-06-26,Spinach,11.32,Guindy,Farmer H
+2023-06-26,Cauliflower,24.98,Kodambakkam,Farmer J
+2023-06-26,Broccoli,37.11,Potheri,Farmer E
+2023-06-26,Eggplant,25.82,Kodambakkam,Farmer J
+2023-06-26,Capsicum,44.59,Velachery,Farmer I
+2023-06-27,Tomato,23.71,Thiruvanmiyur,Farmer F
+2023-06-27,Potato,19.94,Velachery,Farmer B
+2023-06-27,Onion,32.23,Chromepet,Farmer F
+2023-06-27,Carrot,26.72,Guindy,Farmer J
+2023-06-27,Cabbage,15.23,Tambaram,Farmer A
+2023-06-27,Spinach,8.91,Thiruvanmiyur,Farmer I
+2023-06-27,Cauliflower,22.47,T. Nagar,Farmer B
+2023-06-27,Broccoli,31.13,T. Nagar,Farmer G
+2023-06-27,Eggplant,25.92,T. Nagar,Farmer B
+2023-06-27,Capsicum,44.81,Anna Nagar,Farmer I
+2023-06-28,Tomato,19.98,Velachery,Farmer B
+2023-06-28,Potato,19.38,Potheri,Farmer E
+2023-06-28,Onion,27.12,Kodambakkam,Farmer B
+2023-06-28,Carrot,25.35,Adyar,Farmer F
+2023-06-28,Cabbage,18.74,Velachery,Farmer F
+2023-06-28,Spinach,7.45,Velachery,Farmer J
+2023-06-28,Cauliflower,26.3,T. Nagar,Farmer A
+2023-06-28,Broccoli,36.8,Adyar,Farmer E
+2023-06-28,Eggplant,23.63,Kodambakkam,Farmer I
+2023-06-28,Capsicum,35.03,Potheri,Farmer H
+2023-06-29,Tomato,16.37,Thiruvanmiyur,Farmer F
+2023-06-29,Potato,13.33,Anna Nagar,Farmer E
+2023-06-29,Onion,30.81,Tambaram,Farmer A
+2023-06-29,Carrot,29.38,Adyar,Farmer D
+2023-06-29,Cabbage,20.15,Chromepet,Farmer J
+2023-06-29,Spinach,14.89,T. Nagar,Farmer J
+2023-06-29,Cauliflower,25.24,Thiruvanmiyur,Farmer F
+2023-06-29,Broccoli,32.48,Guindy,Farmer C
+2023-06-29,Eggplant,30.07,Velachery,Farmer F
+2023-06-29,Capsicum,41.47,Guindy,Farmer H
+2023-06-30,Tomato,18.01,Kodambakkam,Farmer I
+2023-06-30,Potato,12.19,Anna Nagar,Farmer H
+2023-06-30,Onion,33.72,Guindy,Farmer G
+2023-06-30,Carrot,26.41,Tambaram,Farmer C
+2023-06-30,Cabbage,22.46,Anna Nagar,Farmer G
+2023-06-30,Spinach,9.63,Velachery,Farmer I
+2023-06-30,Cauliflower,26.13,Potheri,Farmer F
+2023-06-30,Broccoli,39.68,Velachery,Farmer H
+2023-06-30,Eggplant,29.96,Potheri,Farmer I
+2023-06-30,Capsicum,39.98,Adyar,Farmer B
+2023-07-01,Tomato,21.86,Chromepet,Farmer A
+2023-07-01,Potato,14.36,Potheri,Farmer D
+2023-07-01,Onion,27.3,T. Nagar,Farmer A
+2023-07-01,Carrot,20.73,Anna Nagar,Farmer E
+2023-07-01,Cabbage,14.43,Guindy,Farmer B
+2023-07-01,Spinach,13.23,Velachery,Farmer I
+2023-07-01,Cauliflower,19.65,Adyar,Farmer A
+2023-07-01,Broccoli,38.09,Potheri,Farmer C
+2023-07-01,Eggplant,32.08,Adyar,Farmer H
+2023-07-01,Capsicum,44.24,Guindy,Farmer B
+2023-07-02,Tomato,17.46,Thiruvanmiyur,Farmer F
+2023-07-02,Potato,15.85,Kodambakkam,Farmer J
+2023-07-02,Onion,28.53,Potheri,Farmer B
+2023-07-02,Carrot,27.97,Guindy,Farmer A
+2023-07-02,Cabbage,13.14,Chromepet,Farmer E
+2023-07-02,Spinach,7.33,Velachery,Farmer H
+2023-07-02,Cauliflower,18.8,Kodambakkam,Farmer D
+2023-07-02,Broccoli,31.77,T. Nagar,Farmer E
+2023-07-02,Eggplant,29.12,Chromepet,Farmer I
+2023-07-02,Capsicum,43.96,Adyar,Farmer H
+2023-07-03,Tomato,23.07,Thiruvanmiyur,Farmer C
+2023-07-03,Potato,17.6,Potheri,Farmer H
+2023-07-03,Onion,31.55,Tambaram,Farmer A
+2023-07-03,Carrot,28.65,Tambaram,Farmer B
+2023-07-03,Cabbage,15.57,Guindy,Farmer C
+2023-07-03,Spinach,9.04,Velachery,Farmer C
+2023-07-03,Cauliflower,20.71,Potheri,Farmer C
+2023-07-03,Broccoli,34.34,Adyar,Farmer H
+2023-07-03,Eggplant,32.45,Guindy,Farmer I
+2023-07-03,Capsicum,36.03,Chromepet,Farmer C
+2023-07-04,Tomato,24.96,Thiruvanmiyur,Farmer H
+2023-07-04,Potato,18.6,Velachery,Farmer I
+2023-07-04,Onion,29.75,Kodambakkam,Farmer B
+2023-07-04,Carrot,22.48,Kodambakkam,Farmer E
+2023-07-04,Cabbage,22.12,Thiruvanmiyur,Farmer C
+2023-07-04,Spinach,11.15,Tambaram,Farmer G
+2023-07-04,Cauliflower,19.48,Chromepet,Farmer H
+2023-07-04,Broccoli,33.54,Anna Nagar,Farmer F
+2023-07-04,Eggplant,30.93,Potheri,Farmer E
+2023-07-04,Capsicum,44.92,Tambaram,Farmer J
+2023-07-05,Tomato,24.59,Velachery,Farmer E
+2023-07-05,Potato,12.55,Anna Nagar,Farmer H
+2023-07-05,Onion,26.76,Guindy,Farmer J
+2023-07-05,Carrot,28.51,Adyar,Farmer G
+2023-07-05,Cabbage,15.63,Potheri,Farmer J
+2023-07-05,Spinach,14.39,Anna Nagar,Farmer G
+2023-07-05,Cauliflower,19.79,Chromepet,Farmer H
+2023-07-05,Broccoli,34.78,Thiruvanmiyur,Farmer H
+2023-07-05,Eggplant,28.96,Potheri,Farmer A
+2023-07-05,Capsicum,41.64,Guindy,Farmer E
+2023-07-06,Tomato,18.02,Kodambakkam,Farmer C
+2023-07-06,Potato,17.99,Potheri,Farmer G
+2023-07-06,Onion,31.56,Chromepet,Farmer H
+2023-07-06,Carrot,29.79,Thiruvanmiyur,Farmer D
+2023-07-06,Cabbage,16.66,Guindy,Farmer A
+2023-07-06,Spinach,13.81,Anna Nagar,Farmer F
+2023-07-06,Cauliflower,21.1,Potheri,Farmer C
+2023-07-06,Broccoli,35.01,Tambaram,Farmer G
+2023-07-06,Eggplant,29.71,Potheri,Farmer C
+2023-07-06,Capsicum,36.01,Velachery,Farmer E
+2023-07-07,Tomato,17.67,Velachery,Farmer A
+2023-07-07,Potato,16.51,Kodambakkam,Farmer C
+2023-07-07,Onion,32.07,Anna Nagar,Farmer I
+2023-07-07,Carrot,27.22,Kodambakkam,Farmer E
+2023-07-07,Cabbage,21.13,Adyar,Farmer I
+2023-07-07,Spinach,10.6,Adyar,Farmer B
+2023-07-07,Cauliflower,18.48,Adyar,Farmer D
+2023-07-07,Broccoli,37.56,T. Nagar,Farmer F
+2023-07-07,Eggplant,27.99,Adyar,Farmer J
+2023-07-07,Capsicum,42.06,Potheri,Farmer G
+2023-07-08,Tomato,22.88,Tambaram,Farmer E
+2023-07-08,Potato,19.24,Thiruvanmiyur,Farmer B
+2023-07-08,Onion,31.24,Kodambakkam,Farmer F
+2023-07-08,Carrot,26.83,Tambaram,Farmer A
+2023-07-08,Cabbage,14.86,Chromepet,Farmer F
+2023-07-08,Spinach,5.3,Adyar,Farmer J
+2023-07-08,Cauliflower,20.37,Adyar,Farmer G
+2023-07-08,Broccoli,30.81,Tambaram,Farmer I
+2023-07-08,Eggplant,32.42,Guindy,Farmer D
+2023-07-08,Capsicum,39.35,Potheri,Farmer G
+2023-07-09,Tomato,23.6,Anna Nagar,Farmer E
+2023-07-09,Potato,17.05,Velachery,Farmer H
+2023-07-09,Onion,27.22,Kodambakkam,Farmer G
+2023-07-09,Carrot,27.97,T. Nagar,Farmer E
+2023-07-09,Cabbage,15.52,Tambaram,Farmer H
+2023-07-09,Spinach,12.42,Kodambakkam,Farmer G
+2023-07-09,Cauliflower,19.73,Anna Nagar,Farmer D
+2023-07-09,Broccoli,37.22,Guindy,Farmer E
+2023-07-09,Eggplant,30.13,Guindy,Farmer G
+2023-07-09,Capsicum,37.56,Velachery,Farmer J
+2023-07-10,Tomato,23.02,Chromepet,Farmer J
+2023-07-10,Potato,10.94,Anna Nagar,Farmer E
+2023-07-10,Onion,25.46,Potheri,Farmer H
+2023-07-10,Carrot,22.75,Velachery,Farmer H
+2023-07-10,Cabbage,16.17,Kodambakkam,Farmer A
+2023-07-10,Spinach,6.71,Anna Nagar,Farmer J
+2023-07-10,Cauliflower,26.79,Tambaram,Farmer D
+2023-07-10,Broccoli,38.37,Chromepet,Farmer A
+2023-07-10,Eggplant,27.86,Tambaram,Farmer F
+2023-07-10,Capsicum,39.28,Potheri,Farmer F
+2023-07-11,Tomato,19.76,Thiruvanmiyur,Farmer H
+2023-07-11,Potato,13.74,Adyar,Farmer C
+2023-07-11,Onion,33.17,Anna Nagar,Farmer J
+2023-07-11,Carrot,21.84,Tambaram,Farmer J
+2023-07-11,Cabbage,20.02,Chromepet,Farmer C
+2023-07-11,Spinach,11.49,Adyar,Farmer H
+2023-07-11,Cauliflower,19.47,Potheri,Farmer F
+2023-07-11,Broccoli,35.41,Anna Nagar,Farmer I
+2023-07-11,Eggplant,24.48,T. Nagar,Farmer G
+2023-07-11,Capsicum,44.05,Guindy,Farmer I
+2023-07-12,Tomato,15.86,Kodambakkam,Farmer G
+2023-07-12,Potato,14.76,Chromepet,Farmer H
+2023-07-12,Onion,30.57,Tambaram,Farmer D
+2023-07-12,Carrot,25.61,Chromepet,Farmer C
+2023-07-12,Cabbage,17.77,Adyar,Farmer F
+2023-07-12,Spinach,13.71,Velachery,Farmer J
+2023-07-12,Cauliflower,18.37,Kodambakkam,Farmer D
+2023-07-12,Broccoli,38.53,Potheri,Farmer G
+2023-07-12,Eggplant,24.82,Tambaram,Farmer G
+2023-07-12,Capsicum,37.85,Chromepet,Farmer J
+2023-07-13,Tomato,18.34,Anna Nagar,Farmer C
+2023-07-13,Potato,16.38,T. Nagar,Farmer G
+2023-07-13,Onion,33.15,Anna Nagar,Farmer J
+2023-07-13,Carrot,27.33,Guindy,Farmer C
+2023-07-13,Cabbage,13.41,Tambaram,Farmer I
+2023-07-13,Spinach,12.1,Tambaram,Farmer B
+2023-07-13,Cauliflower,21.35,Potheri,Farmer I
+2023-07-13,Broccoli,32.51,Kodambakkam,Farmer B
+2023-07-13,Eggplant,25.46,Guindy,Farmer C
+2023-07-13,Capsicum,44.37,Adyar,Farmer A
+2023-07-14,Tomato,19.31,Potheri,Farmer D
+2023-07-14,Potato,17.66,Chromepet,Farmer I
+2023-07-14,Onion,29.46,T. Nagar,Farmer J
+2023-07-14,Carrot,21.65,Adyar,Farmer A
+2023-07-14,Cabbage,22.9,Potheri,Farmer J
+2023-07-14,Spinach,11.53,Anna Nagar,Farmer B
+2023-07-14,Cauliflower,20.54,Thiruvanmiyur,Farmer A
+2023-07-14,Broccoli,35.75,Adyar,Farmer A
+2023-07-14,Eggplant,29.64,Tambaram,Farmer C
+2023-07-14,Capsicum,36.46,Thiruvanmiyur,Farmer C
+2023-07-15,Tomato,16.48,Guindy,Farmer G
+2023-07-15,Potato,19.88,Guindy,Farmer I
+2023-07-15,Onion,28.93,Adyar,Farmer F
+2023-07-15,Carrot,24.75,Velachery,Farmer G
+2023-07-15,Cabbage,18.65,Velachery,Farmer I
+2023-07-15,Spinach,11.81,Kodambakkam,Farmer C
+2023-07-15,Cauliflower,23.53,Adyar,Farmer H
+2023-07-15,Broccoli,37.88,Adyar,Farmer J
+2023-07-15,Eggplant,31.48,Potheri,Farmer E
+2023-07-15,Capsicum,39.4,Velachery,Farmer A
+2023-07-16,Tomato,17.37,Kodambakkam,Farmer C
+2023-07-16,Potato,11.22,Anna Nagar,Farmer A
+2023-07-16,Onion,34.72,Chromepet,Farmer C
+2023-07-16,Carrot,25.4,Adyar,Farmer A
+2023-07-16,Cabbage,19.44,Potheri,Farmer G
+2023-07-16,Spinach,9.17,Guindy,Farmer B
+2023-07-16,Cauliflower,19.8,Guindy,Farmer E
+2023-07-16,Broccoli,37.19,Kodambakkam,Farmer H
+2023-07-16,Eggplant,25.0,Chromepet,Farmer G
+2023-07-16,Capsicum,37.52,Anna Nagar,Farmer B
+2023-07-17,Tomato,22.86,Velachery,Farmer F
+2023-07-17,Potato,10.51,Velachery,Farmer G
+2023-07-17,Onion,27.17,Anna Nagar,Farmer A
+2023-07-17,Carrot,26.76,Kodambakkam,Farmer C
+2023-07-17,Cabbage,15.79,Thiruvanmiyur,Farmer E
+2023-07-17,Spinach,8.88,Guindy,Farmer D
+2023-07-17,Cauliflower,17.71,Tambaram,Farmer C
+2023-07-17,Broccoli,34.01,Potheri,Farmer F
+2023-07-17,Eggplant,29.08,Adyar,Farmer H
+2023-07-17,Capsicum,37.99,Chromepet,Farmer F
+2023-07-18,Tomato,24.66,T. Nagar,Farmer C
+2023-07-18,Potato,10.51,Chromepet,Farmer C
+2023-07-18,Onion,28.74,Guindy,Farmer F
+2023-07-18,Carrot,26.55,Kodambakkam,Farmer F
+2023-07-18,Cabbage,21.45,Velachery,Farmer E
+2023-07-18,Spinach,9.63,Adyar,Farmer G
+2023-07-18,Cauliflower,23.81,Tambaram,Farmer F
+2023-07-18,Broccoli,37.01,Chromepet,Farmer E
+2023-07-18,Eggplant,24.5,Anna Nagar,Farmer C
+2023-07-18,Capsicum,39.63,Adyar,Farmer D
+2023-07-19,Tomato,18.81,Anna Nagar,Farmer B
+2023-07-19,Potato,14.08,Thiruvanmiyur,Farmer J
+2023-07-19,Onion,32.09,Kodambakkam,Farmer G
+2023-07-19,Carrot,29.74,Anna Nagar,Farmer F
+2023-07-19,Cabbage,14.08,T. Nagar,Farmer D
+2023-07-19,Spinach,9.54,Velachery,Farmer J
+2023-07-19,Cauliflower,19.86,Adyar,Farmer H
+2023-07-19,Broccoli,30.64,Velachery,Farmer I
+2023-07-19,Eggplant,28.11,Tambaram,Farmer E
+2023-07-19,Capsicum,43.89,T. Nagar,Farmer A
+2023-07-20,Tomato,15.34,Thiruvanmiyur,Farmer A
+2023-07-20,Potato,12.03,Anna Nagar,Farmer I
+2023-07-20,Onion,25.21,Adyar,Farmer D
+2023-07-20,Carrot,26.47,Velachery,Farmer H
+2023-07-20,Cabbage,17.32,Adyar,Farmer D
+2023-07-20,Spinach,12.13,Velachery,Farmer I
+2023-07-20,Cauliflower,19.43,Potheri,Farmer I
+2023-07-20,Broccoli,36.62,Velachery,Farmer F
+2023-07-20,Eggplant,29.77,Anna Nagar,Farmer E
+2023-07-20,Capsicum,35.2,Tambaram,Farmer J
+2023-07-21,Tomato,23.95,Potheri,Farmer F
+2023-07-21,Potato,12.75,Chromepet,Farmer B
+2023-07-21,Onion,28.41,Kodambakkam,Farmer C
+2023-07-21,Carrot,21.69,Chromepet,Farmer E
+2023-07-21,Cabbage,21.08,Anna Nagar,Farmer E
+2023-07-21,Spinach,8.78,Kodambakkam,Farmer G
+2023-07-21,Cauliflower,17.94,Thiruvanmiyur,Farmer C
+2023-07-21,Broccoli,34.41,Tambaram,Farmer D
+2023-07-21,Eggplant,23.8,Guindy,Farmer D
+2023-07-21,Capsicum,38.7,T. Nagar,Farmer E
+2023-07-22,Tomato,20.59,Kodambakkam,Farmer B
+2023-07-22,Potato,11.97,Chromepet,Farmer I
+2023-07-22,Onion,26.64,Guindy,Farmer E
+2023-07-22,Carrot,26.03,Kodambakkam,Farmer F
+2023-07-22,Cabbage,14.34,Velachery,Farmer C
+2023-07-22,Spinach,6.29,Thiruvanmiyur,Farmer E
+2023-07-22,Cauliflower,21.82,Anna Nagar,Farmer E
+2023-07-22,Broccoli,33.29,Guindy,Farmer E
+2023-07-22,Eggplant,27.66,Guindy,Farmer H
+2023-07-22,Capsicum,37.36,Tambaram,Farmer G
+2023-07-23,Tomato,19.61,Anna Nagar,Farmer C
+2023-07-23,Potato,11.26,Tambaram,Farmer E
+2023-07-23,Onion,26.12,Guindy,Farmer C
+2023-07-23,Carrot,22.14,Guindy,Farmer I
+2023-07-23,Cabbage,19.13,Chromepet,Farmer D
+2023-07-23,Spinach,10.05,Potheri,Farmer E
+2023-07-23,Cauliflower,18.4,Anna Nagar,Farmer G
+2023-07-23,Broccoli,32.46,Velachery,Farmer I
+2023-07-23,Eggplant,30.41,Anna Nagar,Farmer J
+2023-07-23,Capsicum,39.93,T. Nagar,Farmer C
+2023-07-24,Tomato,15.97,Velachery,Farmer B
+2023-07-24,Potato,13.17,Velachery,Farmer F
+2023-07-24,Onion,34.92,Guindy,Farmer E
+2023-07-24,Carrot,23.14,Adyar,Farmer E
+2023-07-24,Cabbage,17.56,Chromepet,Farmer F
+2023-07-24,Spinach,10.34,Chromepet,Farmer E
+2023-07-24,Cauliflower,23.1,Adyar,Farmer D
+2023-07-24,Broccoli,38.22,Adyar,Farmer J
+2023-07-24,Eggplant,27.58,Guindy,Farmer H
+2023-07-24,Capsicum,41.08,Anna Nagar,Farmer E
+2023-07-25,Tomato,23.59,Thiruvanmiyur,Farmer A
+2023-07-25,Potato,10.27,Velachery,Farmer B
+2023-07-25,Onion,27.76,Tambaram,Farmer A
+2023-07-25,Carrot,28.42,Guindy,Farmer I
+2023-07-25,Cabbage,18.85,Tambaram,Farmer C
+2023-07-25,Spinach,13.09,T. Nagar,Farmer A
+2023-07-25,Cauliflower,17.84,Adyar,Farmer D
+2023-07-25,Broccoli,33.88,Chromepet,Farmer D
+2023-07-25,Eggplant,31.15,Tambaram,Farmer H
+2023-07-25,Capsicum,38.71,Potheri,Farmer I
+2023-07-26,Tomato,19.84,Potheri,Farmer B
+2023-07-26,Potato,15.69,Velachery,Farmer I
+2023-07-26,Onion,31.03,Kodambakkam,Farmer I
+2023-07-26,Carrot,28.05,Anna Nagar,Farmer J
+2023-07-26,Cabbage,18.33,Adyar,Farmer F
+2023-07-26,Spinach,13.54,T. Nagar,Farmer A
+2023-07-26,Cauliflower,24.23,Velachery,Farmer B
+2023-07-26,Broccoli,35.03,Tambaram,Farmer A
+2023-07-26,Eggplant,26.21,Chromepet,Farmer B
+2023-07-26,Capsicum,35.97,Velachery,Farmer C
+2023-07-27,Tomato,22.7,Velachery,Farmer C
+2023-07-27,Potato,16.78,Thiruvanmiyur,Farmer D
+2023-07-27,Onion,32.13,Guindy,Farmer G
+2023-07-27,Carrot,24.17,Anna Nagar,Farmer F
+2023-07-27,Cabbage,19.92,Guindy,Farmer F
+2023-07-27,Spinach,6.93,Tambaram,Farmer A
+2023-07-27,Cauliflower,19.48,Tambaram,Farmer H
+2023-07-27,Broccoli,30.69,Velachery,Farmer I
+2023-07-27,Eggplant,26.48,Kodambakkam,Farmer J
+2023-07-27,Capsicum,38.19,T. Nagar,Farmer J
+2023-07-28,Tomato,17.83,Chromepet,Farmer E
+2023-07-28,Potato,16.07,Tambaram,Farmer B
+2023-07-28,Onion,27.6,Anna Nagar,Farmer G
+2023-07-28,Carrot,25.7,Potheri,Farmer J
+2023-07-28,Cabbage,14.25,Chromepet,Farmer J
+2023-07-28,Spinach,10.12,T. Nagar,Farmer E
+2023-07-28,Cauliflower,25.27,Chromepet,Farmer A
+2023-07-28,Broccoli,33.5,Guindy,Farmer B
+2023-07-28,Eggplant,32.09,T. Nagar,Farmer A
+2023-07-28,Capsicum,43.55,Tambaram,Farmer D
+2023-07-29,Tomato,18.18,Anna Nagar,Farmer F
+2023-07-29,Potato,19.81,Velachery,Farmer F
+2023-07-29,Onion,34.95,Thiruvanmiyur,Farmer J
+2023-07-29,Carrot,28.7,T. Nagar,Farmer D
+2023-07-29,Cabbage,18.68,Anna Nagar,Farmer C
+2023-07-29,Spinach,8.9,Potheri,Farmer F
+2023-07-29,Cauliflower,17.24,Kodambakkam,Farmer I
+2023-07-29,Broccoli,30.07,Velachery,Farmer I
+2023-07-29,Eggplant,29.76,Anna Nagar,Farmer J
+2023-07-29,Capsicum,37.66,Kodambakkam,Farmer C
+2023-07-30,Tomato,19.57,T. Nagar,Farmer F
+2023-07-30,Potato,13.65,Guindy,Farmer H
+2023-07-30,Onion,27.05,Velachery,Farmer C
+2023-07-30,Carrot,21.95,Kodambakkam,Farmer D
+2023-07-30,Cabbage,21.11,Tambaram,Farmer D
+2023-07-30,Spinach,14.15,Adyar,Farmer F
+2023-07-30,Cauliflower,17.07,Tambaram,Farmer G
+2023-07-30,Broccoli,38.46,Guindy,Farmer D
+2023-07-30,Eggplant,31.79,Anna Nagar,Farmer B
+2023-07-30,Capsicum,37.46,Thiruvanmiyur,Farmer F
+2023-07-31,Tomato,20.12,Anna Nagar,Farmer B
+2023-07-31,Potato,15.49,T. Nagar,Farmer F
+2023-07-31,Onion,32.76,Anna Nagar,Farmer I
+2023-07-31,Carrot,27.46,Kodambakkam,Farmer H
+2023-07-31,Cabbage,18.93,Anna Nagar,Farmer F
+2023-07-31,Spinach,7.86,Potheri,Farmer H
+2023-07-31,Cauliflower,26.18,Velachery,Farmer H
+2023-07-31,Broccoli,37.38,Potheri,Farmer D
+2023-07-31,Eggplant,29.77,T. Nagar,Farmer E
+2023-07-31,Capsicum,39.19,Potheri,Farmer F
+2023-08-01,Tomato,21.04,Anna Nagar,Farmer C
+2023-08-01,Potato,11.58,Anna Nagar,Farmer I
+2023-08-01,Onion,25.23,Thiruvanmiyur,Farmer F
+2023-08-01,Carrot,22.61,Kodambakkam,Farmer J
+2023-08-01,Cabbage,15.63,Thiruvanmiyur,Farmer E
+2023-08-01,Spinach,11.34,Anna Nagar,Farmer H
+2023-08-01,Cauliflower,19.15,Adyar,Farmer B
+2023-08-01,Broccoli,34.83,Kodambakkam,Farmer D
+2023-08-01,Eggplant,29.55,Adyar,Farmer A
+2023-08-01,Capsicum,42.21,Chromepet,Farmer D
+2023-08-02,Tomato,21.28,Kodambakkam,Farmer E
+2023-08-02,Potato,15.54,Anna Nagar,Farmer A
+2023-08-02,Onion,33.87,Tambaram,Farmer I
+2023-08-02,Carrot,24.71,Tambaram,Farmer A
+2023-08-02,Cabbage,19.0,Anna Nagar,Farmer C
+2023-08-02,Spinach,14.03,Thiruvanmiyur,Farmer I
+2023-08-02,Cauliflower,26.47,T. Nagar,Farmer A
+2023-08-02,Broccoli,37.68,Thiruvanmiyur,Farmer G
+2023-08-02,Eggplant,32.47,Tambaram,Farmer F
+2023-08-02,Capsicum,42.43,Potheri,Farmer J
+2023-08-03,Tomato,15.54,Kodambakkam,Farmer G
+2023-08-03,Potato,16.76,Chromepet,Farmer D
+2023-08-03,Onion,34.6,Potheri,Farmer C
+2023-08-03,Carrot,24.31,Chromepet,Farmer B
+2023-08-03,Cabbage,14.66,Thiruvanmiyur,Farmer C
+2023-08-03,Spinach,10.84,Guindy,Farmer F
+2023-08-03,Cauliflower,22.21,Tambaram,Farmer I
+2023-08-03,Broccoli,34.76,Anna Nagar,Farmer A
+2023-08-03,Eggplant,24.13,Adyar,Farmer H
+2023-08-03,Capsicum,44.43,Chromepet,Farmer F
+2023-08-04,Tomato,24.15,Velachery,Farmer D
+2023-08-04,Potato,12.89,Adyar,Farmer D
+2023-08-04,Onion,25.28,Potheri,Farmer G
+2023-08-04,Carrot,23.7,Adyar,Farmer C
+2023-08-04,Cabbage,14.62,Guindy,Farmer J
+2023-08-04,Spinach,10.04,Guindy,Farmer E
+2023-08-04,Cauliflower,20.61,T. Nagar,Farmer E
+2023-08-04,Broccoli,36.31,Chromepet,Farmer E
+2023-08-04,Eggplant,26.27,Anna Nagar,Farmer C
+2023-08-04,Capsicum,40.53,Adyar,Farmer H
+2023-08-05,Tomato,23.96,Tambaram,Farmer A
+2023-08-05,Potato,19.7,Thiruvanmiyur,Farmer I
+2023-08-05,Onion,25.12,Guindy,Farmer G
+2023-08-05,Carrot,26.63,Guindy,Farmer J
+2023-08-05,Cabbage,17.93,Guindy,Farmer C
+2023-08-05,Spinach,14.31,Thiruvanmiyur,Farmer G
+2023-08-05,Cauliflower,23.42,Tambaram,Farmer J
+2023-08-05,Broccoli,36.51,Potheri,Farmer B
+2023-08-05,Eggplant,32.7,Adyar,Farmer A
+2023-08-05,Capsicum,37.23,Adyar,Farmer F
+2023-08-06,Tomato,18.08,T. Nagar,Farmer E
+2023-08-06,Potato,18.85,T. Nagar,Farmer J
+2023-08-06,Onion,26.17,T. Nagar,Farmer B
+2023-08-06,Carrot,27.34,Velachery,Farmer A
+2023-08-06,Cabbage,14.77,Velachery,Farmer C
+2023-08-06,Spinach,5.01,Tambaram,Farmer I
+2023-08-06,Cauliflower,19.34,Guindy,Farmer D
+2023-08-06,Broccoli,35.96,Chromepet,Farmer G
+2023-08-06,Eggplant,26.99,Velachery,Farmer E
+2023-08-06,Capsicum,36.43,Chromepet,Farmer E
+2023-08-07,Tomato,16.35,Velachery,Farmer A
+2023-08-07,Potato,13.68,Potheri,Farmer F
+2023-08-07,Onion,31.59,Adyar,Farmer A
+2023-08-07,Carrot,29.4,Tambaram,Farmer H
+2023-08-07,Cabbage,20.1,T. Nagar,Farmer E
+2023-08-07,Spinach,9.64,Tambaram,Farmer H
+2023-08-07,Cauliflower,23.64,Anna Nagar,Farmer H
+2023-08-07,Broccoli,39.36,Chromepet,Farmer J
+2023-08-07,Eggplant,24.63,Potheri,Farmer A
+2023-08-07,Capsicum,39.69,Thiruvanmiyur,Farmer F
+2023-08-08,Tomato,17.57,Thiruvanmiyur,Farmer B
+2023-08-08,Potato,17.35,Kodambakkam,Farmer J
+2023-08-08,Onion,33.0,Anna Nagar,Farmer I
+2023-08-08,Carrot,23.73,Velachery,Farmer E
+2023-08-08,Cabbage,15.93,T. Nagar,Farmer I
+2023-08-08,Spinach,10.16,Tambaram,Farmer C
+2023-08-08,Cauliflower,19.2,Potheri,Farmer C
+2023-08-08,Broccoli,35.19,Anna Nagar,Farmer J
+2023-08-08,Eggplant,30.97,Potheri,Farmer B
+2023-08-08,Capsicum,42.21,Chromepet,Farmer H
+2023-08-09,Tomato,21.45,Chromepet,Farmer C
+2023-08-09,Potato,12.86,Guindy,Farmer H
+2023-08-09,Onion,31.32,Thiruvanmiyur,Farmer F
+2023-08-09,Carrot,21.17,Adyar,Farmer I
+2023-08-09,Cabbage,16.66,Guindy,Farmer E
+2023-08-09,Spinach,11.6,Adyar,Farmer F
+2023-08-09,Cauliflower,19.8,Anna Nagar,Farmer D
+2023-08-09,Broccoli,30.98,T. Nagar,Farmer A
+2023-08-09,Eggplant,31.24,Potheri,Farmer A
+2023-08-09,Capsicum,42.81,Velachery,Farmer J
+2023-08-10,Tomato,16.24,Adyar,Farmer A
+2023-08-10,Potato,17.85,Anna Nagar,Farmer D
+2023-08-10,Onion,32.5,Velachery,Farmer C
+2023-08-10,Carrot,24.77,T. Nagar,Farmer A
+2023-08-10,Cabbage,15.23,Tambaram,Farmer H
+2023-08-10,Spinach,13.43,Guindy,Farmer F
+2023-08-10,Cauliflower,17.24,Guindy,Farmer H
+2023-08-10,Broccoli,34.96,T. Nagar,Farmer E
+2023-08-10,Eggplant,31.99,Potheri,Farmer D
+2023-08-10,Capsicum,36.91,Adyar,Farmer C
+2023-08-11,Tomato,21.21,Thiruvanmiyur,Farmer E
+2023-08-11,Potato,18.75,Velachery,Farmer B
+2023-08-11,Onion,33.29,Chromepet,Farmer G
+2023-08-11,Carrot,28.41,Velachery,Farmer G
+2023-08-11,Cabbage,16.77,Guindy,Farmer B
+2023-08-11,Spinach,8.86,Chromepet,Farmer J
+2023-08-11,Cauliflower,18.63,Thiruvanmiyur,Farmer D
+2023-08-11,Broccoli,30.44,Tambaram,Farmer B
+2023-08-11,Eggplant,31.03,Thiruvanmiyur,Farmer A
+2023-08-11,Capsicum,35.66,T. Nagar,Farmer G
+2023-08-12,Tomato,17.8,Tambaram,Farmer F
+2023-08-12,Potato,13.02,Adyar,Farmer D
+2023-08-12,Onion,30.8,T. Nagar,Farmer I
+2023-08-12,Carrot,20.05,Thiruvanmiyur,Farmer I
+2023-08-12,Cabbage,20.11,Guindy,Farmer B
+2023-08-12,Spinach,8.53,Chromepet,Farmer H
+2023-08-12,Cauliflower,22.54,Anna Nagar,Farmer A
+2023-08-12,Broccoli,32.44,Tambaram,Farmer C
+2023-08-12,Eggplant,24.01,T. Nagar,Farmer G
+2023-08-12,Capsicum,42.65,Adyar,Farmer I
+2023-08-13,Tomato,19.16,Tambaram,Farmer I
+2023-08-13,Potato,13.83,Kodambakkam,Farmer F
+2023-08-13,Onion,31.91,Anna Nagar,Farmer B
+2023-08-13,Carrot,29.97,Kodambakkam,Farmer I
+2023-08-13,Cabbage,15.18,Tambaram,Farmer I
+2023-08-13,Spinach,12.68,Velachery,Farmer J
+2023-08-13,Cauliflower,24.63,Guindy,Farmer A
+2023-08-13,Broccoli,35.6,Potheri,Farmer G
+2023-08-13,Eggplant,25.64,Chromepet,Farmer A
+2023-08-13,Capsicum,40.05,Velachery,Farmer C
+2023-08-14,Tomato,15.62,Chromepet,Farmer F
+2023-08-14,Potato,13.84,Thiruvanmiyur,Farmer C
+2023-08-14,Onion,34.99,Anna Nagar,Farmer F
+2023-08-14,Carrot,23.08,Adyar,Farmer B
+2023-08-14,Cabbage,18.95,Kodambakkam,Farmer D
+2023-08-14,Spinach,11.02,Guindy,Farmer G
+2023-08-14,Cauliflower,22.19,Anna Nagar,Farmer F
+2023-08-14,Broccoli,35.96,Thiruvanmiyur,Farmer C
+2023-08-14,Eggplant,24.95,Tambaram,Farmer D
+2023-08-14,Capsicum,43.3,Chromepet,Farmer G
+2023-08-15,Tomato,20.05,Thiruvanmiyur,Farmer B
+2023-08-15,Potato,10.68,Adyar,Farmer D
+2023-08-15,Onion,26.38,Tambaram,Farmer H
+2023-08-15,Carrot,21.68,Tambaram,Farmer C
+2023-08-15,Cabbage,17.01,Thiruvanmiyur,Farmer G
+2023-08-15,Spinach,13.13,Chromepet,Farmer D
+2023-08-15,Cauliflower,21.28,Velachery,Farmer E
+2023-08-15,Broccoli,36.72,Adyar,Farmer C
+2023-08-15,Eggplant,24.72,Kodambakkam,Farmer H
+2023-08-15,Capsicum,37.95,Guindy,Farmer G
+2023-08-16,Tomato,19.26,Adyar,Farmer I
+2023-08-16,Potato,15.68,Chromepet,Farmer G
+2023-08-16,Onion,33.24,Thiruvanmiyur,Farmer D
+2023-08-16,Carrot,22.42,Chromepet,Farmer D
+2023-08-16,Cabbage,19.34,T. Nagar,Farmer H
+2023-08-16,Spinach,7.22,Velachery,Farmer B
+2023-08-16,Cauliflower,22.97,T. Nagar,Farmer F
+2023-08-16,Broccoli,31.0,Tambaram,Farmer D
+2023-08-16,Eggplant,28.88,Chromepet,Farmer H
+2023-08-16,Capsicum,35.66,Anna Nagar,Farmer F
+2023-08-17,Tomato,23.31,Adyar,Farmer E
+2023-08-17,Potato,16.61,Tambaram,Farmer G
+2023-08-17,Onion,30.92,Velachery,Farmer B
+2023-08-17,Carrot,22.52,Anna Nagar,Farmer I
+2023-08-17,Cabbage,21.81,Thiruvanmiyur,Farmer I
+2023-08-17,Spinach,6.02,Anna Nagar,Farmer A
+2023-08-17,Cauliflower,22.47,Guindy,Farmer A
+2023-08-17,Broccoli,37.42,Guindy,Farmer H
+2023-08-17,Eggplant,26.74,Chromepet,Farmer F
+2023-08-17,Capsicum,41.38,Kodambakkam,Farmer G
+2023-08-18,Tomato,18.66,Adyar,Farmer E
+2023-08-18,Potato,14.2,Kodambakkam,Farmer I
+2023-08-18,Onion,29.72,T. Nagar,Farmer H
+2023-08-18,Carrot,21.14,Adyar,Farmer J
+2023-08-18,Cabbage,14.19,Potheri,Farmer I
+2023-08-18,Spinach,10.35,Velachery,Farmer B
+2023-08-18,Cauliflower,21.68,T. Nagar,Farmer H
+2023-08-18,Broccoli,35.11,Thiruvanmiyur,Farmer I
+2023-08-18,Eggplant,27.85,Tambaram,Farmer D
+2023-08-18,Capsicum,42.19,Velachery,Farmer C
+2023-08-19,Tomato,20.63,T. Nagar,Farmer C
+2023-08-19,Potato,14.6,Potheri,Farmer G
+2023-08-19,Onion,25.43,Kodambakkam,Farmer E
+2023-08-19,Carrot,23.65,Anna Nagar,Farmer D
+2023-08-19,Cabbage,13.26,Kodambakkam,Farmer J
+2023-08-19,Spinach,8.81,Tambaram,Farmer E
+2023-08-19,Cauliflower,17.71,Tambaram,Farmer D
+2023-08-19,Broccoli,39.91,Chromepet,Farmer D
+2023-08-19,Eggplant,25.45,Velachery,Farmer J
+2023-08-19,Capsicum,38.34,Chromepet,Farmer A
+2023-08-20,Tomato,16.02,Guindy,Farmer H
+2023-08-20,Potato,13.51,Chromepet,Farmer F
+2023-08-20,Onion,33.48,Kodambakkam,Farmer G
+2023-08-20,Carrot,21.33,T. Nagar,Farmer D
+2023-08-20,Cabbage,13.44,Tambaram,Farmer H
+2023-08-20,Spinach,12.99,Anna Nagar,Farmer H
+2023-08-20,Cauliflower,17.94,Guindy,Farmer H
+2023-08-20,Broccoli,35.77,Guindy,Farmer H
+2023-08-20,Eggplant,23.28,Tambaram,Farmer B
+2023-08-20,Capsicum,43.46,T. Nagar,Farmer C
+2023-08-21,Tomato,19.91,Anna Nagar,Farmer I
+2023-08-21,Potato,11.41,Tambaram,Farmer C
+2023-08-21,Onion,32.83,Velachery,Farmer B
+2023-08-21,Carrot,26.06,Thiruvanmiyur,Farmer D
+2023-08-21,Cabbage,22.39,Guindy,Farmer J
+2023-08-21,Spinach,8.08,Guindy,Farmer H
+2023-08-21,Cauliflower,17.34,Tambaram,Farmer G
+2023-08-21,Broccoli,35.12,Tambaram,Farmer D
+2023-08-21,Eggplant,28.97,Tambaram,Farmer F
+2023-08-21,Capsicum,41.34,Chromepet,Farmer D
+2023-08-22,Tomato,24.69,Tambaram,Farmer A
+2023-08-22,Potato,18.56,Kodambakkam,Farmer J
+2023-08-22,Onion,28.64,Chromepet,Farmer B
+2023-08-22,Carrot,21.01,Kodambakkam,Farmer B
+2023-08-22,Cabbage,14.56,Guindy,Farmer E
+2023-08-22,Spinach,11.41,Velachery,Farmer F
+2023-08-22,Cauliflower,18.91,Chromepet,Farmer C
+2023-08-22,Broccoli,36.07,Chromepet,Farmer A
+2023-08-22,Eggplant,32.79,Potheri,Farmer E
+2023-08-22,Capsicum,40.36,Adyar,Farmer D
+2023-08-23,Tomato,23.3,Thiruvanmiyur,Farmer B
+2023-08-23,Potato,12.9,Tambaram,Farmer F
+2023-08-23,Onion,29.09,Kodambakkam,Farmer D
+2023-08-23,Carrot,27.37,Kodambakkam,Farmer H
+2023-08-23,Cabbage,20.1,Anna Nagar,Farmer C
+2023-08-23,Spinach,10.93,Guindy,Farmer E
+2023-08-23,Cauliflower,24.4,Kodambakkam,Farmer G
+2023-08-23,Broccoli,30.5,T. Nagar,Farmer J
+2023-08-23,Eggplant,23.34,Potheri,Farmer D
+2023-08-23,Capsicum,42.16,Tambaram,Farmer F
+2023-08-24,Tomato,15.95,Adyar,Farmer I
+2023-08-24,Potato,13.11,Tambaram,Farmer J
+2023-08-24,Onion,29.53,Anna Nagar,Farmer H
+2023-08-24,Carrot,27.95,Tambaram,Farmer H
+2023-08-24,Cabbage,17.77,Tambaram,Farmer A
+2023-08-24,Spinach,12.13,Chromepet,Farmer A
+2023-08-24,Cauliflower,20.8,Tambaram,Farmer I
+2023-08-24,Broccoli,33.92,Tambaram,Farmer G
+2023-08-24,Eggplant,23.35,Chromepet,Farmer F
+2023-08-24,Capsicum,40.2,Anna Nagar,Farmer I
+2023-08-25,Tomato,18.53,Chromepet,Farmer G
+2023-08-25,Potato,11.6,Adyar,Farmer E
+2023-08-25,Onion,26.14,Potheri,Farmer H
+2023-08-25,Carrot,23.23,Guindy,Farmer B
+2023-08-25,Cabbage,21.81,Adyar,Farmer F
+2023-08-25,Spinach,7.59,Velachery,Farmer J
+2023-08-25,Cauliflower,18.24,Velachery,Farmer B
+2023-08-25,Broccoli,39.9,Anna Nagar,Farmer B
+2023-08-25,Eggplant,28.1,Kodambakkam,Farmer D
+2023-08-25,Capsicum,44.28,Thiruvanmiyur,Farmer J
+2023-08-26,Tomato,17.26,Potheri,Farmer F
+2023-08-26,Potato,12.93,Adyar,Farmer G
+2023-08-26,Onion,29.1,Chromepet,Farmer D
+2023-08-26,Carrot,20.19,Guindy,Farmer H
+2023-08-26,Cabbage,21.25,Thiruvanmiyur,Farmer J
+2023-08-26,Spinach,5.09,Guindy,Farmer F
+2023-08-26,Cauliflower,24.73,Potheri,Farmer G
+2023-08-26,Broccoli,30.36,Kodambakkam,Farmer A
+2023-08-26,Eggplant,24.44,Thiruvanmiyur,Farmer C
+2023-08-26,Capsicum,38.1,Guindy,Farmer I
+2023-08-27,Tomato,18.7,Guindy,Farmer G
+2023-08-27,Potato,11.11,Velachery,Farmer A
+2023-08-27,Onion,31.78,T. Nagar,Farmer E
+2023-08-27,Carrot,22.0,Chromepet,Farmer A
+2023-08-27,Cabbage,16.6,Chromepet,Farmer J
+2023-08-27,Spinach,9.22,Potheri,Farmer G
+2023-08-27,Cauliflower,17.06,Anna Nagar,Farmer E
+2023-08-27,Broccoli,34.83,Chromepet,Farmer B
+2023-08-27,Eggplant,28.32,Thiruvanmiyur,Farmer G
+2023-08-27,Capsicum,42.22,Adyar,Farmer H
+2023-08-28,Tomato,22.37,Kodambakkam,Farmer E
+2023-08-28,Potato,15.46,Tambaram,Farmer F
+2023-08-28,Onion,27.35,T. Nagar,Farmer C
+2023-08-28,Carrot,28.72,Potheri,Farmer I
+2023-08-28,Cabbage,18.69,Kodambakkam,Farmer J
+2023-08-28,Spinach,8.39,T. Nagar,Farmer I
+2023-08-28,Cauliflower,18.85,Kodambakkam,Farmer D
+2023-08-28,Broccoli,38.3,Chromepet,Farmer G
+2023-08-28,Eggplant,28.84,T. Nagar,Farmer B
+2023-08-28,Capsicum,44.63,Adyar,Farmer D
+2023-08-29,Tomato,24.82,Guindy,Farmer A
+2023-08-29,Potato,19.35,Kodambakkam,Farmer F
+2023-08-29,Onion,28.64,Thiruvanmiyur,Farmer A
+2023-08-29,Carrot,24.73,Chromepet,Farmer H
+2023-08-29,Cabbage,19.24,Thiruvanmiyur,Farmer E
+2023-08-29,Spinach,8.09,Guindy,Farmer H
+2023-08-29,Cauliflower,25.91,Velachery,Farmer A
+2023-08-29,Broccoli,37.32,Adyar,Farmer D
+2023-08-29,Eggplant,24.98,Kodambakkam,Farmer G
+2023-08-29,Capsicum,38.8,Tambaram,Farmer G
+2023-08-30,Tomato,16.77,T. Nagar,Farmer B
+2023-08-30,Potato,17.8,Velachery,Farmer B
+2023-08-30,Onion,27.94,Anna Nagar,Farmer C
+2023-08-30,Carrot,25.21,Kodambakkam,Farmer F
+2023-08-30,Cabbage,14.66,Adyar,Farmer H
+2023-08-30,Spinach,13.97,Adyar,Farmer H
+2023-08-30,Cauliflower,26.3,Thiruvanmiyur,Farmer D
+2023-08-30,Broccoli,31.81,Adyar,Farmer H
+2023-08-30,Eggplant,28.85,Potheri,Farmer D
+2023-08-30,Capsicum,42.62,T. Nagar,Farmer D
+2023-08-31,Tomato,20.11,Chromepet,Farmer E
+2023-08-31,Potato,15.09,Thiruvanmiyur,Farmer I
+2023-08-31,Onion,28.24,Kodambakkam,Farmer G
+2023-08-31,Carrot,23.17,Potheri,Farmer D
+2023-08-31,Cabbage,20.54,Anna Nagar,Farmer H
+2023-08-31,Spinach,13.07,Anna Nagar,Farmer E
+2023-08-31,Cauliflower,17.61,T. Nagar,Farmer B
+2023-08-31,Broccoli,34.79,Anna Nagar,Farmer G
+2023-08-31,Eggplant,27.29,Potheri,Farmer G
+2023-08-31,Capsicum,42.9,Tambaram,Farmer G
+2023-09-01,Tomato,24.61,Adyar,Farmer H
+2023-09-01,Potato,11.88,Velachery,Farmer H
+2023-09-01,Onion,32.94,Chromepet,Farmer C
+2023-09-01,Carrot,26.29,Velachery,Farmer J
+2023-09-01,Cabbage,13.21,Anna Nagar,Farmer G
+2023-09-01,Spinach,8.49,Velachery,Farmer F
+2023-09-01,Cauliflower,25.43,Potheri,Farmer E
+2023-09-01,Broccoli,34.99,Guindy,Farmer B
+2023-09-01,Eggplant,26.97,Potheri,Farmer F
+2023-09-01,Capsicum,39.62,Adyar,Farmer I
+2023-09-02,Tomato,19.45,T. Nagar,Farmer A
+2023-09-02,Potato,12.25,Tambaram,Farmer A
+2023-09-02,Onion,27.33,Guindy,Farmer F
+2023-09-02,Carrot,23.14,Kodambakkam,Farmer E
+2023-09-02,Cabbage,20.4,Adyar,Farmer A
+2023-09-02,Spinach,7.53,Chromepet,Farmer E
+2023-09-02,Cauliflower,19.88,Anna Nagar,Farmer I
+2023-09-02,Broccoli,39.39,Velachery,Farmer J
+2023-09-02,Eggplant,32.57,Chromepet,Farmer C
+2023-09-02,Capsicum,42.35,T. Nagar,Farmer G
+2023-09-03,Tomato,24.15,Velachery,Farmer E
+2023-09-03,Potato,16.82,T. Nagar,Farmer H
+2023-09-03,Onion,29.38,Adyar,Farmer F
+2023-09-03,Carrot,22.06,T. Nagar,Farmer G
+2023-09-03,Cabbage,16.79,Anna Nagar,Farmer C
+2023-09-03,Spinach,11.1,Kodambakkam,Farmer J
+2023-09-03,Cauliflower,17.58,Potheri,Farmer D
+2023-09-03,Broccoli,39.6,T. Nagar,Farmer G
+2023-09-03,Eggplant,31.71,Thiruvanmiyur,Farmer A
+2023-09-03,Capsicum,43.55,T. Nagar,Farmer E
+2023-09-04,Tomato,22.9,T. Nagar,Farmer H
+2023-09-04,Potato,19.86,Kodambakkam,Farmer I
+2023-09-04,Onion,27.8,Chromepet,Farmer I
+2023-09-04,Carrot,27.89,Anna Nagar,Farmer I
+2023-09-04,Cabbage,13.98,Tambaram,Farmer I
+2023-09-04,Spinach,8.58,Anna Nagar,Farmer I
+2023-09-04,Cauliflower,26.72,Potheri,Farmer B
+2023-09-04,Broccoli,35.61,Thiruvanmiyur,Farmer D
+2023-09-04,Eggplant,29.73,T. Nagar,Farmer D
+2023-09-04,Capsicum,35.11,Chromepet,Farmer F
+2023-09-05,Tomato,15.87,T. Nagar,Farmer F
+2023-09-05,Potato,16.42,Adyar,Farmer H
+2023-09-05,Onion,32.64,Tambaram,Farmer H
+2023-09-05,Carrot,28.25,Velachery,Farmer H
+2023-09-05,Cabbage,22.08,Thiruvanmiyur,Farmer H
+2023-09-05,Spinach,10.0,Adyar,Farmer I
+2023-09-05,Cauliflower,23.24,Adyar,Farmer A
+2023-09-05,Broccoli,38.65,Kodambakkam,Farmer B
+2023-09-05,Eggplant,23.23,Adyar,Farmer H
+2023-09-05,Capsicum,41.82,Anna Nagar,Farmer G
+2023-09-06,Tomato,19.08,Velachery,Farmer D
+2023-09-06,Potato,18.46,Potheri,Farmer H
+2023-09-06,Onion,25.15,Chromepet,Farmer A
+2023-09-06,Carrot,22.53,T. Nagar,Farmer E
+2023-09-06,Cabbage,13.89,Adyar,Farmer F
+2023-09-06,Spinach,14.66,Guindy,Farmer A
+2023-09-06,Cauliflower,21.28,Tambaram,Farmer G
+2023-09-06,Broccoli,35.25,T. Nagar,Farmer I
+2023-09-06,Eggplant,30.06,Tambaram,Farmer F
+2023-09-06,Capsicum,43.77,Tambaram,Farmer B
+2023-09-07,Tomato,17.23,Kodambakkam,Farmer F
+2023-09-07,Potato,14.16,Velachery,Farmer J
+2023-09-07,Onion,33.65,Kodambakkam,Farmer C
+2023-09-07,Carrot,22.3,Anna Nagar,Farmer B
+2023-09-07,Cabbage,17.37,Chromepet,Farmer J
+2023-09-07,Spinach,9.17,Potheri,Farmer J
+2023-09-07,Cauliflower,18.2,Potheri,Farmer J
+2023-09-07,Broccoli,39.49,Guindy,Farmer G
+2023-09-07,Eggplant,24.96,Guindy,Farmer G
+2023-09-07,Capsicum,39.65,T. Nagar,Farmer F
+2023-09-08,Tomato,16.8,T. Nagar,Farmer B
+2023-09-08,Potato,15.49,Tambaram,Farmer H
+2023-09-08,Onion,34.16,Anna Nagar,Farmer G
+2023-09-08,Carrot,29.91,Thiruvanmiyur,Farmer A
+2023-09-08,Cabbage,16.9,Velachery,Farmer H
+2023-09-08,Spinach,8.1,Kodambakkam,Farmer B
+2023-09-08,Cauliflower,25.28,Potheri,Farmer D
+2023-09-08,Broccoli,32.62,Kodambakkam,Farmer D
+2023-09-08,Eggplant,24.66,Thiruvanmiyur,Farmer F
+2023-09-08,Capsicum,37.69,Thiruvanmiyur,Farmer E
+2023-09-09,Tomato,17.72,Velachery,Farmer J
+2023-09-09,Potato,14.85,Guindy,Farmer I
+2023-09-09,Onion,28.89,Tambaram,Farmer D
+2023-09-09,Carrot,27.06,Chromepet,Farmer E
+2023-09-09,Cabbage,13.34,Kodambakkam,Farmer F
+2023-09-09,Spinach,7.0,Anna Nagar,Farmer J
+2023-09-09,Cauliflower,20.49,Velachery,Farmer B
+2023-09-09,Broccoli,36.13,Potheri,Farmer D
+2023-09-09,Eggplant,28.24,Tambaram,Farmer G
+2023-09-09,Capsicum,40.47,Guindy,Farmer C
+2023-09-10,Tomato,15.92,Kodambakkam,Farmer F
+2023-09-10,Potato,16.98,Adyar,Farmer D
+2023-09-10,Onion,31.74,Potheri,Farmer E
+2023-09-10,Carrot,22.38,Kodambakkam,Farmer I
+2023-09-10,Cabbage,22.49,Guindy,Farmer J
+2023-09-10,Spinach,14.52,Tambaram,Farmer F
+2023-09-10,Cauliflower,20.18,Thiruvanmiyur,Farmer A
+2023-09-10,Broccoli,36.57,Adyar,Farmer A
+2023-09-10,Eggplant,30.76,T. Nagar,Farmer B
+2023-09-10,Capsicum,42.55,Tambaram,Farmer E
+2023-09-11,Tomato,21.04,Adyar,Farmer H
+2023-09-11,Potato,17.49,Anna Nagar,Farmer E
+2023-09-11,Onion,31.05,Anna Nagar,Farmer E
+2023-09-11,Carrot,23.92,Velachery,Farmer B
+2023-09-11,Cabbage,20.43,Anna Nagar,Farmer E
+2023-09-11,Spinach,7.62,Tambaram,Farmer H
+2023-09-11,Cauliflower,21.74,T. Nagar,Farmer H
+2023-09-11,Broccoli,32.93,Adyar,Farmer B
+2023-09-11,Eggplant,27.47,Anna Nagar,Farmer E
+2023-09-11,Capsicum,43.38,Guindy,Farmer B
+2023-09-12,Tomato,17.81,Velachery,Farmer H
+2023-09-12,Potato,11.22,Thiruvanmiyur,Farmer E
+2023-09-12,Onion,31.84,Velachery,Farmer C
+2023-09-12,Carrot,20.8,Thiruvanmiyur,Farmer A
+2023-09-12,Cabbage,19.28,Chromepet,Farmer D
+2023-09-12,Spinach,10.96,T. Nagar,Farmer G
+2023-09-12,Cauliflower,22.75,T. Nagar,Farmer F
+2023-09-12,Broccoli,32.27,Guindy,Farmer J
+2023-09-12,Eggplant,27.92,Thiruvanmiyur,Farmer E
+2023-09-12,Capsicum,41.59,Chromepet,Farmer I
+2023-09-13,Tomato,22.75,Kodambakkam,Farmer J
+2023-09-13,Potato,18.42,Chromepet,Farmer E
+2023-09-13,Onion,34.71,Guindy,Farmer G
+2023-09-13,Carrot,21.5,Potheri,Farmer F
+2023-09-13,Cabbage,22.52,Potheri,Farmer B
+2023-09-13,Spinach,8.22,Guindy,Farmer E
+2023-09-13,Cauliflower,25.47,Anna Nagar,Farmer B
+2023-09-13,Broccoli,37.77,Potheri,Farmer J
+2023-09-13,Eggplant,24.29,Thiruvanmiyur,Farmer C
+2023-09-13,Capsicum,41.81,Chromepet,Farmer I
+2023-09-14,Tomato,23.46,T. Nagar,Farmer F
+2023-09-14,Potato,11.87,Anna Nagar,Farmer E
+2023-09-14,Onion,33.31,Chromepet,Farmer G
+2023-09-14,Carrot,23.96,Chromepet,Farmer E
+2023-09-14,Cabbage,15.05,Adyar,Farmer I
+2023-09-14,Spinach,11.73,Tambaram,Farmer B
+2023-09-14,Cauliflower,23.02,Thiruvanmiyur,Farmer D
+2023-09-14,Broccoli,32.13,Kodambakkam,Farmer G
+2023-09-14,Eggplant,24.3,Guindy,Farmer C
+2023-09-14,Capsicum,44.31,T. Nagar,Farmer I
+2023-09-15,Tomato,23.16,Kodambakkam,Farmer B
+2023-09-15,Potato,18.05,Adyar,Farmer D
+2023-09-15,Onion,26.83,Chromepet,Farmer H
+2023-09-15,Carrot,23.81,T. Nagar,Farmer G
+2023-09-15,Cabbage,21.15,Anna Nagar,Farmer G
+2023-09-15,Spinach,6.7,Kodambakkam,Farmer H
+2023-09-15,Cauliflower,23.92,Chromepet,Farmer J
+2023-09-15,Broccoli,34.75,Tambaram,Farmer A
+2023-09-15,Eggplant,24.48,Kodambakkam,Farmer D
+2023-09-15,Capsicum,43.51,T. Nagar,Farmer I
+2023-09-16,Tomato,21.19,Tambaram,Farmer F
+2023-09-16,Potato,14.98,Velachery,Farmer F
+2023-09-16,Onion,33.73,Tambaram,Farmer H
+2023-09-16,Carrot,28.33,Adyar,Farmer E
+2023-09-16,Cabbage,20.58,Thiruvanmiyur,Farmer H
+2023-09-16,Spinach,8.75,Tambaram,Farmer I
+2023-09-16,Cauliflower,19.24,Chromepet,Farmer I
+2023-09-16,Broccoli,36.09,Chromepet,Farmer A
+2023-09-16,Eggplant,30.56,Kodambakkam,Farmer I
+2023-09-16,Capsicum,36.22,T. Nagar,Farmer G
+2023-09-17,Tomato,19.37,Tambaram,Farmer B
+2023-09-17,Potato,13.55,Anna Nagar,Farmer A
+2023-09-17,Onion,29.99,Guindy,Farmer C
+2023-09-17,Carrot,28.83,T. Nagar,Farmer J
+2023-09-17,Cabbage,19.87,T. Nagar,Farmer D
+2023-09-17,Spinach,10.75,Potheri,Farmer H
+2023-09-17,Cauliflower,26.79,Guindy,Farmer I
+2023-09-17,Broccoli,35.69,Guindy,Farmer D
+2023-09-17,Eggplant,32.33,Chromepet,Farmer D
+2023-09-17,Capsicum,42.84,Chromepet,Farmer B
+2023-09-18,Tomato,16.81,Anna Nagar,Farmer A
+2023-09-18,Potato,10.03,Tambaram,Farmer H
+2023-09-18,Onion,30.64,Adyar,Farmer C
+2023-09-18,Carrot,21.38,Kodambakkam,Farmer I
+2023-09-18,Cabbage,22.84,Potheri,Farmer J
+2023-09-18,Spinach,12.48,Thiruvanmiyur,Farmer G
+2023-09-18,Cauliflower,19.37,Tambaram,Farmer C
+2023-09-18,Broccoli,36.45,T. Nagar,Farmer J
+2023-09-18,Eggplant,27.63,Anna Nagar,Farmer C
+2023-09-18,Capsicum,44.39,Anna Nagar,Farmer G
+2023-09-19,Tomato,24.45,T. Nagar,Farmer I
+2023-09-19,Potato,10.62,Guindy,Farmer G
+2023-09-19,Onion,29.69,Potheri,Farmer J
+2023-09-19,Carrot,20.33,Tambaram,Farmer G
+2023-09-19,Cabbage,21.06,Tambaram,Farmer I
+2023-09-19,Spinach,9.02,Thiruvanmiyur,Farmer H
+2023-09-19,Cauliflower,22.25,Adyar,Farmer D
+2023-09-19,Broccoli,36.84,Potheri,Farmer G
+2023-09-19,Eggplant,23.8,Adyar,Farmer I
+2023-09-19,Capsicum,43.56,T. Nagar,Farmer D
+2023-09-20,Tomato,18.66,Velachery,Farmer G
+2023-09-20,Potato,15.52,Chromepet,Farmer E
+2023-09-20,Onion,32.03,Velachery,Farmer C
+2023-09-20,Carrot,24.58,Guindy,Farmer H
+2023-09-20,Cabbage,21.75,Thiruvanmiyur,Farmer F
+2023-09-20,Spinach,14.35,Adyar,Farmer G
+2023-09-20,Cauliflower,24.7,Potheri,Farmer F
+2023-09-20,Broccoli,39.03,Velachery,Farmer C
+2023-09-20,Eggplant,31.96,T. Nagar,Farmer E
+2023-09-20,Capsicum,41.05,T. Nagar,Farmer A
+2023-09-21,Tomato,19.32,Guindy,Farmer G
+2023-09-21,Potato,15.14,Tambaram,Farmer E
+2023-09-21,Onion,30.23,Potheri,Farmer D
+2023-09-21,Carrot,22.88,T. Nagar,Farmer H
+2023-09-21,Cabbage,17.5,Chromepet,Farmer J
+2023-09-21,Spinach,12.32,Guindy,Farmer C
+2023-09-21,Cauliflower,17.7,Velachery,Farmer J
+2023-09-21,Broccoli,30.5,Tambaram,Farmer G
+2023-09-21,Eggplant,23.29,Potheri,Farmer J
+2023-09-21,Capsicum,40.61,T. Nagar,Farmer J
+2023-09-22,Tomato,18.83,Adyar,Farmer I
+2023-09-22,Potato,16.16,Thiruvanmiyur,Farmer E
+2023-09-22,Onion,29.47,Guindy,Farmer I
+2023-09-22,Carrot,23.85,Chromepet,Farmer I
+2023-09-22,Cabbage,18.39,Guindy,Farmer C
+2023-09-22,Spinach,8.15,Adyar,Farmer G
+2023-09-22,Cauliflower,22.51,Adyar,Farmer I
+2023-09-22,Broccoli,31.53,Chromepet,Farmer G
+2023-09-22,Eggplant,25.05,T. Nagar,Farmer B
+2023-09-22,Capsicum,43.82,Potheri,Farmer J
+2023-09-23,Tomato,21.41,Potheri,Farmer I
+2023-09-23,Potato,14.78,Tambaram,Farmer F
+2023-09-23,Onion,25.53,Thiruvanmiyur,Farmer H
+2023-09-23,Carrot,23.06,Anna Nagar,Farmer F
+2023-09-23,Cabbage,16.99,Tambaram,Farmer A
+2023-09-23,Spinach,9.38,Potheri,Farmer F
+2023-09-23,Cauliflower,26.5,Kodambakkam,Farmer J
+2023-09-23,Broccoli,32.92,T. Nagar,Farmer D
+2023-09-23,Eggplant,23.24,Kodambakkam,Farmer A
+2023-09-23,Capsicum,40.86,Tambaram,Farmer A
+2023-09-24,Tomato,18.64,Thiruvanmiyur,Farmer B
+2023-09-24,Potato,12.74,Chromepet,Farmer H
+2023-09-24,Onion,29.22,Kodambakkam,Farmer J
+2023-09-24,Carrot,26.2,Adyar,Farmer E
+2023-09-24,Cabbage,15.79,Tambaram,Farmer I
+2023-09-24,Spinach,9.6,Anna Nagar,Farmer D
+2023-09-24,Cauliflower,23.0,Adyar,Farmer I
+2023-09-24,Broccoli,34.44,Thiruvanmiyur,Farmer B
+2023-09-24,Eggplant,27.14,Chromepet,Farmer I
+2023-09-24,Capsicum,42.78,Adyar,Farmer D
+2023-09-25,Tomato,21.77,Kodambakkam,Farmer I
+2023-09-25,Potato,10.87,Adyar,Farmer D
+2023-09-25,Onion,34.54,Potheri,Farmer F
+2023-09-25,Carrot,20.82,Chromepet,Farmer J
+2023-09-25,Cabbage,18.95,Potheri,Farmer J
+2023-09-25,Spinach,12.13,Chromepet,Farmer G
+2023-09-25,Cauliflower,24.63,Velachery,Farmer C
+2023-09-25,Broccoli,31.82,Anna Nagar,Farmer E
+2023-09-25,Eggplant,26.79,Anna Nagar,Farmer E
+2023-09-25,Capsicum,38.19,Velachery,Farmer G
+2023-09-26,Tomato,19.9,Thiruvanmiyur,Farmer E
+2023-09-26,Potato,17.9,T. Nagar,Farmer J
+2023-09-26,Onion,27.74,Potheri,Farmer J
+2023-09-26,Carrot,22.16,Velachery,Farmer G
+2023-09-26,Cabbage,15.26,Kodambakkam,Farmer B
+2023-09-26,Spinach,14.29,Tambaram,Farmer J
+2023-09-26,Cauliflower,26.03,Adyar,Farmer I
+2023-09-26,Broccoli,37.89,Chromepet,Farmer A
+2023-09-26,Eggplant,26.64,Adyar,Farmer B
+2023-09-26,Capsicum,37.66,Tambaram,Farmer I
+2023-09-27,Tomato,15.8,Chromepet,Farmer B
+2023-09-27,Potato,14.04,Tambaram,Farmer F
+2023-09-27,Onion,31.76,Kodambakkam,Farmer E
+2023-09-27,Carrot,20.91,Adyar,Farmer G
+2023-09-27,Cabbage,17.38,Thiruvanmiyur,Farmer B
+2023-09-27,Spinach,12.83,Tambaram,Farmer F
+2023-09-27,Cauliflower,25.85,Adyar,Farmer I
+2023-09-27,Broccoli,38.76,Guindy,Farmer E
+2023-09-27,Eggplant,31.67,Velachery,Farmer A
+2023-09-27,Capsicum,43.31,Adyar,Farmer C
+2023-09-28,Tomato,18.82,T. Nagar,Farmer A
+2023-09-28,Potato,14.13,Anna Nagar,Farmer G
+2023-09-28,Onion,27.98,Adyar,Farmer D
+2023-09-28,Carrot,27.7,Chromepet,Farmer A
+2023-09-28,Cabbage,17.44,T. Nagar,Farmer B
+2023-09-28,Spinach,12.89,Velachery,Farmer F
+2023-09-28,Cauliflower,19.57,Thiruvanmiyur,Farmer B
+2023-09-28,Broccoli,34.17,Velachery,Farmer E
+2023-09-28,Eggplant,28.46,Anna Nagar,Farmer E
+2023-09-28,Capsicum,37.7,Potheri,Farmer D
+2023-09-29,Tomato,15.91,Adyar,Farmer A
+2023-09-29,Potato,11.75,Tambaram,Farmer J
+2023-09-29,Onion,25.25,Thiruvanmiyur,Farmer D
+2023-09-29,Carrot,20.84,Chromepet,Farmer C
+2023-09-29,Cabbage,13.54,Tambaram,Farmer H
+2023-09-29,Spinach,6.54,Adyar,Farmer A
+2023-09-29,Cauliflower,26.94,T. Nagar,Farmer E
+2023-09-29,Broccoli,35.82,Tambaram,Farmer A
+2023-09-29,Eggplant,27.18,Velachery,Farmer I
+2023-09-29,Capsicum,44.71,Anna Nagar,Farmer G
+2023-09-30,Tomato,20.53,Tambaram,Farmer D
+2023-09-30,Potato,15.58,Guindy,Farmer E
+2023-09-30,Onion,28.59,Velachery,Farmer J
+2023-09-30,Carrot,21.25,Velachery,Farmer E
+2023-09-30,Cabbage,14.03,Velachery,Farmer I
+2023-09-30,Spinach,9.0,Anna Nagar,Farmer F
+2023-09-30,Cauliflower,23.07,Chromepet,Farmer A
+2023-09-30,Broccoli,37.06,Potheri,Farmer G
+2023-09-30,Eggplant,30.28,T. Nagar,Farmer I
+2023-09-30,Capsicum,41.67,Adyar,Farmer D
+2023-10-01,Tomato,17.4,T. Nagar,Farmer I
+2023-10-01,Potato,10.93,Adyar,Farmer A
+2023-10-01,Onion,29.17,Guindy,Farmer B
+2023-10-01,Carrot,27.52,Kodambakkam,Farmer A
+2023-10-01,Cabbage,16.04,Kodambakkam,Farmer G
+2023-10-01,Spinach,12.8,Tambaram,Farmer C
+2023-10-01,Cauliflower,20.72,T. Nagar,Farmer J
+2023-10-01,Broccoli,32.2,T. Nagar,Farmer B
+2023-10-01,Eggplant,31.89,Tambaram,Farmer A
+2023-10-01,Capsicum,38.45,Adyar,Farmer E
+2023-10-02,Tomato,18.83,Thiruvanmiyur,Farmer A
+2023-10-02,Potato,19.08,Adyar,Farmer F
+2023-10-02,Onion,27.28,Tambaram,Farmer E
+2023-10-02,Carrot,24.39,Adyar,Farmer J
+2023-10-02,Cabbage,13.26,Adyar,Farmer B
+2023-10-02,Spinach,13.45,T. Nagar,Farmer G
+2023-10-02,Cauliflower,23.41,Adyar,Farmer D
+2023-10-02,Broccoli,33.31,T. Nagar,Farmer J
+2023-10-02,Eggplant,23.42,Chromepet,Farmer I
+2023-10-02,Capsicum,35.94,Velachery,Farmer I
+2023-10-03,Tomato,21.64,Thiruvanmiyur,Farmer C
+2023-10-03,Potato,14.77,Kodambakkam,Farmer J
+2023-10-03,Onion,26.29,Velachery,Farmer B
+2023-10-03,Carrot,20.58,Thiruvanmiyur,Farmer A
+2023-10-03,Cabbage,19.81,Velachery,Farmer G
+2023-10-03,Spinach,5.79,Chromepet,Farmer I
+2023-10-03,Cauliflower,20.48,Guindy,Farmer F
+2023-10-03,Broccoli,32.65,Guindy,Farmer J
+2023-10-03,Eggplant,32.75,Potheri,Farmer B
+2023-10-03,Capsicum,35.11,Velachery,Farmer G
+2023-10-04,Tomato,18.88,Chromepet,Farmer B
+2023-10-04,Potato,16.78,Adyar,Farmer F
+2023-10-04,Onion,27.9,Chromepet,Farmer G
+2023-10-04,Carrot,23.96,Chromepet,Farmer D
+2023-10-04,Cabbage,13.83,Tambaram,Farmer A
+2023-10-04,Spinach,11.67,Adyar,Farmer I
+2023-10-04,Cauliflower,23.6,Tambaram,Farmer H
+2023-10-04,Broccoli,34.29,Thiruvanmiyur,Farmer D
+2023-10-04,Eggplant,28.88,Chromepet,Farmer E
+2023-10-04,Capsicum,43.95,Guindy,Farmer A
+2023-10-05,Tomato,16.14,Adyar,Farmer I
+2023-10-05,Potato,13.46,Velachery,Farmer A
+2023-10-05,Onion,27.47,Chromepet,Farmer B
+2023-10-05,Carrot,20.93,Kodambakkam,Farmer I
+2023-10-05,Cabbage,19.58,Adyar,Farmer B
+2023-10-05,Spinach,7.94,Guindy,Farmer J
+2023-10-05,Cauliflower,23.83,Thiruvanmiyur,Farmer A
+2023-10-05,Broccoli,30.84,Velachery,Farmer G
+2023-10-05,Eggplant,29.66,Thiruvanmiyur,Farmer B
+2023-10-05,Capsicum,36.45,Thiruvanmiyur,Farmer A
+2023-10-06,Tomato,24.52,Velachery,Farmer C
+2023-10-06,Potato,12.51,T. Nagar,Farmer J
+2023-10-06,Onion,26.36,Chromepet,Farmer B
+2023-10-06,Carrot,21.38,Kodambakkam,Farmer H
+2023-10-06,Cabbage,16.06,Chromepet,Farmer I
+2023-10-06,Spinach,9.86,Chromepet,Farmer C
+2023-10-06,Cauliflower,20.6,Guindy,Farmer J
+2023-10-06,Broccoli,34.14,T. Nagar,Farmer E
+2023-10-06,Eggplant,30.85,Thiruvanmiyur,Farmer B
+2023-10-06,Capsicum,36.56,Kodambakkam,Farmer G
+2023-10-07,Tomato,16.53,T. Nagar,Farmer H
+2023-10-07,Potato,17.43,Guindy,Farmer I
+2023-10-07,Onion,30.12,Tambaram,Farmer I
+2023-10-07,Carrot,23.43,Tambaram,Farmer H
+2023-10-07,Cabbage,13.1,Velachery,Farmer J
+2023-10-07,Spinach,6.23,Potheri,Farmer B
+2023-10-07,Cauliflower,19.61,Thiruvanmiyur,Farmer H
+2023-10-07,Broccoli,31.27,T. Nagar,Farmer G
+2023-10-07,Eggplant,29.67,Guindy,Farmer F
+2023-10-07,Capsicum,41.99,Anna Nagar,Farmer G
+2023-10-08,Tomato,22.99,Kodambakkam,Farmer B
+2023-10-08,Potato,12.69,Chromepet,Farmer B
+2023-10-08,Onion,32.74,Velachery,Farmer I
+2023-10-08,Carrot,26.53,Kodambakkam,Farmer I
+2023-10-08,Cabbage,14.55,Thiruvanmiyur,Farmer C
+2023-10-08,Spinach,10.85,Thiruvanmiyur,Farmer D
+2023-10-08,Cauliflower,19.96,Potheri,Farmer C
+2023-10-08,Broccoli,36.85,Guindy,Farmer D
+2023-10-08,Eggplant,26.55,Potheri,Farmer F
+2023-10-08,Capsicum,39.33,Velachery,Farmer F
+2023-10-09,Tomato,21.35,Adyar,Farmer D
+2023-10-09,Potato,17.85,Thiruvanmiyur,Farmer I
+2023-10-09,Onion,32.78,Guindy,Farmer A
+2023-10-09,Carrot,23.52,Adyar,Farmer J
+2023-10-09,Cabbage,20.29,Potheri,Farmer C
+2023-10-09,Spinach,14.43,Potheri,Farmer F
+2023-10-09,Cauliflower,26.66,Kodambakkam,Farmer G
+2023-10-09,Broccoli,34.82,Potheri,Farmer H
+2023-10-09,Eggplant,32.17,Thiruvanmiyur,Farmer F
+2023-10-09,Capsicum,39.98,Thiruvanmiyur,Farmer J
+2023-10-10,Tomato,19.01,Tambaram,Farmer D
+2023-10-10,Potato,13.57,T. Nagar,Farmer A
+2023-10-10,Onion,32.35,Velachery,Farmer A
+2023-10-10,Carrot,24.99,Anna Nagar,Farmer I
+2023-10-10,Cabbage,21.04,T. Nagar,Farmer I
+2023-10-10,Spinach,5.77,Potheri,Farmer G
+2023-10-10,Cauliflower,20.67,Guindy,Farmer I
+2023-10-10,Broccoli,32.93,Chromepet,Farmer I
+2023-10-10,Eggplant,31.46,T. Nagar,Farmer C
+2023-10-10,Capsicum,40.52,Tambaram,Farmer B
+2023-10-11,Tomato,23.75,Tambaram,Farmer I
+2023-10-11,Potato,19.8,Potheri,Farmer C
+2023-10-11,Onion,27.11,T. Nagar,Farmer G
+2023-10-11,Carrot,24.3,Adyar,Farmer B
+2023-10-11,Cabbage,22.23,Velachery,Farmer E
+2023-10-11,Spinach,5.95,Guindy,Farmer E
+2023-10-11,Cauliflower,23.0,Kodambakkam,Farmer A
+2023-10-11,Broccoli,34.63,Potheri,Farmer F
+2023-10-11,Eggplant,24.88,Anna Nagar,Farmer G
+2023-10-11,Capsicum,44.97,T. Nagar,Farmer G
+2023-10-12,Tomato,22.62,Chromepet,Farmer C
+2023-10-12,Potato,19.22,Chromepet,Farmer I
+2023-10-12,Onion,32.54,Velachery,Farmer G
+2023-10-12,Carrot,27.6,Chromepet,Farmer C
+2023-10-12,Cabbage,21.89,Adyar,Farmer C
+2023-10-12,Spinach,14.57,Kodambakkam,Farmer C
+2023-10-12,Cauliflower,23.17,Potheri,Farmer C
+2023-10-12,Broccoli,38.04,T. Nagar,Farmer G
+2023-10-12,Eggplant,30.59,Velachery,Farmer E
+2023-10-12,Capsicum,36.35,Velachery,Farmer B
+2023-10-13,Tomato,22.01,T. Nagar,Farmer C
+2023-10-13,Potato,13.44,Guindy,Farmer E
+2023-10-13,Onion,27.2,Thiruvanmiyur,Farmer I
+2023-10-13,Carrot,21.39,Tambaram,Farmer G
+2023-10-13,Cabbage,17.19,T. Nagar,Farmer C
+2023-10-13,Spinach,10.72,Thiruvanmiyur,Farmer D
+2023-10-13,Cauliflower,17.43,Chromepet,Farmer D
+2023-10-13,Broccoli,37.63,Anna Nagar,Farmer G
+2023-10-13,Eggplant,24.36,Potheri,Farmer C
+2023-10-13,Capsicum,41.82,Tambaram,Farmer G
+2023-10-14,Tomato,15.01,Velachery,Farmer F
+2023-10-14,Potato,12.38,Anna Nagar,Farmer G
+2023-10-14,Onion,32.46,Chromepet,Farmer I
+2023-10-14,Carrot,27.22,Kodambakkam,Farmer J
+2023-10-14,Cabbage,15.66,Kodambakkam,Farmer J
+2023-10-14,Spinach,12.13,Velachery,Farmer H
+2023-10-14,Cauliflower,22.9,Thiruvanmiyur,Farmer J
+2023-10-14,Broccoli,38.98,Velachery,Farmer H
+2023-10-14,Eggplant,31.51,Anna Nagar,Farmer E
+2023-10-14,Capsicum,37.57,Thiruvanmiyur,Farmer F
+2023-10-15,Tomato,19.78,Kodambakkam,Farmer H
+2023-10-15,Potato,10.6,Thiruvanmiyur,Farmer C
+2023-10-15,Onion,27.17,Chromepet,Farmer B
+2023-10-15,Carrot,24.61,Chromepet,Farmer E
+2023-10-15,Cabbage,18.48,Guindy,Farmer J
+2023-10-15,Spinach,10.65,Tambaram,Farmer D
+2023-10-15,Cauliflower,19.03,Tambaram,Farmer B
+2023-10-15,Broccoli,39.25,Velachery,Farmer F
+2023-10-15,Eggplant,23.18,Potheri,Farmer F
+2023-10-15,Capsicum,42.53,Velachery,Farmer H
+2023-10-16,Tomato,20.81,T. Nagar,Farmer C
+2023-10-16,Potato,10.27,Thiruvanmiyur,Farmer F
+2023-10-16,Onion,27.6,Anna Nagar,Farmer D
+2023-10-16,Carrot,23.02,Anna Nagar,Farmer C
+2023-10-16,Cabbage,17.18,Velachery,Farmer I
+2023-10-16,Spinach,12.3,Anna Nagar,Farmer G
+2023-10-16,Cauliflower,21.22,Kodambakkam,Farmer I
+2023-10-16,Broccoli,35.81,Thiruvanmiyur,Farmer G
+2023-10-16,Eggplant,30.07,Adyar,Farmer I
+2023-10-16,Capsicum,41.72,Thiruvanmiyur,Farmer B
+2023-10-17,Tomato,23.66,Thiruvanmiyur,Farmer B
+2023-10-17,Potato,15.27,Velachery,Farmer E
+2023-10-17,Onion,33.62,Kodambakkam,Farmer E
+2023-10-17,Carrot,25.08,Guindy,Farmer B
+2023-10-17,Cabbage,14.43,Velachery,Farmer E
+2023-10-17,Spinach,11.76,Kodambakkam,Farmer A
+2023-10-17,Cauliflower,20.44,Thiruvanmiyur,Farmer I
+2023-10-17,Broccoli,37.26,Guindy,Farmer J
+2023-10-17,Eggplant,26.77,Tambaram,Farmer D
+2023-10-17,Capsicum,44.89,Velachery,Farmer E
+2023-10-18,Tomato,20.37,Kodambakkam,Farmer G
+2023-10-18,Potato,14.72,Guindy,Farmer F
+2023-10-18,Onion,28.55,Kodambakkam,Farmer J
+2023-10-18,Carrot,22.24,T. Nagar,Farmer F
+2023-10-18,Cabbage,20.92,Chromepet,Farmer C
+2023-10-18,Spinach,6.7,Chromepet,Farmer A
+2023-10-18,Cauliflower,23.57,Tambaram,Farmer B
+2023-10-18,Broccoli,36.3,Tambaram,Farmer F
+2023-10-18,Eggplant,27.92,Guindy,Farmer I
+2023-10-18,Capsicum,37.26,T. Nagar,Farmer A
+2023-10-19,Tomato,20.65,Tambaram,Farmer G
+2023-10-19,Potato,15.12,Velachery,Farmer J
+2023-10-19,Onion,25.4,Guindy,Farmer H
+2023-10-19,Carrot,23.92,Kodambakkam,Farmer B
+2023-10-19,Cabbage,22.78,T. Nagar,Farmer A
+2023-10-19,Spinach,7.12,T. Nagar,Farmer J
+2023-10-19,Cauliflower,19.62,Thiruvanmiyur,Farmer I
+2023-10-19,Broccoli,38.27,Kodambakkam,Farmer B
+2023-10-19,Eggplant,23.86,Thiruvanmiyur,Farmer F
+2023-10-19,Capsicum,43.47,Adyar,Farmer F
+2023-10-20,Tomato,18.16,Velachery,Farmer A
+2023-10-20,Potato,19.31,Adyar,Farmer E
+2023-10-20,Onion,34.47,Thiruvanmiyur,Farmer J
+2023-10-20,Carrot,27.74,Potheri,Farmer J
+2023-10-20,Cabbage,15.31,Kodambakkam,Farmer B
+2023-10-20,Spinach,11.35,Kodambakkam,Farmer B
+2023-10-20,Cauliflower,25.4,T. Nagar,Farmer G
+2023-10-20,Broccoli,38.36,Adyar,Farmer F
+2023-10-20,Eggplant,31.03,Adyar,Farmer A
+2023-10-20,Capsicum,43.02,Kodambakkam,Farmer D
+2023-10-21,Tomato,24.23,Velachery,Farmer B
+2023-10-21,Potato,15.99,Anna Nagar,Farmer C
+2023-10-21,Onion,28.11,Anna Nagar,Farmer A
+2023-10-21,Carrot,20.49,T. Nagar,Farmer H
+2023-10-21,Cabbage,19.89,T. Nagar,Farmer D
+2023-10-21,Spinach,11.06,Kodambakkam,Farmer H
+2023-10-21,Cauliflower,20.63,Velachery,Farmer I
+2023-10-21,Broccoli,33.76,Kodambakkam,Farmer D
+2023-10-21,Eggplant,26.88,Velachery,Farmer B
+2023-10-21,Capsicum,39.58,Potheri,Farmer F
+2023-10-22,Tomato,19.07,T. Nagar,Farmer B
+2023-10-22,Potato,10.33,Tambaram,Farmer B
+2023-10-22,Onion,29.8,Potheri,Farmer I
+2023-10-22,Carrot,29.29,Kodambakkam,Farmer B
+2023-10-22,Cabbage,15.66,Potheri,Farmer G
+2023-10-22,Spinach,10.27,Potheri,Farmer B
+2023-10-22,Cauliflower,21.47,Chromepet,Farmer I
+2023-10-22,Broccoli,36.07,Adyar,Farmer I
+2023-10-22,Eggplant,24.19,T. Nagar,Farmer J
+2023-10-22,Capsicum,42.47,Guindy,Farmer H
+2023-10-23,Tomato,23.01,Thiruvanmiyur,Farmer H
+2023-10-23,Potato,14.6,Anna Nagar,Farmer C
+2023-10-23,Onion,31.41,Chromepet,Farmer F
+2023-10-23,Carrot,20.64,Adyar,Farmer J
+2023-10-23,Cabbage,19.73,Potheri,Farmer B
+2023-10-23,Spinach,5.9,Thiruvanmiyur,Farmer F
+2023-10-23,Cauliflower,22.07,Adyar,Farmer A
+2023-10-23,Broccoli,32.26,Velachery,Farmer C
+2023-10-23,Eggplant,24.08,Thiruvanmiyur,Farmer C
+2023-10-23,Capsicum,37.41,Thiruvanmiyur,Farmer G
+2023-10-24,Tomato,17.92,Tambaram,Farmer C
+2023-10-24,Potato,13.68,Tambaram,Farmer D
+2023-10-24,Onion,28.96,Thiruvanmiyur,Farmer C
+2023-10-24,Carrot,25.79,Velachery,Farmer F
+2023-10-24,Cabbage,21.81,Adyar,Farmer F
+2023-10-24,Spinach,8.69,Velachery,Farmer I
+2023-10-24,Cauliflower,18.48,Kodambakkam,Farmer D
+2023-10-24,Broccoli,33.32,Anna Nagar,Farmer D
+2023-10-24,Eggplant,32.51,Thiruvanmiyur,Farmer E
+2023-10-24,Capsicum,35.58,Guindy,Farmer J
+2023-10-25,Tomato,23.23,Thiruvanmiyur,Farmer H
+2023-10-25,Potato,19.14,Tambaram,Farmer J
+2023-10-25,Onion,28.99,Guindy,Farmer B
+2023-10-25,Carrot,25.36,T. Nagar,Farmer C
+2023-10-25,Cabbage,17.32,Tambaram,Farmer C
+2023-10-25,Spinach,8.37,Velachery,Farmer E
+2023-10-25,Cauliflower,18.77,Velachery,Farmer I
+2023-10-25,Broccoli,38.37,Potheri,Farmer A
+2023-10-25,Eggplant,30.33,Thiruvanmiyur,Farmer H
+2023-10-25,Capsicum,41.35,Potheri,Farmer A
+2023-10-26,Tomato,16.33,Guindy,Farmer E
+2023-10-26,Potato,10.63,Thiruvanmiyur,Farmer E
+2023-10-26,Onion,29.92,Adyar,Farmer A
+2023-10-26,Carrot,22.56,Thiruvanmiyur,Farmer D
+2023-10-26,Cabbage,15.73,Anna Nagar,Farmer C
+2023-10-26,Spinach,14.44,Kodambakkam,Farmer G
+2023-10-26,Cauliflower,18.87,Kodambakkam,Farmer H
+2023-10-26,Broccoli,37.69,Anna Nagar,Farmer D
+2023-10-26,Eggplant,27.65,Thiruvanmiyur,Farmer E
+2023-10-26,Capsicum,36.58,T. Nagar,Farmer H
+2023-10-27,Tomato,23.91,Chromepet,Farmer D
+2023-10-27,Potato,12.97,Potheri,Farmer I
+2023-10-27,Onion,31.91,T. Nagar,Farmer J
+2023-10-27,Carrot,20.31,Anna Nagar,Farmer D
+2023-10-27,Cabbage,14.22,Chromepet,Farmer E
+2023-10-27,Spinach,12.24,T. Nagar,Farmer G
+2023-10-27,Cauliflower,23.58,Tambaram,Farmer E
+2023-10-27,Broccoli,31.53,Velachery,Farmer G
+2023-10-27,Eggplant,29.18,Adyar,Farmer E
+2023-10-27,Capsicum,37.12,Potheri,Farmer D
+2023-10-28,Tomato,16.08,Kodambakkam,Farmer E
+2023-10-28,Potato,13.18,Tambaram,Farmer G
+2023-10-28,Onion,26.61,Guindy,Farmer B
+2023-10-28,Carrot,22.83,Kodambakkam,Farmer J
+2023-10-28,Cabbage,20.2,Thiruvanmiyur,Farmer I
+2023-10-28,Spinach,5.81,Chromepet,Farmer F
+2023-10-28,Cauliflower,24.43,Anna Nagar,Farmer C
+2023-10-28,Broccoli,32.69,T. Nagar,Farmer B
+2023-10-28,Eggplant,29.2,T. Nagar,Farmer B
+2023-10-28,Capsicum,36.53,Potheri,Farmer B
+2023-10-29,Tomato,21.79,T. Nagar,Farmer H
+2023-10-29,Potato,11.09,Guindy,Farmer A
+2023-10-29,Onion,27.53,T. Nagar,Farmer I
+2023-10-29,Carrot,20.71,T. Nagar,Farmer F
+2023-10-29,Cabbage,20.06,Potheri,Farmer H
+2023-10-29,Spinach,5.59,T. Nagar,Farmer C
+2023-10-29,Cauliflower,25.75,Adyar,Farmer A
+2023-10-29,Broccoli,33.87,Adyar,Farmer E
+2023-10-29,Eggplant,24.58,Kodambakkam,Farmer J
+2023-10-29,Capsicum,36.76,T. Nagar,Farmer H
+2023-10-30,Tomato,16.1,Chromepet,Farmer E
+2023-10-30,Potato,13.9,T. Nagar,Farmer E
+2023-10-30,Onion,26.18,T. Nagar,Farmer C
+2023-10-30,Carrot,22.69,Kodambakkam,Farmer F
+2023-10-30,Cabbage,20.4,Adyar,Farmer E
+2023-10-30,Spinach,9.72,Kodambakkam,Farmer D
+2023-10-30,Cauliflower,20.61,Kodambakkam,Farmer C
+2023-10-30,Broccoli,37.48,Chromepet,Farmer D
+2023-10-30,Eggplant,31.44,Potheri,Farmer E
+2023-10-30,Capsicum,43.46,Velachery,Farmer I
+2023-10-31,Tomato,22.84,Guindy,Farmer H
+2023-10-31,Potato,13.18,Adyar,Farmer F
+2023-10-31,Onion,26.23,Adyar,Farmer C
+2023-10-31,Carrot,20.18,Potheri,Farmer J
+2023-10-31,Cabbage,21.28,Anna Nagar,Farmer C
+2023-10-31,Spinach,14.39,Tambaram,Farmer G
+2023-10-31,Cauliflower,22.14,Thiruvanmiyur,Farmer G
+2023-10-31,Broccoli,30.31,Kodambakkam,Farmer J
+2023-10-31,Eggplant,24.02,Tambaram,Farmer I
+2023-10-31,Capsicum,38.2,Velachery,Farmer A
+2023-11-01,Tomato,22.86,Velachery,Farmer I
+2023-11-01,Potato,14.64,Anna Nagar,Farmer I
+2023-11-01,Onion,25.26,Potheri,Farmer C
+2023-11-01,Carrot,27.95,Velachery,Farmer J
+2023-11-01,Cabbage,16.31,T. Nagar,Farmer F
+2023-11-01,Spinach,10.18,Potheri,Farmer C
+2023-11-01,Cauliflower,24.8,T. Nagar,Farmer J
+2023-11-01,Broccoli,39.59,Velachery,Farmer G
+2023-11-01,Eggplant,24.8,Kodambakkam,Farmer J
+2023-11-01,Capsicum,38.72,Kodambakkam,Farmer E
+2023-11-02,Tomato,17.66,Tambaram,Farmer I
+2023-11-02,Potato,19.6,Tambaram,Farmer J
+2023-11-02,Onion,33.55,Anna Nagar,Farmer E
+2023-11-02,Carrot,20.85,Tambaram,Farmer A
+2023-11-02,Cabbage,13.6,Anna Nagar,Farmer J
+2023-11-02,Spinach,13.06,Chromepet,Farmer D
+2023-11-02,Cauliflower,25.24,Adyar,Farmer F
+2023-11-02,Broccoli,37.16,Tambaram,Farmer G
+2023-11-02,Eggplant,27.53,T. Nagar,Farmer J
+2023-11-02,Capsicum,38.4,T. Nagar,Farmer G
+2023-11-03,Tomato,19.76,Thiruvanmiyur,Farmer I
+2023-11-03,Potato,18.02,Chromepet,Farmer J
+2023-11-03,Onion,31.0,Chromepet,Farmer G
+2023-11-03,Carrot,23.51,Tambaram,Farmer G
+2023-11-03,Cabbage,14.06,Velachery,Farmer A
+2023-11-03,Spinach,8.81,Chromepet,Farmer C
+2023-11-03,Cauliflower,26.94,Potheri,Farmer J
+2023-11-03,Broccoli,36.71,Tambaram,Farmer J
+2023-11-03,Eggplant,31.48,Thiruvanmiyur,Farmer A
+2023-11-03,Capsicum,44.3,Guindy,Farmer C
+2023-11-04,Tomato,20.91,Guindy,Farmer E
+2023-11-04,Potato,13.31,Chromepet,Farmer J
+2023-11-04,Onion,28.36,Potheri,Farmer D
+2023-11-04,Carrot,24.4,Anna Nagar,Farmer G
+2023-11-04,Cabbage,16.86,Chromepet,Farmer H
+2023-11-04,Spinach,14.05,Chromepet,Farmer I
+2023-11-04,Cauliflower,24.54,T. Nagar,Farmer A
+2023-11-04,Broccoli,36.53,Chromepet,Farmer D
+2023-11-04,Eggplant,32.33,Thiruvanmiyur,Farmer F
+2023-11-04,Capsicum,37.34,Chromepet,Farmer H
+2023-11-05,Tomato,18.65,T. Nagar,Farmer H
+2023-11-05,Potato,13.66,T. Nagar,Farmer F
+2023-11-05,Onion,26.33,Guindy,Farmer F
+2023-11-05,Carrot,20.35,Anna Nagar,Farmer C
+2023-11-05,Cabbage,14.28,Guindy,Farmer D
+2023-11-05,Spinach,9.73,Tambaram,Farmer I
+2023-11-05,Cauliflower,21.28,Velachery,Farmer B
+2023-11-05,Broccoli,38.65,Anna Nagar,Farmer A
+2023-11-05,Eggplant,32.11,Chromepet,Farmer H
+2023-11-05,Capsicum,36.95,Anna Nagar,Farmer C
+2023-11-06,Tomato,17.93,Guindy,Farmer I
+2023-11-06,Potato,15.56,T. Nagar,Farmer H
+2023-11-06,Onion,29.88,Chromepet,Farmer I
+2023-11-06,Carrot,26.11,Adyar,Farmer E
+2023-11-06,Cabbage,13.17,Guindy,Farmer A
+2023-11-06,Spinach,13.89,Anna Nagar,Farmer H
+2023-11-06,Cauliflower,26.33,Velachery,Farmer H
+2023-11-06,Broccoli,31.45,Thiruvanmiyur,Farmer F
+2023-11-06,Eggplant,27.9,Guindy,Farmer G
+2023-11-06,Capsicum,35.71,Thiruvanmiyur,Farmer I
+2023-11-07,Tomato,23.4,Guindy,Farmer B
+2023-11-07,Potato,18.17,Anna Nagar,Farmer H
+2023-11-07,Onion,32.58,Anna Nagar,Farmer A
+2023-11-07,Carrot,24.71,Thiruvanmiyur,Farmer A
+2023-11-07,Cabbage,16.26,Tambaram,Farmer E
+2023-11-07,Spinach,7.23,Adyar,Farmer G
+2023-11-07,Cauliflower,17.9,Potheri,Farmer H
+2023-11-07,Broccoli,34.91,T. Nagar,Farmer H
+2023-11-07,Eggplant,26.64,Potheri,Farmer I
+2023-11-07,Capsicum,41.59,Anna Nagar,Farmer I
+2023-11-08,Tomato,20.67,T. Nagar,Farmer B
+2023-11-08,Potato,18.0,Tambaram,Farmer F
+2023-11-08,Onion,31.8,Thiruvanmiyur,Farmer A
+2023-11-08,Carrot,26.16,Potheri,Farmer I
+2023-11-08,Cabbage,14.62,Anna Nagar,Farmer G
+2023-11-08,Spinach,13.85,Thiruvanmiyur,Farmer I
+2023-11-08,Cauliflower,26.65,Tambaram,Farmer I
+2023-11-08,Broccoli,38.29,Chromepet,Farmer D
+2023-11-08,Eggplant,31.66,Guindy,Farmer H
+2023-11-08,Capsicum,36.02,Potheri,Farmer D
+2023-11-09,Tomato,22.41,Potheri,Farmer J
+2023-11-09,Potato,12.13,Velachery,Farmer H
+2023-11-09,Onion,30.92,Chromepet,Farmer E
+2023-11-09,Carrot,27.0,T. Nagar,Farmer G
+2023-11-09,Cabbage,13.82,Guindy,Farmer A
+2023-11-09,Spinach,8.24,Potheri,Farmer D
+2023-11-09,Cauliflower,20.27,Guindy,Farmer D
+2023-11-09,Broccoli,33.12,Velachery,Farmer F
+2023-11-09,Eggplant,26.61,Tambaram,Farmer C
+2023-11-09,Capsicum,40.45,T. Nagar,Farmer H
+2023-11-10,Tomato,16.53,Adyar,Farmer A
+2023-11-10,Potato,19.36,Adyar,Farmer C
+2023-11-10,Onion,25.74,Chromepet,Farmer G
+2023-11-10,Carrot,28.86,Kodambakkam,Farmer C
+2023-11-10,Cabbage,18.01,Thiruvanmiyur,Farmer D
+2023-11-10,Spinach,6.61,Tambaram,Farmer J
+2023-11-10,Cauliflower,21.29,T. Nagar,Farmer A
+2023-11-10,Broccoli,38.51,Chromepet,Farmer F
+2023-11-10,Eggplant,24.17,Adyar,Farmer F
+2023-11-10,Capsicum,39.51,Potheri,Farmer D
+2023-11-11,Tomato,15.35,Potheri,Farmer H
+2023-11-11,Potato,15.1,Velachery,Farmer C
+2023-11-11,Onion,25.24,Potheri,Farmer E
+2023-11-11,Carrot,20.28,Thiruvanmiyur,Farmer A
+2023-11-11,Cabbage,14.68,Kodambakkam,Farmer D
+2023-11-11,Spinach,10.33,Anna Nagar,Farmer E
+2023-11-11,Cauliflower,26.73,Kodambakkam,Farmer J
+2023-11-11,Broccoli,31.63,T. Nagar,Farmer A
+2023-11-11,Eggplant,25.64,Tambaram,Farmer D
+2023-11-11,Capsicum,43.36,Guindy,Farmer C
+2023-11-12,Tomato,22.0,T. Nagar,Farmer E
+2023-11-12,Potato,14.98,Thiruvanmiyur,Farmer I
+2023-11-12,Onion,32.85,Chromepet,Farmer C
+2023-11-12,Carrot,24.45,Guindy,Farmer F
+2023-11-12,Cabbage,19.23,Velachery,Farmer J
+2023-11-12,Spinach,11.96,Thiruvanmiyur,Farmer F
+2023-11-12,Cauliflower,21.81,Thiruvanmiyur,Farmer C
+2023-11-12,Broccoli,30.87,Guindy,Farmer E
+2023-11-12,Eggplant,30.29,Tambaram,Farmer H
+2023-11-12,Capsicum,36.1,Adyar,Farmer H
+2023-11-13,Tomato,23.22,Adyar,Farmer C
+2023-11-13,Potato,19.86,Guindy,Farmer D
+2023-11-13,Onion,33.55,Tambaram,Farmer J
+2023-11-13,Carrot,22.12,Velachery,Farmer H
+2023-11-13,Cabbage,14.34,Velachery,Farmer D
+2023-11-13,Spinach,6.73,Velachery,Farmer G
+2023-11-13,Cauliflower,18.86,Chromepet,Farmer D
+2023-11-13,Broccoli,35.65,Velachery,Farmer E
+2023-11-13,Eggplant,27.07,T. Nagar,Farmer G
+2023-11-13,Capsicum,44.91,Tambaram,Farmer F
+2023-11-14,Tomato,19.19,Velachery,Farmer B
+2023-11-14,Potato,16.08,Guindy,Farmer A
+2023-11-14,Onion,27.23,Thiruvanmiyur,Farmer H
+2023-11-14,Carrot,29.54,Kodambakkam,Farmer H
+2023-11-14,Cabbage,18.71,Anna Nagar,Farmer D
+2023-11-14,Spinach,12.78,T. Nagar,Farmer D
+2023-11-14,Cauliflower,22.96,Thiruvanmiyur,Farmer E
+2023-11-14,Broccoli,37.58,Tambaram,Farmer I
+2023-11-14,Eggplant,23.81,Thiruvanmiyur,Farmer G
+2023-11-14,Capsicum,40.18,Chromepet,Farmer F
+2023-11-15,Tomato,19.6,Anna Nagar,Farmer A
+2023-11-15,Potato,13.35,Adyar,Farmer C
+2023-11-15,Onion,31.55,Adyar,Farmer G
+2023-11-15,Carrot,24.8,Adyar,Farmer A
+2023-11-15,Cabbage,21.44,Adyar,Farmer E
+2023-11-15,Spinach,9.72,Potheri,Farmer A
+2023-11-15,Cauliflower,18.25,T. Nagar,Farmer G
+2023-11-15,Broccoli,33.33,Potheri,Farmer C
+2023-11-15,Eggplant,27.36,Thiruvanmiyur,Farmer A
+2023-11-15,Capsicum,37.76,Kodambakkam,Farmer I
+2023-11-16,Tomato,21.75,Chromepet,Farmer B
+2023-11-16,Potato,18.38,Adyar,Farmer A
+2023-11-16,Onion,30.77,Thiruvanmiyur,Farmer C
+2023-11-16,Carrot,24.9,Velachery,Farmer B
+2023-11-16,Cabbage,16.67,Guindy,Farmer H
+2023-11-16,Spinach,10.87,Anna Nagar,Farmer F
+2023-11-16,Cauliflower,24.26,Kodambakkam,Farmer D
+2023-11-16,Broccoli,39.95,Guindy,Farmer D
+2023-11-16,Eggplant,31.47,Potheri,Farmer A
+2023-11-16,Capsicum,40.55,Kodambakkam,Farmer E
+2023-11-17,Tomato,18.47,Anna Nagar,Farmer A
+2023-11-17,Potato,18.77,Velachery,Farmer D
+2023-11-17,Onion,33.97,Chromepet,Farmer D
+2023-11-17,Carrot,26.98,Chromepet,Farmer G
+2023-11-17,Cabbage,15.96,Adyar,Farmer H
+2023-11-17,Spinach,11.28,Guindy,Farmer B
+2023-11-17,Cauliflower,21.32,Anna Nagar,Farmer B
+2023-11-17,Broccoli,36.6,Chromepet,Farmer E
+2023-11-17,Eggplant,32.8,Potheri,Farmer J
+2023-11-17,Capsicum,44.92,Guindy,Farmer G
+2023-11-18,Tomato,22.44,Chromepet,Farmer I
+2023-11-18,Potato,12.57,Anna Nagar,Farmer G
+2023-11-18,Onion,27.4,Tambaram,Farmer G
+2023-11-18,Carrot,23.3,Guindy,Farmer G
+2023-11-18,Cabbage,21.74,Kodambakkam,Farmer F
+2023-11-18,Spinach,14.75,Kodambakkam,Farmer G
+2023-11-18,Cauliflower,22.9,Guindy,Farmer E
+2023-11-18,Broccoli,31.86,Adyar,Farmer E
+2023-11-18,Eggplant,26.8,Velachery,Farmer J
+2023-11-18,Capsicum,40.61,Thiruvanmiyur,Farmer I
+2023-11-19,Tomato,19.42,Potheri,Farmer B
+2023-11-19,Potato,13.12,Thiruvanmiyur,Farmer D
+2023-11-19,Onion,28.79,Tambaram,Farmer D
+2023-11-19,Carrot,22.35,Velachery,Farmer H
+2023-11-19,Cabbage,13.39,T. Nagar,Farmer H
+2023-11-19,Spinach,9.77,Anna Nagar,Farmer I
+2023-11-19,Cauliflower,23.54,Adyar,Farmer J
+2023-11-19,Broccoli,30.94,Guindy,Farmer G
+2023-11-19,Eggplant,23.27,Thiruvanmiyur,Farmer J
+2023-11-19,Capsicum,36.86,Thiruvanmiyur,Farmer E
+2023-11-20,Tomato,16.13,Chromepet,Farmer B
+2023-11-20,Potato,14.4,Adyar,Farmer A
+2023-11-20,Onion,31.71,Tambaram,Farmer A
+2023-11-20,Carrot,26.45,Tambaram,Farmer D
+2023-11-20,Cabbage,17.49,Anna Nagar,Farmer B
+2023-11-20,Spinach,13.01,Potheri,Farmer D
+2023-11-20,Cauliflower,26.19,Anna Nagar,Farmer E
+2023-11-20,Broccoli,32.0,Anna Nagar,Farmer I
+2023-11-20,Eggplant,29.62,Thiruvanmiyur,Farmer B
+2023-11-20,Capsicum,43.63,T. Nagar,Farmer F
+2023-11-21,Tomato,22.78,Guindy,Farmer B
+2023-11-21,Potato,13.34,Anna Nagar,Farmer A
+2023-11-21,Onion,32.6,Potheri,Farmer H
+2023-11-21,Carrot,27.4,Guindy,Farmer D
+2023-11-21,Cabbage,14.11,Potheri,Farmer B
+2023-11-21,Spinach,7.14,Chromepet,Farmer G
+2023-11-21,Cauliflower,21.54,Adyar,Farmer C
+2023-11-21,Broccoli,38.59,Potheri,Farmer D
+2023-11-21,Eggplant,32.34,T. Nagar,Farmer J
+2023-11-21,Capsicum,39.54,Thiruvanmiyur,Farmer D
+2023-11-22,Tomato,17.87,T. Nagar,Farmer A
+2023-11-22,Potato,10.58,Kodambakkam,Farmer D
+2023-11-22,Onion,32.14,Guindy,Farmer E
+2023-11-22,Carrot,25.68,Thiruvanmiyur,Farmer B
+2023-11-22,Cabbage,15.58,Potheri,Farmer J
+2023-11-22,Spinach,12.48,T. Nagar,Farmer B
+2023-11-22,Cauliflower,26.85,Chromepet,Farmer J
+2023-11-22,Broccoli,36.82,Kodambakkam,Farmer C
+2023-11-22,Eggplant,27.72,Kodambakkam,Farmer G
+2023-11-22,Capsicum,37.17,Velachery,Farmer F
+2023-11-23,Tomato,23.91,Chromepet,Farmer G
+2023-11-23,Potato,19.3,Thiruvanmiyur,Farmer F
+2023-11-23,Onion,33.73,Thiruvanmiyur,Farmer H
+2023-11-23,Carrot,20.99,Guindy,Farmer G
+2023-11-23,Cabbage,13.87,Anna Nagar,Farmer C
+2023-11-23,Spinach,8.11,Tambaram,Farmer G
+2023-11-23,Cauliflower,25.61,Thiruvanmiyur,Farmer J
+2023-11-23,Broccoli,34.29,Chromepet,Farmer E
+2023-11-23,Eggplant,24.89,Potheri,Farmer D
+2023-11-23,Capsicum,40.58,Anna Nagar,Farmer G
+2023-11-24,Tomato,16.67,Potheri,Farmer I
+2023-11-24,Potato,19.84,Chromepet,Farmer C
+2023-11-24,Onion,32.0,Guindy,Farmer C
+2023-11-24,Carrot,21.78,Guindy,Farmer J
+2023-11-24,Cabbage,20.6,Tambaram,Farmer F
+2023-11-24,Spinach,7.75,Velachery,Farmer C
+2023-11-24,Cauliflower,19.53,Chromepet,Farmer J
+2023-11-24,Broccoli,31.59,Kodambakkam,Farmer G
+2023-11-24,Eggplant,31.72,Chromepet,Farmer A
+2023-11-24,Capsicum,40.71,Guindy,Farmer F
+2023-11-25,Tomato,18.35,Potheri,Farmer D
+2023-11-25,Potato,16.8,Chromepet,Farmer C
+2023-11-25,Onion,33.59,Guindy,Farmer E
+2023-11-25,Carrot,20.83,Kodambakkam,Farmer D
+2023-11-25,Cabbage,17.03,Velachery,Farmer B
+2023-11-25,Spinach,11.28,Chromepet,Farmer C
+2023-11-25,Cauliflower,19.83,Velachery,Farmer H
+2023-11-25,Broccoli,36.1,Adyar,Farmer H
+2023-11-25,Eggplant,24.51,Anna Nagar,Farmer F
+2023-11-25,Capsicum,43.46,T. Nagar,Farmer F
+2023-11-26,Tomato,16.38,Velachery,Farmer G
+2023-11-26,Potato,19.95,Adyar,Farmer E
+2023-11-26,Onion,28.43,Potheri,Farmer D
+2023-11-26,Carrot,26.14,T. Nagar,Farmer A
+2023-11-26,Cabbage,16.1,Velachery,Farmer I
+2023-11-26,Spinach,9.88,T. Nagar,Farmer A
+2023-11-26,Cauliflower,19.26,Chromepet,Farmer I
+2023-11-26,Broccoli,35.78,Anna Nagar,Farmer D
+2023-11-26,Eggplant,26.14,Velachery,Farmer D
+2023-11-26,Capsicum,40.85,Velachery,Farmer C
+2023-11-27,Tomato,22.94,Kodambakkam,Farmer A
+2023-11-27,Potato,15.62,Tambaram,Farmer J
+2023-11-27,Onion,30.62,Kodambakkam,Farmer C
+2023-11-27,Carrot,27.11,Thiruvanmiyur,Farmer H
+2023-11-27,Cabbage,17.77,Tambaram,Farmer A
+2023-11-27,Spinach,13.52,Kodambakkam,Farmer C
+2023-11-27,Cauliflower,19.39,Adyar,Farmer C
+2023-11-27,Broccoli,32.42,Chromepet,Farmer A
+2023-11-27,Eggplant,30.25,Kodambakkam,Farmer G
+2023-11-27,Capsicum,42.77,Thiruvanmiyur,Farmer B
+2023-11-28,Tomato,20.44,T. Nagar,Farmer H
+2023-11-28,Potato,12.35,Adyar,Farmer C
+2023-11-28,Onion,26.18,Adyar,Farmer J
+2023-11-28,Carrot,23.92,Guindy,Farmer B
+2023-11-28,Cabbage,14.49,Velachery,Farmer J
+2023-11-28,Spinach,7.1,Guindy,Farmer G
+2023-11-28,Cauliflower,21.27,Thiruvanmiyur,Farmer C
+2023-11-28,Broccoli,30.44,Potheri,Farmer H
+2023-11-28,Eggplant,32.97,Kodambakkam,Farmer G
+2023-11-28,Capsicum,37.16,T. Nagar,Farmer G
+2023-11-29,Tomato,23.74,Guindy,Farmer I
+2023-11-29,Potato,10.87,Thiruvanmiyur,Farmer F
+2023-11-29,Onion,30.15,Kodambakkam,Farmer H
+2023-11-29,Carrot,24.65,Thiruvanmiyur,Farmer I
+2023-11-29,Cabbage,19.77,Tambaram,Farmer D
+2023-11-29,Spinach,6.42,Potheri,Farmer H
+2023-11-29,Cauliflower,24.41,Potheri,Farmer E
+2023-11-29,Broccoli,31.41,Thiruvanmiyur,Farmer D
+2023-11-29,Eggplant,28.68,Anna Nagar,Farmer H
+2023-11-29,Capsicum,37.0,Guindy,Farmer B
+2023-11-30,Tomato,20.25,T. Nagar,Farmer D
+2023-11-30,Potato,18.7,T. Nagar,Farmer G
+2023-11-30,Onion,29.48,Adyar,Farmer B
+2023-11-30,Carrot,24.53,T. Nagar,Farmer H
+2023-11-30,Cabbage,20.3,Guindy,Farmer C
+2023-11-30,Spinach,10.81,Chromepet,Farmer E
+2023-11-30,Cauliflower,20.21,Anna Nagar,Farmer C
+2023-11-30,Broccoli,33.24,Anna Nagar,Farmer E
+2023-11-30,Eggplant,23.92,T. Nagar,Farmer F
+2023-11-30,Capsicum,40.0,Guindy,Farmer I
+2023-12-01,Tomato,22.98,Guindy,Farmer F
+2023-12-01,Potato,15.41,Velachery,Farmer C
+2023-12-01,Onion,26.84,Anna Nagar,Farmer D
+2023-12-01,Carrot,27.74,Chromepet,Farmer A
+2023-12-01,Cabbage,16.77,Anna Nagar,Farmer E
+2023-12-01,Spinach,8.57,Adyar,Farmer H
+2023-12-01,Cauliflower,20.08,Velachery,Farmer J
+2023-12-01,Broccoli,34.78,Tambaram,Farmer C
+2023-12-01,Eggplant,31.88,Kodambakkam,Farmer B
+2023-12-01,Capsicum,37.61,Thiruvanmiyur,Farmer H
+2023-12-02,Tomato,18.72,Chromepet,Farmer F
+2023-12-02,Potato,18.42,Guindy,Farmer H
+2023-12-02,Onion,29.66,Guindy,Farmer I
+2023-12-02,Carrot,21.79,Tambaram,Farmer D
+2023-12-02,Cabbage,17.1,Tambaram,Farmer C
+2023-12-02,Spinach,10.92,Anna Nagar,Farmer C
+2023-12-02,Cauliflower,26.62,T. Nagar,Farmer G
+2023-12-02,Broccoli,38.42,Potheri,Farmer C
+2023-12-02,Eggplant,23.06,Kodambakkam,Farmer J
+2023-12-02,Capsicum,43.68,Potheri,Farmer E
+2023-12-03,Tomato,20.5,Adyar,Farmer F
+2023-12-03,Potato,10.75,Tambaram,Farmer J
+2023-12-03,Onion,27.87,Potheri,Farmer A
+2023-12-03,Carrot,25.23,Kodambakkam,Farmer B
+2023-12-03,Cabbage,22.52,Chromepet,Farmer G
+2023-12-03,Spinach,7.18,Chromepet,Farmer H
+2023-12-03,Cauliflower,26.53,Velachery,Farmer D
+2023-12-03,Broccoli,32.86,Anna Nagar,Farmer J
+2023-12-03,Eggplant,32.43,Tambaram,Farmer B
+2023-12-03,Capsicum,42.98,T. Nagar,Farmer E
+2023-12-04,Tomato,20.02,Tambaram,Farmer B
+2023-12-04,Potato,19.96,Velachery,Farmer B
+2023-12-04,Onion,31.79,Potheri,Farmer D
+2023-12-04,Carrot,27.77,Guindy,Farmer J
+2023-12-04,Cabbage,21.21,T. Nagar,Farmer G
+2023-12-04,Spinach,8.27,T. Nagar,Farmer B
+2023-12-04,Cauliflower,20.69,Thiruvanmiyur,Farmer J
+2023-12-04,Broccoli,32.35,Guindy,Farmer J
+2023-12-04,Eggplant,30.84,Guindy,Farmer C
+2023-12-04,Capsicum,35.32,Chromepet,Farmer I
+2023-12-05,Tomato,21.6,Thiruvanmiyur,Farmer G
+2023-12-05,Potato,10.42,Anna Nagar,Farmer I
+2023-12-05,Onion,31.18,Kodambakkam,Farmer G
+2023-12-05,Carrot,20.53,Anna Nagar,Farmer G
+2023-12-05,Cabbage,17.84,Tambaram,Farmer G
+2023-12-05,Spinach,14.49,Guindy,Farmer D
+2023-12-05,Cauliflower,20.3,T. Nagar,Farmer B
+2023-12-05,Broccoli,38.46,T. Nagar,Farmer F
+2023-12-05,Eggplant,29.93,Chromepet,Farmer D
+2023-12-05,Capsicum,37.51,Potheri,Farmer F
+2023-12-06,Tomato,21.6,Adyar,Farmer B
+2023-12-06,Potato,14.44,Thiruvanmiyur,Farmer D
+2023-12-06,Onion,34.27,Velachery,Farmer H
+2023-12-06,Carrot,28.66,Chromepet,Farmer G
+2023-12-06,Cabbage,21.41,Thiruvanmiyur,Farmer D
+2023-12-06,Spinach,12.96,Potheri,Farmer E
+2023-12-06,Cauliflower,21.31,Anna Nagar,Farmer I
+2023-12-06,Broccoli,39.97,Velachery,Farmer D
+2023-12-06,Eggplant,25.2,Tambaram,Farmer F
+2023-12-06,Capsicum,43.58,T. Nagar,Farmer E
+2023-12-07,Tomato,21.92,Guindy,Farmer D
+2023-12-07,Potato,15.13,Tambaram,Farmer F
+2023-12-07,Onion,26.57,Kodambakkam,Farmer A
+2023-12-07,Carrot,27.49,Anna Nagar,Farmer F
+2023-12-07,Cabbage,13.46,Kodambakkam,Farmer C
+2023-12-07,Spinach,14.0,Adyar,Farmer J
+2023-12-07,Cauliflower,19.49,Kodambakkam,Farmer D
+2023-12-07,Broccoli,33.94,Thiruvanmiyur,Farmer G
+2023-12-07,Eggplant,32.01,Adyar,Farmer J
+2023-12-07,Capsicum,36.11,Velachery,Farmer C
+2023-12-08,Tomato,24.59,T. Nagar,Farmer E
+2023-12-08,Potato,17.73,Guindy,Farmer F
+2023-12-08,Onion,30.45,Velachery,Farmer A
+2023-12-08,Carrot,22.08,Guindy,Farmer A
+2023-12-08,Cabbage,18.18,Thiruvanmiyur,Farmer C
+2023-12-08,Spinach,5.96,Adyar,Farmer G
+2023-12-08,Cauliflower,23.43,Thiruvanmiyur,Farmer H
+2023-12-08,Broccoli,36.48,Potheri,Farmer B
+2023-12-08,Eggplant,24.74,Chromepet,Farmer I
+2023-12-08,Capsicum,39.15,Tambaram,Farmer F
+2023-12-09,Tomato,17.18,Chromepet,Farmer C
+2023-12-09,Potato,18.19,Adyar,Farmer F
+2023-12-09,Onion,31.03,Tambaram,Farmer H
+2023-12-09,Carrot,29.09,Velachery,Farmer F
+2023-12-09,Cabbage,22.09,Guindy,Farmer F
+2023-12-09,Spinach,10.75,Adyar,Farmer H
+2023-12-09,Cauliflower,20.7,Thiruvanmiyur,Farmer C
+2023-12-09,Broccoli,35.26,Tambaram,Farmer A
+2023-12-09,Eggplant,32.52,Guindy,Farmer C
+2023-12-09,Capsicum,40.03,Chromepet,Farmer D
+2023-12-10,Tomato,23.29,Guindy,Farmer F
+2023-12-10,Potato,12.46,Anna Nagar,Farmer H
+2023-12-10,Onion,30.26,T. Nagar,Farmer C
+2023-12-10,Carrot,23.13,Anna Nagar,Farmer G
+2023-12-10,Cabbage,22.6,Potheri,Farmer C
+2023-12-10,Spinach,9.84,Velachery,Farmer H
+2023-12-10,Cauliflower,26.44,Tambaram,Farmer D
+2023-12-10,Broccoli,37.12,Anna Nagar,Farmer D
+2023-12-10,Eggplant,28.57,Adyar,Farmer I
+2023-12-10,Capsicum,38.79,Guindy,Farmer F
+2023-12-11,Tomato,23.22,Thiruvanmiyur,Farmer H
+2023-12-11,Potato,10.14,Adyar,Farmer H
+2023-12-11,Onion,26.72,Chromepet,Farmer C
+2023-12-11,Carrot,23.01,Thiruvanmiyur,Farmer G
+2023-12-11,Cabbage,16.13,Tambaram,Farmer F
+2023-12-11,Spinach,11.41,Velachery,Farmer I
+2023-12-11,Cauliflower,23.48,Velachery,Farmer G
+2023-12-11,Broccoli,33.86,Adyar,Farmer F
+2023-12-11,Eggplant,29.96,Guindy,Farmer G
+2023-12-11,Capsicum,42.82,Tambaram,Farmer E
+2023-12-12,Tomato,20.79,Anna Nagar,Farmer H
+2023-12-12,Potato,18.75,Guindy,Farmer J
+2023-12-12,Onion,34.57,T. Nagar,Farmer D
+2023-12-12,Carrot,26.26,T. Nagar,Farmer F
+2023-12-12,Cabbage,18.39,Velachery,Farmer J
+2023-12-12,Spinach,5.15,Anna Nagar,Farmer D
+2023-12-12,Cauliflower,26.05,Thiruvanmiyur,Farmer A
+2023-12-12,Broccoli,35.3,Velachery,Farmer A
+2023-12-12,Eggplant,31.74,T. Nagar,Farmer E
+2023-12-12,Capsicum,39.42,Kodambakkam,Farmer I
+2023-12-13,Tomato,19.73,Tambaram,Farmer B
+2023-12-13,Potato,11.67,Potheri,Farmer I
+2023-12-13,Onion,34.82,Anna Nagar,Farmer E
+2023-12-13,Carrot,24.28,Adyar,Farmer I
+2023-12-13,Cabbage,14.1,Guindy,Farmer C
+2023-12-13,Spinach,6.27,Chromepet,Farmer F
+2023-12-13,Cauliflower,17.74,Velachery,Farmer B
+2023-12-13,Broccoli,30.03,Thiruvanmiyur,Farmer I
+2023-12-13,Eggplant,24.19,Kodambakkam,Farmer F
+2023-12-13,Capsicum,36.51,Tambaram,Farmer I
+2023-12-14,Tomato,16.22,Guindy,Farmer G
+2023-12-14,Potato,18.35,Velachery,Farmer E
+2023-12-14,Onion,34.27,Tambaram,Farmer H
+2023-12-14,Carrot,25.85,Guindy,Farmer J
+2023-12-14,Cabbage,17.64,T. Nagar,Farmer C
+2023-12-14,Spinach,5.05,Tambaram,Farmer E
+2023-12-14,Cauliflower,17.16,Guindy,Farmer D
+2023-12-14,Broccoli,31.8,Kodambakkam,Farmer I
+2023-12-14,Eggplant,32.88,Thiruvanmiyur,Farmer G
+2023-12-14,Capsicum,36.81,Kodambakkam,Farmer I
+2023-12-15,Tomato,21.76,Potheri,Farmer H
+2023-12-15,Potato,19.68,Tambaram,Farmer G
+2023-12-15,Onion,27.58,Adyar,Farmer J
+2023-12-15,Carrot,21.62,T. Nagar,Farmer F
+2023-12-15,Cabbage,13.12,Kodambakkam,Farmer C
+2023-12-15,Spinach,7.02,Tambaram,Farmer G
+2023-12-15,Cauliflower,19.03,Adyar,Farmer J
+2023-12-15,Broccoli,35.0,Potheri,Farmer D
+2023-12-15,Eggplant,27.74,Thiruvanmiyur,Farmer F
+2023-12-15,Capsicum,37.64,Adyar,Farmer C
+2023-12-16,Tomato,18.54,T. Nagar,Farmer A
+2023-12-16,Potato,17.16,Potheri,Farmer B
+2023-12-16,Onion,25.23,Anna Nagar,Farmer B
+2023-12-16,Carrot,20.52,Thiruvanmiyur,Farmer H
+2023-12-16,Cabbage,18.17,Tambaram,Farmer F
+2023-12-16,Spinach,9.53,Potheri,Farmer A
+2023-12-16,Cauliflower,21.15,Adyar,Farmer A
+2023-12-16,Broccoli,37.41,Velachery,Farmer G
+2023-12-16,Eggplant,25.23,Kodambakkam,Farmer D
+2023-12-16,Capsicum,36.37,Anna Nagar,Farmer D
+2023-12-17,Tomato,23.87,T. Nagar,Farmer A
+2023-12-17,Potato,11.19,Chromepet,Farmer C
+2023-12-17,Onion,33.06,Anna Nagar,Farmer I
+2023-12-17,Carrot,26.37,Potheri,Farmer F
+2023-12-17,Cabbage,17.13,Kodambakkam,Farmer I
+2023-12-17,Spinach,7.44,Tambaram,Farmer F
+2023-12-17,Cauliflower,26.88,Anna Nagar,Farmer J
+2023-12-17,Broccoli,33.0,Tambaram,Farmer I
+2023-12-17,Eggplant,29.4,Anna Nagar,Farmer A
+2023-12-17,Capsicum,39.45,Chromepet,Farmer G
+2023-12-18,Tomato,22.36,T. Nagar,Farmer B
+2023-12-18,Potato,18.3,Potheri,Farmer I
+2023-12-18,Onion,27.57,Velachery,Farmer J
+2023-12-18,Carrot,29.33,Thiruvanmiyur,Farmer A
+2023-12-18,Cabbage,16.54,Guindy,Farmer D
+2023-12-18,Spinach,10.77,Anna Nagar,Farmer I
+2023-12-18,Cauliflower,17.6,Chromepet,Farmer I
+2023-12-18,Broccoli,32.99,Potheri,Farmer E
+2023-12-18,Eggplant,28.84,Adyar,Farmer B
+2023-12-18,Capsicum,37.01,Thiruvanmiyur,Farmer F
+2023-12-19,Tomato,22.87,Chromepet,Farmer D
+2023-12-19,Potato,18.4,Adyar,Farmer I
+2023-12-19,Onion,31.64,Velachery,Farmer G
+2023-12-19,Carrot,24.5,Kodambakkam,Farmer H
+2023-12-19,Cabbage,15.64,Kodambakkam,Farmer H
+2023-12-19,Spinach,8.9,Chromepet,Farmer J
+2023-12-19,Cauliflower,26.71,Thiruvanmiyur,Farmer J
+2023-12-19,Broccoli,34.65,Kodambakkam,Farmer I
+2023-12-19,Eggplant,24.13,Tambaram,Farmer E
+2023-12-19,Capsicum,36.71,Kodambakkam,Farmer A
+2023-12-20,Tomato,23.08,Velachery,Farmer J
+2023-12-20,Potato,15.87,Potheri,Farmer G
+2023-12-20,Onion,26.21,Potheri,Farmer B
+2023-12-20,Carrot,29.07,Tambaram,Farmer J
+2023-12-20,Cabbage,20.24,Velachery,Farmer D
+2023-12-20,Spinach,10.18,Chromepet,Farmer B
+2023-12-20,Cauliflower,18.05,Anna Nagar,Farmer A
+2023-12-20,Broccoli,30.86,Thiruvanmiyur,Farmer J
+2023-12-20,Eggplant,26.9,Thiruvanmiyur,Farmer G
+2023-12-20,Capsicum,37.31,Potheri,Farmer A
+2023-12-21,Tomato,23.53,Kodambakkam,Farmer I
+2023-12-21,Potato,12.02,Chromepet,Farmer D
+2023-12-21,Onion,34.27,Chromepet,Farmer I
+2023-12-21,Carrot,28.55,Guindy,Farmer A
+2023-12-21,Cabbage,21.16,Adyar,Farmer H
+2023-12-21,Spinach,12.82,Adyar,Farmer G
+2023-12-21,Cauliflower,24.73,Tambaram,Farmer G
+2023-12-21,Broccoli,35.08,Adyar,Farmer G
+2023-12-21,Eggplant,24.77,Anna Nagar,Farmer B
+2023-12-21,Capsicum,40.21,Kodambakkam,Farmer G
+2023-12-22,Tomato,21.68,Anna Nagar,Farmer E
+2023-12-22,Potato,12.32,Tambaram,Farmer H
+2023-12-22,Onion,33.59,Adyar,Farmer J
+2023-12-22,Carrot,21.71,Anna Nagar,Farmer J
+2023-12-22,Cabbage,21.37,Tambaram,Farmer A
+2023-12-22,Spinach,14.88,Kodambakkam,Farmer D
+2023-12-22,Cauliflower,19.16,Potheri,Farmer J
+2023-12-22,Broccoli,33.87,Thiruvanmiyur,Farmer A
+2023-12-22,Eggplant,23.38,Adyar,Farmer A
+2023-12-22,Capsicum,41.18,Tambaram,Farmer F
+2023-12-23,Tomato,24.59,Potheri,Farmer F
+2023-12-23,Potato,11.55,Anna Nagar,Farmer C
+2023-12-23,Onion,25.27,Kodambakkam,Farmer J
+2023-12-23,Carrot,29.03,Chromepet,Farmer E
+2023-12-23,Cabbage,17.99,Thiruvanmiyur,Farmer A
+2023-12-23,Spinach,5.48,Guindy,Farmer J
+2023-12-23,Cauliflower,21.45,Chromepet,Farmer E
+2023-12-23,Broccoli,30.42,Potheri,Farmer A
+2023-12-23,Eggplant,28.83,T. Nagar,Farmer B
+2023-12-23,Capsicum,35.26,Guindy,Farmer F
+2023-12-24,Tomato,15.9,Thiruvanmiyur,Farmer J
+2023-12-24,Potato,13.71,Adyar,Farmer C
+2023-12-24,Onion,29.11,Anna Nagar,Farmer F
+2023-12-24,Carrot,26.58,Thiruvanmiyur,Farmer D
+2023-12-24,Cabbage,16.29,Adyar,Farmer C
+2023-12-24,Spinach,10.21,Potheri,Farmer H
+2023-12-24,Cauliflower,21.86,Adyar,Farmer B
+2023-12-24,Broccoli,35.96,Anna Nagar,Farmer H
+2023-12-24,Eggplant,25.02,Velachery,Farmer I
+2023-12-24,Capsicum,38.31,Thiruvanmiyur,Farmer E
+2023-12-25,Tomato,16.53,Chromepet,Farmer A
+2023-12-25,Potato,18.24,Guindy,Farmer F
+2023-12-25,Onion,29.17,Velachery,Farmer H
+2023-12-25,Carrot,21.29,Potheri,Farmer E
+2023-12-25,Cabbage,18.16,Tambaram,Farmer I
+2023-12-25,Spinach,7.72,Anna Nagar,Farmer B
+2023-12-25,Cauliflower,22.53,Potheri,Farmer I
+2023-12-25,Broccoli,39.71,T. Nagar,Farmer I
+2023-12-25,Eggplant,25.26,Velachery,Farmer B
+2023-12-25,Capsicum,37.36,T. Nagar,Farmer H
+2023-12-26,Tomato,20.21,Tambaram,Farmer E
+2023-12-26,Potato,14.88,T. Nagar,Farmer F
+2023-12-26,Onion,25.33,Adyar,Farmer A
+2023-12-26,Carrot,20.96,Thiruvanmiyur,Farmer C
+2023-12-26,Cabbage,15.05,T. Nagar,Farmer F
+2023-12-26,Spinach,9.02,Anna Nagar,Farmer F
+2023-12-26,Cauliflower,20.64,T. Nagar,Farmer J
+2023-12-26,Broccoli,33.71,Potheri,Farmer I
+2023-12-26,Eggplant,29.49,Adyar,Farmer C
+2023-12-26,Capsicum,40.45,T. Nagar,Farmer G
+2023-12-27,Tomato,23.91,Potheri,Farmer H
+2023-12-27,Potato,11.26,Kodambakkam,Farmer C
+2023-12-27,Onion,28.93,Kodambakkam,Farmer G
+2023-12-27,Carrot,22.67,Potheri,Farmer D
+2023-12-27,Cabbage,22.22,Potheri,Farmer H
+2023-12-27,Spinach,12.06,T. Nagar,Farmer F
+2023-12-27,Cauliflower,26.98,Thiruvanmiyur,Farmer E
+2023-12-27,Broccoli,31.32,Kodambakkam,Farmer D
+2023-12-27,Eggplant,31.22,Chromepet,Farmer A
+2023-12-27,Capsicum,40.05,Potheri,Farmer F
+2023-12-28,Tomato,20.52,Kodambakkam,Farmer D
+2023-12-28,Potato,17.42,Adyar,Farmer G
+2023-12-28,Onion,28.3,Potheri,Farmer J
+2023-12-28,Carrot,26.21,Tambaram,Farmer D
+2023-12-28,Cabbage,17.84,Adyar,Farmer H
+2023-12-28,Spinach,14.24,Thiruvanmiyur,Farmer G
+2023-12-28,Cauliflower,17.75,Guindy,Farmer G
+2023-12-28,Broccoli,30.26,Potheri,Farmer G
+2023-12-28,Eggplant,26.89,Velachery,Farmer I
+2023-12-28,Capsicum,42.12,Anna Nagar,Farmer I
+2023-12-29,Tomato,20.4,Tambaram,Farmer G
+2023-12-29,Potato,10.22,Chromepet,Farmer D
+2023-12-29,Onion,26.8,Thiruvanmiyur,Farmer G
+2023-12-29,Carrot,29.43,Chromepet,Farmer I
+2023-12-29,Cabbage,16.61,Anna Nagar,Farmer C
+2023-12-29,Spinach,14.51,T. Nagar,Farmer B
+2023-12-29,Cauliflower,23.1,Velachery,Farmer E
+2023-12-29,Broccoli,34.32,T. Nagar,Farmer H
+2023-12-29,Eggplant,24.24,Tambaram,Farmer F
+2023-12-29,Capsicum,37.71,T. Nagar,Farmer G
+2023-12-30,Tomato,19.66,Kodambakkam,Farmer B
+2023-12-30,Potato,12.79,Adyar,Farmer B
+2023-12-30,Onion,31.9,Guindy,Farmer H
+2023-12-30,Carrot,26.08,Velachery,Farmer C
+2023-12-30,Cabbage,13.92,Chromepet,Farmer J
+2023-12-30,Spinach,7.67,T. Nagar,Farmer J
+2023-12-30,Cauliflower,23.51,Anna Nagar,Farmer D
+2023-12-30,Broccoli,32.46,Tambaram,Farmer D
+2023-12-30,Eggplant,28.96,Kodambakkam,Farmer J
+2023-12-30,Capsicum,38.5,Tambaram,Farmer A
+2023-12-31,Tomato,18.19,Adyar,Farmer B
+2023-12-31,Potato,17.04,Velachery,Farmer B
+2023-12-31,Onion,33.47,Tambaram,Farmer F
+2023-12-31,Carrot,24.61,Thiruvanmiyur,Farmer A
+2023-12-31,Cabbage,20.17,Kodambakkam,Farmer I
+2023-12-31,Spinach,7.55,Velachery,Farmer A
+2023-12-31,Cauliflower,17.71,Chromepet,Farmer C
+2023-12-31,Broccoli,36.2,Anna Nagar,Farmer I
+2023-12-31,Eggplant,24.06,Adyar,Farmer D
+2023-12-31,Capsicum,43.44,Anna Nagar,Farmer C

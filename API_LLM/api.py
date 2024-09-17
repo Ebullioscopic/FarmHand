@@ -5,33 +5,25 @@ import ollama as client
 language_map = {
     "Assamese (Bengali script)": "as",
     "Awadhi (Devanagari script)": "hi",
-    "Bengali": "bn",
-    "Bhojpuri (Devanagari script)": "hi",
-    "Bodo (Devanagari script)": "hi",
-    "Dogri (Devanagari script)": "hi",
+    "Bangla": "bn",
+    "Boro (Devanagari script)": "brx",
+    "Dogri (Devanagari script)": "doi",
     "English": "en",
-    "Konkani (Devanagari script)": "kK",
+    "Konkani (Devanagari script)": "gom",
     "Gujarati": "gu",
     "Hindi": "hi",
-    "Chhattisgarhi (Devanagari script)": "hi",
     "Kannada": "kn",
-    "Kashmiri (Arabic script)": "ur",
-    "Kashmiri (Devanagari script)": "hi",
-    "Khasi (Latin script)": "en",
-    "Mizo (Latin script)": "en",
-    "Magahi (Devanagari script)": "hi",
-    "Maithili (Devanagari script)": "hi",
+    "Kashmiri (Arabic script)": "ks",
+    "Maithili (Devanagari script)": "mai",
     "Malayalam": "ml",
-    "Marathi": "mr",
-    "Meitei (Bengali script)": "bn",
-    "Meitei (Meetei Mayek script)": "hi",
+    "Manipuri": "mni",
+    "marathi (Bengali script)": "mr",
     "Nepali (Devanagari script)": "ne",
     "Odia": "or",
     "Punjabi (Gurmukhi script)": "pa",
-    "Sanskrit": "hi",
-    "Santali (Ol Chiki script)": "or",
-    "Sindhi (Arabic script)": "ur",
-    "Sindhi (Devanagari script)": "hi",
+    "Sanskrit": "sa",
+    "Santali (Ol Chiki script)": "sat",
+    "Sindhi (Arabic script)": "sd",
     "Tamil": "ta",
     "Telugu": "te",
     "Urdu": "ur",
@@ -91,10 +83,9 @@ def get_ollama_response(text):
         response += chunk['message']['content']
     return response
 
-def llama_api():
+def llama_api(text_to_translate,source_language):
     # Input from the user
-    source_language = input("Enter the source language or code (e.g., Tamil or ta): ")
-    text_to_translate = input("Enter the text to translate: ")
+    # text_to_translate = input("Enter the text to translate: ")
 
     # Convert language names to codes
     source_language_code = get_language_code(source_language)
@@ -116,6 +107,6 @@ def llama_api():
         return final_translation
     else:
         return "Failed to translate the response."
-
-if __name__ == "__main__":
-    result = llama_api()
+# 
+# if __name__ == "__main__":
+#     result = llama_api()

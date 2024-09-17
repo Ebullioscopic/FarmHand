@@ -1,0 +1,692 @@
+2024-09-01 14:05:26 [INFO] Question: price of tomato in potheri?
+2024-09-01 14:05:26 [INFO] Running PandasAI with langchain_ollama-llm LLM...
+2024-09-01 14:05:26 [INFO] Prompt ID: 5eaad11e-20e8-4c3d-8baa-9a2215627f5d
+2024-09-01 14:05:26 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-09-01 14:05:26 [INFO] Executing Step 0: ValidatePipelineInput
+2024-09-01 14:05:26 [INFO] Executing Step 1: CacheLookup
+2024-09-01 14:05:26 [INFO] Executing Step 2: PromptGeneration
+2024-09-01 14:05:26 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ price of tomato in potheri?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-09-01 14:05:26 [INFO] Executing Step 3: CodeGenerator
+2024-09-01 14:07:17 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ price of tomato in potheri?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-09-01 14:07:17 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Read dataframes from input string (assuming it is a list of DataFrames)
+dfs = [pd.read_csv(pd.io.StringIO(data)) for data in dfs]
+
+# Write code here
+
+# Query 1: Find price of tomato in Potheri
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+
+# Declare result var
+result = {"type": "number", "value": tomato_price_potheri}
+            ```
+            
+2024-09-01 14:07:17 [INFO] Executing Step 4: CachePopulation
+2024-09-01 14:07:17 [INFO] Executing Step 5: CodeCleaning
+2024-09-01 14:07:17 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-09-01 14:07:17 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-09-01 14:07:17 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+# TODO: import the required dependencies
+import pandas as pd
+
+# Read dataframes from input string (assuming it is a list of DataFrames)
+dfs = [pd.read_csv(pd.io.StringIO(data)) for data in dfs]
+
+# Write code here
+
+# Query 1: Find price of tomato in Potheri
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+
+# Declare result var
+result = {"type": "number", "value": tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 125, in get_code_to_run
+    raise MaliciousQueryError(
+pandasai.exceptions.MaliciousQueryError: Code shouldn't use 'os', 'io' or 'chr', 'b64decode' functions as this could lead to malicious code execution.
+
+
+Fix the python code above and return the new python code:
+2024-09-01 14:07:17 [INFO] Executing Step 1: CodeGenerator
+2024-09-01 14:08:39 [INFO] Question: price of tomato in potheri?
+2024-09-01 14:08:39 [INFO] Running PandasAI with langchain_ollama-llm LLM...
+2024-09-01 14:08:39 [INFO] Prompt ID: 5a537f6f-fd13-4b25-a469-e5e516de8212
+2024-09-01 14:08:39 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-09-01 14:08:39 [INFO] Executing Step 0: ValidatePipelineInput
+2024-09-01 14:08:39 [INFO] Executing Step 1: CacheLookup
+2024-09-01 14:08:39 [INFO] Executing Step 2: PromptGeneration
+2024-09-01 14:08:39 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-03-07,Spinach,12.9,Chromepet,Farmer G
+2023-01-19,Broccoli,20.79,Guindy,Farmer E
+2023-12-25,Cabbage,17.53,Adyar,Farmer I
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ price of tomato in potheri?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-09-01 14:08:39 [INFO] Executing Step 3: CodeGenerator
+2024-09-01 14:09:06 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+# TODO: import the required dependencies
+import pandas as pd
+
+# Read dataframes from input string (assuming it is a list of DataFrames)
+dfs = [pd.read_csv(pd.io.StringIO(data)) for data in dfs]
+
+# Write code here
+
+# Query 1: Find price of tomato in Potheri
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+
+# Declare result var
+result = {"type": "number", "value": tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 95, in execute
+    code_to_run = self.get_code_to_run(input, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_cleaning.py", line 125, in get_code_to_run
+    raise MaliciousQueryError(
+pandasai.exceptions.MaliciousQueryError: Code shouldn't use 'os', 'io' or 'chr', 'b64decode' functions as this could lead to malicious code execution.
+
+
+Fix the python code above and return the new python code:
+            
+2024-09-01 14:09:06 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Assume dfs is a list of DataFrames
+dfs = [...]  # replace with your actual input dataframes
+
+# Query 1: Find price of tomato in Potheri
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+
+# Declare result var
+result = {"type": "number", "value": tomato_price_potheri}
+            ```
+            
+2024-09-01 14:09:06 [INFO] Executing Step 2: CodeCleaning
+2024-09-01 14:09:06 [INFO] 
+Code running:
+```
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+        ```
+2024-09-01 14:09:06 [INFO] Executing Step 6: CodeExecution
+2024-09-01 14:09:06 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+2024-09-01 14:09:06 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-09-01 14:09:06 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-09-01 14:09:06 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-09-01 14:09:06 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+
+Fix the python code above and return the new python code:
+2024-09-01 14:09:06 [INFO] Executing Step 1: CodeGenerator
+2024-09-01 14:11:47 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[df['Vegetable'] == 'Tomato', 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+
+Fix the python code above and return the new python code:
+            
+2024-09-01 14:11:47 [INFO] Code generated:
+            ```
+            Python
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+            ```
+            
+2024-09-01 14:11:47 [INFO] Executing Step 2: CodeCleaning
+2024-09-01 14:11:47 [INFO] 
+Code running:
+```
+Python
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+        ```
+2024-09-01 14:11:47 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-09-01 14:11:47 [WARNING] Failed to execute code retrying with a correction framework [retry number: 2]
+2024-09-01 14:11:47 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-09-01 14:11:47 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-09-01 14:11:47 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+Python
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-09-01 14:11:47 [INFO] Executing Step 1: CodeGenerator
+2024-09-01 14:13:01 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+Python
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-09-01 14:13:01 [INFO] Code generated:
+            ```
+            tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+            ```
+            
+2024-09-01 14:13:01 [INFO] Executing Step 2: CodeCleaning
+2024-09-01 14:13:01 [INFO] 
+Code running:
+```
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+        ```
+2024-09-01 14:13:01 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+2024-09-01 14:13:01 [WARNING] Failed to execute code retrying with a correction framework [retry number: 3]
+2024-09-01 14:13:01 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-09-01 14:13:01 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-09-01 14:13:01 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+
+Fix the python code above and return the new python code:
+2024-09-01 14:13:01 [INFO] Executing Step 1: CodeGenerator
+2024-09-01 14:14:30 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-06,Cabbage,39.12,Adyar,Farmer H
+2023-07-28,Tomato,13.53,Chromepet,Farmer E
+2023-08-07,Spinach,40.85,Potheri,Farmer A
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ price of tomato in potheri?
+
+You generated this python code:
+tomato_price_potheri = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        tomato_price_potheri = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+result = {'type': 'number', 'value': tomato_price_potheri}
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+
+Fix the python code above and return the new python code:
+            
+2024-09-01 14:14:30 [INFO] Code generated:
+            ```
+            Python
+result = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        result = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+if result is not None:
+    result = {'type': 'number', 'value': result}
+else:
+    result = {'type': 'string', 'value': 'Not found'}
+            ```
+            
+2024-09-01 14:14:30 [INFO] Executing Step 2: CodeCleaning
+2024-09-01 14:14:30 [INFO] 
+Code running:
+```
+Python
+result = None
+for df in dfs:
+    if (df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'):
+        result = df.loc[(df['Location'] == 'Potheri') & (df['Vegetable'] == 'Tomato'), 'Price'].values[0]
+        break
+if result is not None:
+    result = {'type': 'number', 'value': result}
+else:
+    result = {'type': 'string', 'value': 'Not found'}
+        ```
+2024-09-01 14:14:30 [ERROR] Failed with error: Traceback (most recent call last):
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "/home/akhil/Downloads/sih/FarmHand/venv/lib/python3.10/site-packages/pandasai/pipelines/chat/code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 1, in <module>
+NameError: name 'Python' is not defined
+
+2024-09-01 14:14:30 [ERROR] Pipeline failed on step 6: name 'Python' is not defined
+2024-09-01 14:15:14 [INFO] Question: price of tomato in potheri?
+2024-09-01 14:15:14 [INFO] Running PandasAI with langchain_ollama-llm LLM...
+2024-09-01 14:15:14 [INFO] Prompt ID: 153124fb-fe75-44ee-acd5-cfd7669b3864
+2024-09-01 14:15:14 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-09-01 14:15:14 [INFO] Executing Step 0: ValidatePipelineInput
+2024-09-01 14:15:14 [INFO] Executing Step 1: CacheLookup
+2024-09-01 14:15:14 [INFO] Executing Step 2: PromptGeneration
+2024-09-01 14:15:14 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-11-18,Carrot,35.77,Chromepet,Farmer F
+2023-04-26,Capsicum,32.96,Anna Nagar,Farmer E
+2023-02-22,Broccoli,14.44,Guindy,Farmer A
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ price of tomato in potheri?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-09-01 14:15:14 [INFO] Executing Step 3: CodeGenerator
+2024-09-01 14:58:41 [INFO] Question: price of tomato in potheri?
+2024-09-01 14:58:41 [INFO] Running PandasAI with langchain_ollama-llm LLM...
+2024-09-01 14:58:41 [INFO] Prompt ID: 0d0271f1-2886-484a-ae9d-8f08459700dd
+2024-09-01 14:58:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-09-01 14:58:41 [INFO] Executing Step 0: ValidatePipelineInput
+2024-09-01 14:58:41 [INFO] Executing Step 1: CacheLookup
+2024-09-01 14:58:41 [INFO] Executing Step 2: PromptGeneration
+2024-09-01 14:58:41 [INFO] Using prompt: <dataframe>
+dfs[0]:3650x5
+Date,Vegetable,Price,Location,Farmer
+2023-05-11,Spinach,10.46,T. Nagar,Farmer B
+2023-01-22,Cabbage,16.38,Chromepet,Farmer A
+2023-03-27,Capsicum,31.61,Tambaram,Farmer G
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ price of tomato in potheri?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-09-01 14:58:41 [INFO] Executing Step 3: CodeGenerator
