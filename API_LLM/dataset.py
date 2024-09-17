@@ -6,6 +6,14 @@ from datetime import datetime, timedelta
 vegetables = ["Tomato", "Potato", "Onion", "Carrot", "Cabbage", "Spinach", "Cauliflower", "Broccoli", "Eggplant",
               "Capsicum"]
 
+# Locations list (including Potheri and other locations in Chennai)
+locations = ["Potheri", "Tambaram", "Velachery", "Adyar", "T. Nagar", "Kodambakkam", "Anna Nagar", "Thiruvanmiyur",
+             "Chromepet", "Guindy"]
+
+# Farmer names list
+farmers = ["Farmer A", "Farmer B", "Farmer C", "Farmer D", "Farmer E", "Farmer F", "Farmer G", "Farmer H", "Farmer I",
+           "Farmer J"]
+
 # Generate data for one year
 start_date = datetime(2023, 1, 1)
 end_date = datetime(2023, 12, 31)
@@ -24,14 +32,16 @@ def generate_price(vegetable):
 
 
 # Create CSV file
-with open('vegetable_prices.csv', mode='w', newline='') as file:
+with open('vegetable_prices_with_farmers.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Date", "Vegetable", "Price"])
+    writer.writerow(["Date", "Vegetable", "Price", "Location", "Farmer"])
 
     for i in range(date_range):
         date = start_date + timedelta(days=i)
         for vegetable in vegetables:
             price = generate_price(vegetable)
-            writer.writerow([date.strftime("%Y-%m-%d"), vegetable, price])
+            location = random.choice(locations)  # Randomly select a location
+            farmer = random.choice(farmers)  # Randomly select a farmer
+            writer.writerow([date.strftime("%Y-%m-%d"), vegetable, price, location, farmer])
 
-print("CSV file 'vegetable_prices.csv' generated successfully!")
+print("CSV file 'vegetable_prices_with_farmers.csv' generated successfully!")
